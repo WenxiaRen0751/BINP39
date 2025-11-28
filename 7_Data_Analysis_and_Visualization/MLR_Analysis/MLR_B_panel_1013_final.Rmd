@@ -1,0 +1,559 @@
+---
+title: "multiple linear regression for phenotypes in B panel"
+author: "Wenxia"
+date: "`r Sys.Date()`"
+output: word_document
+---
+
+```{r research question}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r start}
+# Clear variables and load packages
+rm(list = ls())
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(visreg)
+library(GGally) 
+library(patchwork)
+library(pheatmap)
+library(reshape2)
+```
+
+```{r data processing}
+# read data
+B_panel = "/home/wenxiaren/Data_Analysis_and_Visualization/New_Data/B_panel_normalized.csv" 
+B_data = read.csv(B_panel,check.names = FALSE) 
+# delete the rows without the Age and Sex and group and Aβ info
+B_data <- B_data %>%
+  filter(if_all(everything(), ~ !is.na(.) & . != ""))
+# get the the structure of data
+colnames(B_data)
+# valid names
+phenotype_names <- grep("of", colnames(B_data), value = TRUE)
+paste0("the number of the phenotypes: ",length(phenotype_names))
+# check the data distribution between potential predictors and response
+plot1 = ggpairs(B_data[ ,c("Age", "Sex","Group","Aβ")])
+print(plot1)
+ggsave("B_MLR_plots/predictors_correlation.png", plot = plot1 , width = 8, height = 6, dpi = 600)
+B_data
+
+```
+
+```{r summarize the multiple linear regression result}
+
+# Run MLR for phenotypes and collect a tidy summary table
+# the formula used in the MLR are: phenotype ~ Age + Sex + Group + Aβ
+MLR_summary_all <- function(data, phenotype_names, file_out_1 = "B_MLR_plots/B_panel_MLR_summary_all.csv", file_out_2 = "B_MLR_plots/P_value_summary.csv",file_out_3 = "B_MLR_plots/slope_summary.csv") {
+  # to fit and tidy one phenotype
+  one_fit <- function(pheno) {
+    fml <- as.formula(paste0("`", pheno, "` ~ Age + Sex + Group + Aβ"))
+    fit <- lm(fml, data = data, na.action = na.omit)
+    sm  <- summary(fit)
+    co  <- as.data.frame(sm$coefficients)
+    co$Term <- rownames(co)
+    rownames(co) <- NULL
+    # Standardize column names
+    names(co) <- c("Estimate", "Std.Error", "t.value", "p.value", "Term")
+    # Add model-level metrics
+    co$Phenotype <- pheno
+    co$R2        <- sm$r.squared
+    co$AdjR2     <- sm$adj.r.squared
+    co$N         <- length(fit$fitted.values)
+    # Reorder columns
+    co <- co[, c("Phenotype","Term","Estimate","Std.Error","t.value","p.value","R2","AdjR2","N")]
+    co
+  }
+
+    # Fit across all phenotypes and bind
+    out_list <- lapply(phenotype_names, one_fit)
+    out <- do.call(rbind, out_list)
+  
+    # Output 1: B_panel_MLR_summary_all.csv
+    utils::write.csv(out, file_out_1, row.names = FALSE)
+  
+    # Output 2: P_value_summary.csv (rows = Term, cols = Phenotype)
+    pvals <- out[, c("Phenotype", "Term", "p.value")]
+    # Base reshape to wide; missing combinations become NA
+    wide <- reshape(pvals,
+                    idvar   = "Term",
+                    timevar = "Phenotype",
+                    direction = "wide")
+  
+    # Clean column names: p.value.<Phenotype> -> <Phenotype>
+    colnames(wide) <- sub("^p\\.value\\.", "", colnames(wide))
+    rownames(wide) <- wide$Term
+    wide$Term <- NULL
+    utils::write.csv(wide, file_out_2)
+    
+    # --- Output 3: slope_summary.csv (Age Estimate and P-value only)
+    age_terms <- out[out$Term == "Age", c("Phenotype", "Estimate", "p.value")]
+    slope_mat <- rbind(
+      Estimate = setNames(age_terms$Estimate, age_terms$Phenotype),
+      P.value  = setNames(age_terms$p.value,  age_terms$Phenotype)
+    )
+    utils::write.csv(slope_mat, file_out_3, row.names = TRUE)
+    
+    # Return invisibly
+    invisible(list(summary_long = out, pvalue_matrix = wide, slope_summary = slope_mat))
+  }
+
+# save the model analysis
+# B_panel_MLR_summary_all.csv: contains all the information for the model summary
+# P_value_summary.csv: contains the P value for ech term for each phenotype from the MLR
+# slope_summary.csv: the Estimate and P-value for each phenotype. 
+result_table <- MLR_summary_all(B_data, phenotype_names, file_out = "B_MLR_plots/B_panel_MLR_summary_all.csv",file_out_2 = "B_MLR_plots/P_value_summary.csv",file_out_3 = "B_MLR_plots/slope_summary.csv")
+
+```
+
+```{r plot the P-values for Each Variable in the Multiple Linear Regression Model}
+
+# read the table
+df <- read.csv("B_MLR_plots/P_value_summary.csv", check.names = FALSE)
+# data prep 
+terms <- df[[1]]
+pmat  <- as.matrix(
+  df[, -1] %>% mutate(across(everything(), ~ suppressWarnings(as.numeric(.))))
+)
+rownames(pmat) <- terms
+pmat <- pmat[rownames(pmat) != "(Intercept)", , drop = FALSE]
+
+# reformat the phenotype names for presentation
+colnames(pmat) <- gsub("_", " ", colnames(pmat))
+# --- bin p-values (ascending breaks) ---
+breaks <- c(-Inf, 0.001, 0.01, 0.05, Inf)
+labs   <- c("≤ 0.001","0.001 – 0.01","0.01 – 0.05","> 0.05")
+bins <- cut(pmat, breaks = breaks, labels = 1:4, include.lowest = TRUE)
+bins_mat <- matrix(as.integer(bins),
+                   nrow = nrow(pmat),
+                   dimnames = dimnames(pmat))
+# color pattern
+cols <- c("#050e7f","#363e98","#8286bf","#f7f7fb")
+# plot the heatmap
+ph <- pheatmap(bins_mat,
+               color = cols,
+               legend_breaks = 1:4,
+               legend_labels = labs,
+               cluster_rows = FALSE,
+               cluster_cols = FALSE,
+               fontsize = 9,
+               fontsize_row = 9,
+               fontsize_col = 9,
+               angle_col = 90,
+               border_color = "black",
+               main = "P-values for Each Variable in the Multiple Linear Regression Model\n(Phenotype ~ Age + Sex + Congnitive Status + Aβ)",
+               silent = TRUE)
+
+# save the plot
+ggsave("B_MLR_plots/P_value.png", plot = ph$gtable, width = 8, height = 6, dpi = 600, bg = "white")
+
+```
+
+
+```{r extract the phenotype names which are affected by variables}
+
+# load the data
+result_table <- read.csv("B_panel_MLR_summary_all.csv") 
+# empty lists 
+
+# with_effect_group: phenotype which are affected by variables
+with_effect_group <- c()
+# Age_effect_group: phenotype which are affected by age
+Age_effect_group <- c()
+# Sex_effect_group: phenotype which are affected by Sex
+Sex_effect_group <- c()
+# cognitive_effect_group: phenotype which are affected by cognitive status
+cognitive_effect_group <- c()
+# Aβ_effect_group: phenotype which are affected by Aβ status
+Aβ_effect_group <- c()
+
+# extract the phenotype which are affected by variables based on the p_values
+for (i in phenotype_names) {
+  subset_row <- result_table[result_table$Phenotype == i, ]
+  # any effect
+  if (nrow(subset_row) > 0 && any(subset_row$p.value < 0.05, na.rm = TRUE))  {
+    with_effect_group <- c(with_effect_group, i)
+  }
+  # must have age 
+  if (nrow(subset_row) > 0 && subset_row[subset_row$Term == "Age",]$p.value < 0.05)  {
+    Age_effect_group <- c(Age_effect_group, i)
+  }
+  # must have sex
+  if (nrow(subset_row) > 0 && subset_row[subset_row$Term == "SexMale",]$p.value < 0.05)  {
+    Sex_effect_group <- c(Sex_effect_group, i)
+  }
+  # must have "Group",Cognitive_effect
+  if (nrow(subset_row) > 0 && subset_row[subset_row$Term == "GroupCU",]$p.value < 0.05)  {
+    cognitive_effect_group <- c(cognitive_effect_group, i)
+  }
+  if (nrow(subset_row) > 0 && subset_row[subset_row$Term == "AβNormal",]$p.value < 0.05)  {
+    Aβ_effect_group <- c(Aβ_effect_group, i)
+  }
+}
+
+# preview the list
+with_effect_group
+length(with_effect_group)
+
+Age_effect_group
+length(Age_effect_group)
+
+Sex_effect_group
+length(Sex_effect_group)
+
+cognitive_effect_group
+paste0("Cognitive_effect_group: ", cognitive_effect_group)
+# DC_of_DNNK"    DC_of_CD3neg"   DC_of_singlets"
+
+Aβ_effect_group
+paste0("Aβ_effect_group: ", Aβ_effect_group)
+# CD14neg_of_CD19neg" Monocytes_of_CD19neg"   Monocytes_of_singlets"
+
+```
+```{r effect size of age}
+effect_size <- read.csv("B_MLR_plots/slope_summary.csv",check.names = FALSE, row.names = 1)
+df <- effect_size
+colnames(df) <- gsub("_", " ", colnames(df))
+# Reshape: transpose and tidy
+df_tidy <- as.data.frame(t(df))
+df_tidy$Phenotype <- rownames(df_tidy)
+df_tidy$Estimate <- as.numeric(df_tidy$Estimate)
+df_tidy$P.value  <- as.numeric(df_tidy$P.value)
+
+# Filter for phenotypes with p-value > 0.05
+df_plot <- df_tidy %>%
+  filter(P.value > 0.05) %>%
+  arrange(desc(abs(Estimate)))
+
+# Assign color by sign of Estimate
+df_plot$Color <- ifelse(df_plot$Estimate > 0, "Positive", "Negative")
+# Flip so positives go to the left side
+df_plot$Estimate_flipped <- -df_plot$Estimate
+
+# Plot
+p <- ggplot(df_plot, aes(x = reorder(Phenotype, Estimate_flipped), 
+                    y = Estimate_flipped, fill = Color)) +
+  geom_bar(stat = "identity", width = 0.6) +
+  scale_fill_manual(values = c("Positive" = "#bb1a2f",
+                               "Negative" = "#1a2fbb")) +  
+  coord_flip() +
+  theme_minimal(base_size = 10) +
+  theme(
+    axis.text= element_text(size=10,colour = "black",face="bold"),
+    # setting the title size
+    axis.title= element_text(size=10,face="bold"),
+    # setting ticks
+    axis.ticks = element_line(colour = "black"),
+    # making the ticks facing upwards for x, right for y
+    axis.ticks.length = unit(0.2,"cm"),
+    plot.title = element_text(size=12,face="bold"),
+    panel.grid.major.y = element_blank(),
+    legend.position = "none",
+  ) +
+  labs(
+    y = "Effect Size",
+    x = "",
+    title = "The Effect Size for Phenotypes with P-value > 0.05"
+  )
+
+# save the plot
+ggsave("B_MLR_plots/Effect_Size.png", width = 8, height = 6, dpi = 600, bg = "white",p)
+
+```
+
+```{r check the influence of age and sex on phenotypes}
+
+# both age and sex have significance for the phenotype
+Age_Sex_effect_group <- intersect(Age_effect_group, Sex_effect_group)
+Age_Sex_effect_group
+paste0("both age and sex: ",length(Age_Sex_effect_group))
+# only age has significance for the phenotype
+only_Age_group = setdiff(Age_effect_group, Age_Sex_effect_group)
+only_Age_group
+paste0("only age: ",length(only_Age_group))
+# only sex has significance for the phenotype
+only_Sex_group = setdiff(Sex_effect_group, Age_Sex_effect_group)
+only_Sex_group
+paste0("only sex: ",length(only_Sex_group))
+
+```
+
+```{r top 20 effect size of age}
+
+# Read and merge B & T panel slope summary files 
+
+B <- read.csv("/home/wenxiaren/Data_Analysis_and_Visualization/MLR_Analysis/B_MLR_plots/slope_summary.csv", check.names = FALSE, row.names = 1)
+T <- read.csv("/home/wenxiaren/Data_Analysis_and_Visualization/MLR_Analysis/T_MLR_plots/slope_summary.csv", check.names = FALSE, row.names = 1)
+# Merge side-by-side, same rows, different phenotypes
+effect_size <- cbind(B, T)
+# Prepare the merged data 
+df <- effect_size
+colnames(df) <- gsub("_", " ", colnames(df))
+# Reshape
+df_tidy <- as.data.frame(t(df))
+df_tidy$Phenotype <- rownames(df_tidy)
+df_tidy$Estimate <- as.numeric(df_tidy$Estimate)
+df_tidy$P.value  <- as.numeric(df_tidy$P.value)
+# Filter and select top effect sizes
+df_plot <- df_tidy %>%
+  filter(P.value <= 0.05)
+# Select top 10 positive and top 10 negative effect sizes
+df_top <- bind_rows(
+  df_plot %>% filter(Estimate > 0) %>% arrange(desc(Estimate)) %>% slice_head(n = 10),
+  df_plot %>% filter(Estimate < 0) %>% arrange(Estimate) %>% slice_head(n = 10)
+)
+# Prepare for plotting 
+df_top$Color <- ifelse(df_top$Estimate > 0, "Positive", "Negative")
+df_top$Estimate_flipped <- -df_top$Estimate
+# Plot 
+p <- ggplot(df_top, aes(x = reorder(Phenotype, Estimate_flipped), 
+                        y = Estimate_flipped, fill = Color)) +
+  geom_bar(stat = "identity", width = 0.6) +
+  scale_fill_manual(values = c("Positive" = "#bb1a2f",
+                               "Negative" = "#1a2fbb")) +  
+  coord_flip() +
+  theme_minimal(base_size = 10) +
+  theme(
+    axis.text = element_text(size=10, colour = "black", face="bold"),
+    axis.title = element_text(size=10, face="bold"),
+    axis.ticks = element_line(colour = "black"),
+    axis.ticks.length = unit(0.2,"cm"),
+    plot.title = element_text(size=12, face="bold", hjust = 0.5, margin = margin(b = 10)),
+    panel.grid.major.y = element_blank(),
+    legend.position = "none"
+  ) +
+  labs(
+    y = "Effect Size",
+    x = "",
+    title = "The Effect Size of Age for Phenotypes (P ≤ 0.05)"
+  )
+
+# Save the plot
+ggsave("B_MLR_plots/Effect_Size_Top20.png", width = 8, height = 6, dpi = 600, bg = "white", p)
+
+```
+
+```{r plot the MLR for Age_Sex_effect_group}
+
+# plot: both age and sex have significance for the phenotype: Age_Sex_effect_group
+Age_Sex_effect_group
+plot_list <- list()
+colors_points_1 = c("Female" = "#a00000", "Male" = "#1a80bb")
+colors_points_2 = c("Female" = "#f5e5e5", "Male" = "#e8f2f8")
+
+for (i in Age_Sex_effect_group) {
+  title_name = gsub("_"," ",i)
+  fml <- as.formula(paste0("`", i, "` ~ Age + Sex + Group + Aβ"))
+ # fml <- as.formula(paste0(i, " ~ Age + Sex + Group + Aβ"))
+  m1 <- lm(fml, data = B_data)
+  # just use the ancova model, but change the x to original age, not the centered age 
+  p <- visreg(m1, "Age", by = "Sex", overlay = TRUE, gg = TRUE,band = TRUE) +
+    theme_classic() +
+    scale_color_manual(values = colors_points_1) +
+    scale_fill_manual(values = colors_points_2) +
+    labs(title = title_name,x = "Age (years)", y = "Normalized %",color = "Sex",face="bold",size = 25) +
+    theme(panel.grid = element_blank(), 
+        axis.line = element_line(colour = "black"),
+        axis.text= element_text(size=25,colour = "black",face="bold"),
+        # setting the title size
+        axis.title= element_text(size=25,face="bold"),
+        # setting ticks
+        axis.ticks = element_line(colour = "black"),
+        # making the ticks facing upwards for x, right for y
+        axis.ticks.length = unit(0.2,"cm"),
+        strip.text = element_text(size = 15),
+        # legend
+        legend.position = "right",
+        legend.title = element_text(size = 25, face = "bold"),  # legend title size
+        legend.text  = element_text(size = 20),   
+        plot.title = element_text(size = 25, hjust = 0.5,face="bold"))
+
+   plot_list[[i]] <- p
+}
+
+# Combine plots with patchwork
+combined_plot <- wrap_plots(plot_list, ncol = 3, nrow = 3) +
+  plot_annotation(tag_levels = 'a', tag_prefix = '(', tag_suffix = ')') &
+  theme(plot.tag = element_text(size = 25,face="bold"),plot.margin = margin(t = 20, r = 50, b = 40, l = 10))
+ggsave("B_MLR_plots/Age_Sex_effect.png",width = 27 , height = 27, dpi =300, combined_plot)
+
+```
+
+```{r plot the MLR for only_Age_effect}
+
+# plot: only age has significance for the phenotype: only_Age_group
+plot_list <- list()
+for (i in only_Age_group) {
+  title_name = gsub("_"," ",i)
+  fml <- as.formula(paste0("`", i, "` ~ Age + Sex + Group + Aβ"))
+  #fml <- as.formula(paste0(i, " ~ Age + Sex + Group + Aβ"))
+  m1 <- lm(fml, data = B_data)
+  p <- visreg(m1, "Age", by = "Sex", overlay = TRUE, gg = TRUE,band = TRUE) +
+    theme_classic() +
+    scale_color_manual(values = colors_points_1) +
+    scale_fill_manual(values = colors_points_2) +
+    labs(title = title_name,x = "Age (years)", y = "Normalized %",color = "Sex",face="bold",size = 25) +
+    theme(panel.grid = element_blank(), 
+        axis.line = element_line(colour = "black"),
+        axis.text= element_text(size=25,colour = "black",face="bold"),
+        # setting the title size
+        axis.title= element_text(size=25,face="bold"),
+        # setting ticks
+        axis.ticks = element_line(colour = "black"),
+        # making the ticks facing upwards for x, right for y
+        axis.ticks.length = unit(0.2,"cm"),
+        strip.text = element_text(size = 15),
+        # legend
+        legend.position = "right",
+        legend.title = element_text(size = 25, face = "bold"),  # legend title size
+        legend.text  = element_text(size = 20),   
+        plot.title = element_text(size = 25, hjust = 0.5,face="bold"))
+   plot_list[[i]] <- p
+}
+
+# Combine plots with patchwork
+combined_plot <- wrap_plots(plot_list, ncol = 3, nrow = 2) +
+  plot_annotation(tag_levels = 'a', tag_prefix = '(', tag_suffix = ')') &
+  theme(plot.tag = element_text(size = 25,face="bold"),plot.margin = margin(t = 20, r = 50, b = 40, l = 10))
+ggsave("B_MLR_plots/only_Age_effect.png",width = 27, height =18,dpi =300, combined_plot)
+```
+
+```{r plot the MLR for only_Sex_group}
+
+# plot: only sex has significance for the phenotype: only_Sex_group
+plot_list <- list()
+for (i in only_Sex_group) {
+  title_name = gsub("_"," ",i)
+  fml <- as.formula(paste0("`", i, "` ~ Age + Sex + Group + Aβ"))
+  #fml <- as.formula(paste0(i, " ~ Age + Sex + Group + Aβ"))
+  m1 <- lm(fml, data = B_data)
+  p <- visreg(m1, "Age", by = "Sex", overlay = TRUE, gg = TRUE,band = TRUE) +
+    theme_classic() +
+    scale_color_manual(values = colors_points_1) +
+    scale_fill_manual(values = colors_points_2) +
+    labs(title = title_name,x = "Age (years)", y = "Normalized %",color = "Sex",face="bold",size = 25) +
+    theme(panel.grid = element_blank(), 
+        axis.line = element_line(colour = "black"),
+        axis.text= element_text(size=25,colour = "black",face="bold"),
+        # setting the title size
+        axis.title= element_text(size=25,face="bold"),
+        # setting ticks
+        axis.ticks = element_line(colour = "black"),
+        # making the ticks facing upwards for x, right for y
+        axis.ticks.length = unit(0.2,"cm"),
+        strip.text = element_text(size = 15),
+        # legend
+        legend.position = "right",
+        legend.title = element_text(size = 25, face = "bold"),  # legend title size
+        legend.text  = element_text(size = 20),   
+        plot.title = element_text(size = 25, hjust = 0.5,face="bold"))
+   plot_list[[i]] <- p
+}
+
+# Combine plots with patchwork
+combined_plot <- wrap_plots(plot_list, ncol = 3, nrow = 2) +
+  plot_annotation(tag_levels = 'a', tag_prefix = '(', tag_suffix = ')') &
+  theme(plot.tag = element_text(size = 25,face="bold"),plot.margin = margin(t = 20, r = 50, b = 40, l = 10))
+ggsave("B_MLR_plots/only_Sex_effect.png",width = 27, height =18,dpi =300, combined_plot)
+
+```
+```{r check if there is overlap for phenotypes which are affected by cognitive and Aβ}
+########################## Diagnosis and Aβ
+cognitive_Aβ_group <- intersect(cognitive_effect_group, Aβ_effect_group)
+cognitive_Aβ_group
+paste0("cognitive_Aβ_group : ",length(cognitive_Aβ_group))
+# there is no overlap 
+```
+
+```{r plot the MLR for cognitive_effect_group}
+
+B_data <- B_data %>%
+  mutate(Group = factor(Group, levels = c("CU", "CI")))
+B_data <- B_data %>%
+  mutate(Aβ = factor(Aβ, levels = c("Abnormal", "Normal")))
+
+colors_points_1 <- c("Abnormal" = "#a00000", "Normal" = "#1a80bb")
+colors_points_2 <- c("Abnormal" = "#f5e5e5", "Normal" = "#e8f2f8")
+
+# check the name
+plot_list <- list()
+for (i in cognitive_effect_group) {
+  title_name = gsub("_"," ",i)
+  fml <- as.formula(paste0("`", i, "` ~ Age + Sex + Group + Aβ"))
+  # fml <- as.formula(paste0(i, " ~ Age + Sex + Group + Aβ"))
+  m1 <- lm(fml, data = B_data)
+  p <- visreg(m1, "Group", by = "Aβ", overlay = TRUE, gg = TRUE,band = TRUE) +
+    theme_classic() +
+    scale_color_manual(name = "Aβ",values = colors_points_1) +
+    scale_fill_manual(name = "Aβ",values = colors_points_2) +
+
+    labs(title = title_name,x = "Cognitive Status", y = "Normalized %",color = "Aβ",face="bold",size = 25) +
+    theme(panel.grid = element_blank(), 
+        axis.line = element_line(colour = "black"),
+        axis.text= element_text(size=25,colour = "black",face="bold"),
+        # setting the title size
+        axis.title= element_text(size=25,face="bold"),
+        # setting ticks
+        axis.ticks = element_line(colour = "black"),
+        # making the ticks facing upwards for x, right for y
+        axis.ticks.length = unit(0.2,"cm"),
+        strip.text = element_text(size = 15),
+        # legend
+        legend.position = "right",
+        legend.title = element_text(size = 25, face = "bold"),  # legend title size
+        legend.text  = element_text(size = 20),   
+        plot.title = element_text(size = 25, hjust = 0.5,face="bold"))
+   plot_list[[i]] <- p
+}
+
+# Combine plots with patchwork
+combined_plot <- wrap_plots(plot_list, ncol = 3, nrow = 2) +
+  plot_annotation(tag_levels = 'a', tag_prefix = '(', tag_suffix = ')') &
+  theme(plot.tag = element_text(size = 25,face="bold"),plot.margin = margin(t = 20, r = 50, b = 40, l = 10))
+ggsave("B_MLR_plots/cognitive_effect_group.png",width = 27, height =18,dpi =300, combined_plot)
+
+```
+
+```{r plot the MLR for Aβ_effect_group}
+
+colors_points_1 <- c("CU" = "#a00000", "CI" = "#1a80bb")
+colors_points_2 <- c("CU" = "#f5e5e5", "CI" = "#e8f2f8")
+
+plot_list <- list()
+for (i in Aβ_effect_group) {
+  title_name = gsub("_"," ",i)
+  fml <- as.formula(paste0("`", i, "` ~ Age + Sex + Group + Aβ"))
+  # fml <- as.formula(paste0(i, " ~ Age + Sex + Group + Aβ"))
+  m1 <- lm(fml, data = B_data)
+  p <- visreg(m1, "Aβ", by = "Group", overlay = TRUE, gg = TRUE,band = TRUE) +
+    theme_classic() +
+    scale_color_manual(values = colors_points_1) +
+    scale_fill_manual(values = colors_points_2) +
+    labs(title = title_name,x = "Aβ Status", y = "Normalized %",color = "Group",face="bold",size = 25) +
+    theme(panel.grid = element_blank(), 
+        axis.line = element_line(colour = "black"),
+        axis.text= element_text(size=25,colour = "black",face="bold"),
+        # setting the title size
+        axis.title= element_text(size=25,face="bold"),
+        # setting ticks
+        axis.ticks = element_line(colour = "black"),
+        # making the ticks facing upwards for x, right for y
+        axis.ticks.length = unit(0.2,"cm"),
+        strip.text = element_text(size = 15),
+        # legend
+        legend.position = "right",
+        legend.title = element_text(size = 25, face = "bold"),  # legend title size
+        legend.text  = element_text(size = 20),   
+        plot.title = element_text(size = 25, hjust = 0.5,face="bold"))
+   plot_list[[i]] <- p
+}
+
+# Combine plots with patchwork
+combined_plot <- wrap_plots(plot_list, ncol = 3, nrow = 2) +
+  plot_annotation(tag_levels = 'a', tag_prefix = '(', tag_suffix = ')') &
+  theme(plot.tag = element_text(size = 25,face="bold"),plot.margin = margin(t = 20, r = 50, b = 40, l = 10))
+ggsave("B_MLR_plots/Aβ_effect_group.png",width = 27, height =18,dpi =300, combined_plot)
+
+```

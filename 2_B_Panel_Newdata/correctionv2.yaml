@@ -1,0 +1,2726 @@
+PBMC Gating:
+  StartY_35000:
+  - Aitzkoa-2025-09-29 --ImmSight-Cat-20250929-1634-B5 13096-1
+  - Aitzkoa-2025-08-11 --ImmSight-Cat-20250811-1615-F11 10806-2
+  - Aitzkoa-2025-09-22 --ImmSight-Cat-20250922-1629-D2 13083-1
+  - Aitzkoa-2025-09-01 --ImmSight-Cat-20250901-1720-C8 13040-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-C5 12988-1
+  - Aitzkoa-2025-07-21 --ImmSight-Cat-20250721-1453-H2 12942-1
+  - Aitzkoa-2025-09-01 --ImmSight-Cat-20250901-1720-B8 10956-2
+  xboundaries1:
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-C5 12988-1
+  - Aitzkoa-2025-07-21 --ImmSight-Cat-20250721-1453-H2 12942-1
+  up:
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-C5 12988-1
+  - Aitzkoa-2025-07-21 --ImmSight-Cat-20250721-1453-H2 12942-1
+  - Aitzkoa-2025-09-01 --ImmSight-Cat-20250901-1720-B8 10956-2
+  - Aitzkoa-2025-09-02 --ImmSight-Cat-20250902-1428-H2 A Detect Y033
+  - Aitzkoa-2025-09-29 --ImmSight-Cat-20250929-1634-A5 13095-1
+  - Aitzkoa-2025-09-29 --ImmSight-Cat-20250929-1634-C5 13097-1
+  - Aitzkoa-2025-08-26 --ImmSight-Cat-20250826-1455-F2 A Detect O036
+  - Aitzkoa-2025-08-11 --ImmSight-Cat-20250811-1615-E11 10206-2
+  - Aitzkoa-2025-08-11 --ImmSight-Cat-20250811-1615-G11 10843-2
+  - Aitzkoa-2025-09-22 --ImmSight-Cat-20250922-1629-B2 9326-4
+  - Aitzkoa-2025-09-22 --ImmSight-Cat-20250922-1629-A2 9122-3 FDI
+  - Aitzkoa-2025-09-22 --ImmSight-Cat-20250922-1629-C2 13081-1
+  - Aitzkoa-2025-05-13 --ImmSight-Cat-20250513-1621-F2 Adetect S060
+  - Aitzkoa-2025-06-17 --ImmSight-Cat-20250617-1803-A2 10217-2
+  - Aitzkoa-2025-08-12 --ImmSight-Cat-20250812-1609-C2 12962-1
+  - Aitzkoa-2025-08-12 --ImmSight-Cat-20250812-1609-B2 12961-1
+  - Aitzkoa-2025-07-22 --ImmSight-Cat-20250722-1541-B8 12943-1
+  - Aitzkoa-2025-06-16 --ImmSight-Cat-20250616-1519-F11 10814-2
+  - Aitzkoa-2025-07-29 --ImmSight-Cat-20250729-1529-E8 12945-1
+  - Aitzkoa-2025-09-09 --ImmSight-Cat-20250909-1604-G8 A Detect Y041
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-E5 12990-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-D5 12989-1
+  - Aitzkoa-2025-08-04 --ImmSight-Cat-20250804-1535-B11 12949-1
+  - Aitzkoa-2025-08-04 --ImmSight-Cat-20250804-1535-A11 10882-2
+  - Aitzkoa-2025-09-08 --ImmSight-Cat-20250908-1726-C11 10937-2
+  - Aitzkoa-2025-09-08 --ImmSight-Cat-20250908-1726-A11 9068-3
+  - Aitzkoa-2025-09-08 --ImmSight-Cat-20250908-1726-F11 13054-1
+  - Aitzkoa-2025-09-08 --ImmSight-Cat-20250908-1726-D11 10957-2
+  - Aitzkoa-2025-07-08 --ImmSight-Cat-20250708-1507-F5 12932-1
+  - Aitzkoa-2025-09-01 --ImmSight-Cat-20250901-1720-A8 10920-2
+  - Aitzkoa-2025-09-01 --ImmSight-Cat-20250901-1720-D8 13041-1
+  - Aitzkoa-2025-09-01 --ImmSight-Cat-20250901-1720-E8 13042-1
+  - Aitzkoa-2025-09-30 --ImmSight-Cat-20250930-1454-E5 8095-4
+  - Aitzkoa-2025-09-30 --ImmSight-Cat-20250930-1454-H5 A Detect S064
+  - Aitzkoa-2025-09-29 --ImmSight-Cat-20250929-1634-B5 13096-1
+  - Aitzkoa-2025-08-11 --ImmSight-Cat-20250811-1615-F11 10806-2
+  - Aitzkoa-2025-09-22 --ImmSight-Cat-20250922-1629-D2 13083-1
+  - Aitzkoa-2025-09-01 --ImmSight-Cat-20250901-1720-C8 13040-1
+  CUSTOM_100000:
+  - Aitzkoa-2023-05-09---ImmSight-Cat-20230509-1649-C5 10256-1
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-F8 Adetect N036
+  CUSTOM_90000:
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-E2 10884-1
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-C2 Adetect H032
+  - Aitzkoa-2023-05-15---ImmSight-Cat-20230515-1619-B8 7877-3
+  CUSTOM_95000:
+  - Aitzkoa-2023-05-08---ImmSight-Cat-20230508-1740-A2 6510-5
+  Dijkstra failure_1:
+  - Aitzkoa-2023-01-09---ImmSight-Cat-20230109-1615-B2 9946-1
+  - Aitzkoa-2023-01-16---ImmSight-Cat-20230116-1628-E2 8827-2
+  - Aitzkoa-2023-01-23---ImmSight-Cat-20230123-1539-E2 7392-3
+  - Aitzkoa-2023-01-31---ImmSight-Cat-20230131-1600-C5 9999-1
+  - Aitzkoa-2023-02-20---ImmSight-Cat-20230220-1557-C5 10043-1
+  - Aitzkoa-2023-02-28---ImmSight-Cat-20230228-1653(1)-C11 7550-3
+  - Aitzkoa-2023-03-06---ImmSight-Cat-20230306-1611-B2 7759-3
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-1613-D5 10085-1
+  - Aitzkoa-2023-03-21---ImmSight-Cat-20230321-1837-B1 10117-1
+  - Aitzkoa-2023-05-02---ImmSight-Cat-20230502-1742-F8 8375-3 FDI
+  - Aitzkoa-2023-05-08---ImmSight-Cat-20230508-1740-A2 6510-5
+  - Aitzkoa-2023-05-08---ImmSight-Cat-20230508-1740-B2 7693-3
+  - Aitzkoa-2023-05-16---ImmSight-Cat-20230516-1609-B11 10271-1
+  - Aitzkoa-2023-09-05---ImmSight-Cat-20230905-1727-H1 7927-3
+  - Aitzkoa-2023-10-23---ImmSight-Cat-20231023-1441-A2 8168-3
+  - Aitzkoa-2023-10-23---ImmSight-Cat-20231023-1441-E2 11093-1
+  - Aitzkoa-2024-04-22---ImmSight-Cat-20240422-1640-D5 7100-4
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-A5 8441-3
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-B5 8510-3 FDI
+  Dijkstra failure_2:
+  - Aitzkoa-2023-01-09---ImmSight-Cat-20230109-1615-A2 7452-3
+  - Aitzkoa-2023-02-28---ImmSight-Cat-20230228-1657-D11 10063-1
+  - Aitzkoa-2023-02-28---ImmSight-Cat-20230228-1701-E11 10064-1
+  - Aitzkoa-2023-05-15---ImmSight-Cat-20230515-1619-B8 7877-3
+  - Aitzkoa-2023-09-12---ImmSight-Cat-20230912-1721-A11 7967-3
+  - Aitzkoa-2023-09-25---ImmSight-Cat-20230925-1712-C4 7932-3
+  - Aitzkoa-2024-04-30---ImmSight-Cat-20240430-1518-A11 Adetect F035
+  Ylim_100K:
+  - Aitzkoa-2022-12-12---ImmSight-1546-B3 8712-2
+  - Aitzkoa-2022-12-19---ImmSight-Cat-20221219-1619-A2 8958-2 FDI
+  - Aitzkoa-2022-12-19---ImmSight-Cat-20221219-1619-B2 8822-2 FDI
+  - Aitzkoa-2022-12-20---ImmSight-Cat-20221220-1612-A2 9937-1
+  - Aitzkoa-2023-01-10---ImmSight-Cat-20230110-1706-F2 9950-1
+  - Aitzkoa-2023-01-10---ImmSight-Cat-20230110-1706-H2 ADetect T049
+  - Aitzkoa-2023-01-10---ImmSight-Cat-20230110-1842-A5 9952-1
+  - Aitzkoa-2023-01-16---ImmSight-Cat-20230116-1628-F2 9967-2
+  - Aitzkoa-2023-01-23---ImmSight-Cat-20230123-1539-H2 9985-1
+  - Aitzkoa-2023-01-31---ImmSight-Cat-20230131-1600-F5 10002-1
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-1613-A6 8960-2 FDI
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-1613-B6 10082-1
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-1613-E5 10086-1
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-1613-G5 Adetect T045
+  - Aitzkoa-2023-03-13---ImmSight-Cat-20230313-1559-E2 10099-1
+  - Aitzkoa-2023-03-13---ImmSight-Cat-20230313-1559-F2 10101-1
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1703-D8 10104-1
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1703-E8 10105-1
+  - Aitzkoa-2023-03-20---ImmSight--20230320-1709-B11 10449-1 FDI
+  - Aitzkoa-2023-03-20---ImmSight-Cat-20230320-1709-B11 10449-1 FDI
+  - Aitzkoa-2023-03-27---ImmSight-Cat-20230327-1553-B7 10131-1
+  - Aitzkoa-2023-03-28---ImmSight-Cat-20230328-1643-D11 10137-1
+  - Aitzkoa-2023-04-11---ImmSight-Cat-20230411-1646-D6 10161-1
+  - Aitzkoa-2023-05-02---ImmSight-Cat-20230502-1742-F8 8375-3 FDI
+  - Aitzkoa-2023-05-02---ImmSight-Cat-20230502-1742-H11 Adetect T065
+  - Aitzkoa-2023-05-09---ImmSight-Cat-20230509-1649-D5 Adetect A040
+  - Aitzkoa-2023-06-19---ImmSight-Cat-20230619-1620-A5 7813-3
+  - Aitzkoa-2023-06-19---ImmSight-Cat-20230619-1620-B5 9765-2
+  - Aitzkoa-2023-10-10---ImmSight-Cat-20231010-1620-B5 Adetect E040
+  - Aitzkoa-2023-10-17---ImmSight-Cat-20231017-1456-D11 Adetect T088
+  - Aitzkoa-2023-10-23---ImmSight-Cat-20231023-1441-C2 11091-1
+  - Aitzkoa-2023-10-29---ImmSight-Cat-20231030-1556-A5 7923-3
+  - Aitzkoa-2023-10-29---ImmSight-Cat-20231030-1556-B5 9447-2
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-B8 7845-3
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-C8 9046-2
+  - Aitzkoa-2023-11-07---ImmSight-Cat-20231107-1710-C11 Adetect B044
+  - Aitzkoa-2023-11-20---ImmSight-Cat-20231120-1559-C5 9204-2 FDI
+  - Aitzkoa-2024-01-22---ImmSight-Cat-20240122-1428-D11 11269-1
+  - Aitzkoa-2024-02-12---ImmSight-Cat-20240212-1619-A2 8117-3
+  - Aitzkoa-2024-04-23---ImmSight-Cat-20240423-1519-A8 7105-4
+  - Aitzkoa-2024-06-10 --ImmSight-Cat-20240610-1624-F8 10361-2 FDI
+  - Aitzkoa-2024-06-10 --ImmSight-Cat-20240610-1624-G8 10363-2 FDI
+  - Aitzkoa-2024-10-07 --ImmSight-Cat-20241007-1735-C5 9720-2
+  - Aitzkoa-2024-10-29 --ImmSight-Cat-20241029-1630-F5 10420-2 FDI
+  - Aitzkoa-2024-12-03 --ImmSight-Cat-20241203-1701-E2 A Detect Q023
+  - Aitzkoa-2025-01-07 --ImmSight-Cat-20250107-1550-G5 Adetect S050
+  Ylim_110K:
+  - Aitzkoa-2025-05-13 --ImmSight-Cat-20250513-1621-F2 Adetect S060
+  - Aitzkoa-2025-06-17 --ImmSight-Cat-20250617-1803-A2 10217-2
+  - Aitzkoa-2025-05-20 --ImmSight-Cat-20250520-1425-B5 A Detect F047
+  - Aitzkoa-2025-09-30 --ImmSight-Cat-20250930-1454-H5 A Detect S064
+  - Aitzkoa-2022-12-13---ImmSight-Cat-20221213-1741-D3 9925-1
+  - Aitzkoa-2022-12-13---ImmSight-Cat-20221213-1741-E3 7404-3
+  - Aitzkoa-2022-12-19---ImmSight-Cat-20221219-1619-C2 8953-2 FDI
+  - Aitzkoa-2023-01-17---ImmSight-Cat-20230117-1641-A2 8767-2
+  - Aitzkoa-2023-02-06---ImmSight-Cat-20230206-1619-A11 7623-3
+  - Aitzkoa-2023-02-14---ImmSight-Cat-20230214-1748-F8 Adetect B034
+  - Aitzkoa-2023-03-06---ImmSight-Cat-20230306-1611-B2 7759-3
+  - Aitzkoa-2023-03-06---ImmSight-Cat-20230306-1611-C2 8954-2
+  - Aitzkoa-2023-03-06---ImmSight-Cat-20230306-1611-D2 10079-1
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-1613-D5 10085-1
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1644-B6 8914-2 FDI
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1644-D6 10104-1
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1703-A8 7576-3
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1703-B8 8914-2 FDI
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1703-C8 10103-1
+  - Aitzkoa-2023-03-20---ImmSight--20230320-1709-A11 8740-2
+  - Aitzkoa-2023-03-20---ImmSight-Cat-20230320-1709-A11 8740-2
+  - Aitzkoa-2023-03-21---ImmSight-Cat-20230321-1837-A1 7766-3
+  - Aitzkoa-2023-03-27---ImmSight-Cat-20230327-1553-A7 7717-3
+  - Aitzkoa-2023-03-28---ImmSight-Cat-20230328-1643-B11 10134-1
+  - Aitzkoa-2023-03-28---ImmSight-Cat-20230328-1643-C11 10136-1
+  - Aitzkoa-2023-03-28---ImmSight-Cat-20230328-1643-E11 10452-1 FDI
+  - Aitzkoa-2023-04-03---ImmSight-Cat-20230403-1626-H9 10147-1
+  - Aitzkoa-2023-04-04---ImmSight-Cat-20230404-1609-E2 Adetect T061
+  - Aitzkoa-2023-04-11---ImmSight-Cat-20230411-1646-B6 10158-1
+  - Aitzkoa-2023-04-11---ImmSight-Cat-20230411-1646-C6 10159-1
+  - Aitzkoa-2023-04-11---ImmSight-Cat-20230411-1646-E6 Adetect K016
+  - Aitzkoa-2023-04-18---ImmSight-Cat-20230418-1650(1)-C2 10187-1
+  - Aitzkoa-2023-04-24---ImmSight-Cat-20230424-1653-F5 7478-2
+  - Aitzkoa-2023-04-24---ImmSight-Cat-20230424-1653-G5 7765-3
+  - Aitzkoa-2023-04-24---ImmSight-Cat-20230424-1653-H5 10204-1
+  - Aitzkoa-2023-05-02---ImmSight-Cat-20230502-1742-G11 Adetect O004
+  - Aitzkoa-2023-05-09---ImmSight-Cat-20230509-1649-A5 10254-1
+  - Aitzkoa-2023-05-15---ImmSight-Cat-20230515-1619-A8 7788-3
+  - Aitzkoa-2023-05-16---ImmSight-Cat-20230516-1609-B11 10271-1
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-A5 6495-4
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-B5 10290-1
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-E1 6495-4 old B panel
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-E2 6495-4 weird B panel
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-E8 10806-1
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-F8 Adetect N036
+  - Aitzkoa-2023-06-19---ImmSight-Cat-20230619-1620-C5 6593-4
+  - Aitzkoa-2023-06-26---ImmSight-Cat-20230626-1642-A11 8927-2 FDI
+  - Aitzkoa-2023-07-03---ImmSight-Cat-20230703-1709-A2 7523-3
+  - Aitzkoa-2023-07-10---ImmSight-Cat-20230710-1637-C8 Adetect B040
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-C2 10882-1
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-B5 9100-2
+  - Aitzkoa-2023-10-02---ImmSight-Cat-20231002-1440-G11 6647-4
+  - Aitzkoa-2023-10-03---ImmSight-Cat-20231003-1446-B2 ADetect C050
+  - Aitzkoa-2023-10-10---ImmSight-Cat-20231010-1620-C5 Adetect J049
+  - Aitzkoa-2023-10-10---ImmSight-Cat-20231010-1620-D5 Adetect P064
+  - Aitzkoa-2023-10-23---ImmSight-Cat-20231023-1441-D2 11092-1
+  - Aitzkoa-2023-10-23---ImmSight-Cat-20231023-1441-E2 11093-1
+  - Aitzkoa-2023-10-24---ImmSight-Cat-20231024-1706-H3 Adetect S026
+  - Aitzkoa-2023-10-31---ImmSight-Cat-20231031-1424-C5 Adetect K014
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-A8 6600-4
+  - Aitzkoa-2023-11-07---ImmSight-Cat-20231107-1710-A11 6893-4
+  - Aitzkoa-2023-11-07---ImmSight-Cat-20231107-1710-B11 9272-2
+  - Aitzkoa-2023-11-13---ImmSight-Cat-20231113-1421-H11 8056-4
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-C2 Adetect H032
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-E2 Adetect N043
+  - Aitzkoa-2023-11-20---ImmSight-Cat-20231120-1559-A5 8083-3
+  - Aitzkoa-2023-11-20---ImmSight-Cat-20231120-1559-D5 9614-2 FDI
+  - Aitzkoa-2023-11-27---ImmSight-Cat-20231127-1523-H2 8120-3
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-E2 Adetect J055
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-F2 Adetect T112
+  - Aitzkoa-2023-12-12---ImmSight-Cat-20231212-1554-A6 9263-2
+  - Aitzkoa-2023-12-12---ImmSight-Cat-20231212-1554-B5 Adetect F029
+  - Aitzkoa-2023-12-19---ImmSight-Cat-20231219-1602-B8 Adetect P070
+  - Aitzkoa-2024-02-20---ImmSight-Cat-20240220-1449-C5 Adetect P077
+  - Aitzkoa-2024-02-27---ImmSight-Cat-20240227-1800-A11 Adetect S032
+  - Aitzkoa-2024-03-04---ImmSight-Cat-20240304-1511-C11 9593-2 FDI
+  - Aitzkoa-2024-03-12---ImmSight-Cat-20240312-1609-H2 8336-3
+  - Aitzkoa-2024-04-02---ImmSight-Cat-20240402-1431-B11 Adetect N052
+  - Aitzkoa-2024-04-15---ImmSight-Cat-20240415-1528-G2 11315-2
+  - Aitzkoa-2024-04-22---ImmSight-Cat-20240422-1640-F5 10471-FDI
+  - Aitzkoa-2024-04-29---ImmSight-Cat-20240429-1529-C8 7049-4
+  - Aitzkoa-2024-04-29---ImmSight-Cat-20240429-1529-D8 7090-4
+  - Aitzkoa-2024-05-14---ImmSight-Cat-20240514-1540-F2 10352-2 FDI
+  - Aitzkoa-2024-05-28---ImmSight-Cat-20240528-1500-H5 Adetect T133
+  - Aitzkoa-2024-06-04 --ImmSight-Cat-20240604-1607-D8 Adetect T140
+  - Aitzkoa-2024-06-10 --ImmSight-Cat-20240610-1624-E8 9724-2
+  - Aitzkoa-2024-06-11 --ImmSight-Cat-20240611-1629-C11 Adetect Q003
+  - Aitzkoa-2024-06-17 --ImmSight-Cat-20240617-1600-G11 10368-2 FDI
+  - Aitzkoa-2024-06-18 --ImmSight-Cat-20240618-1822-B2 ADetect Y009
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-C5 7273-4
+  - Aitzkoa-2024-09-16 --ImmSight-Cat-20240916-1650-E2 8535-3
+  - Aitzkoa-2024-09-23 --ImmSight-Cat-20240923-1547-B10 8788-3 FDI
+  - Aitzkoa-2024-10-14 --ImmSight-Cat-20241014-1713-D8 7428-4
+  - Aitzkoa-2024-10-14 --ImmSight-Cat-20241014-1713-G8 9003-3
+  - Aitzkoa-2024-10-21 --ImmSight-Cat-20241021-1705-A2 8547-3 FDI
+  - Aitzkoa-2024-10-22 --ImmSight-Cat-20241022-1817-H12 A Detect P085
+  - Aitzkoa-2024-10-28 --ImmSight-Cat-20241028-1722-C5 9781-2
+  - Aitzkoa-2024-11-05 --ImmSight-Cat-20241105-1650-B8 A Detect Y025
+  - Aitzkoa-2024-11-11 --ImmSight-Cat-20241111-1701-C8 7431-4
+  - Aitzkoa-2024-11-11 --ImmSight-Cat-20241111-1701-D8 8750-3
+  - Aitzkoa-2024-11-11 --ImmSight-Cat-20241111-1701-F8 9742-2
+  - Aitzkoa-2024-11-18 --ImmSight-Cat-20241118-1655-A11 8952-3 FDI
+  - Aitzkoa-2025-01-07 --ImmSight-Cat-20250107-1550-H5 Adetect V011
+  Ylim_115K:
+  - Aitzkoa-2025-09-02 --ImmSight-Cat-20250902-1428-H2 A Detect Y033
+  Ylim_130K:
+  - Aitzkoa-2025-09-01 --ImmSight-Cat-20250901-1720-B8 10956-2
+  - Aitzkoa-2025-07-28 --ImmSight-Cat-20250728-1526-C8 10877-2
+  - Aitzkoa-2025-09-29 --ImmSight-Cat-20250929-1634-A5 13095-1
+  - Aitzkoa-2025-09-29 --ImmSight-Cat-20250929-1634-C5 13097-1
+  - Aitzkoa-2025-08-26 --ImmSight-Cat-20250826-1455-F2 A Detect O036
+  - Aitzkoa-2025-08-11 --ImmSight-Cat-20250811-1615-E11 10206-2
+  - Aitzkoa-2025-09-22 --ImmSight-Cat-20250922-1629-E2 13084-1
+  - Aitzkoa-2025-09-22 --ImmSight-Cat-20250922-1629-A2 9122-3 FDI
+  - Aitzkoa-2025-09-22 --ImmSight-Cat-20250922-1629-C2 13081-1
+  - Aitzkoa-2025-09-01 --ImmSight-Cat-20250901-1720-A8 10920-2
+  - Aitzkoa-2025-09-01 --ImmSight-Cat-20250901-1720-D8 13041-1
+  - Aitzkoa-2025-09-01 --ImmSight-Cat-20250901-1720-E8 13042-1
+  - Aitzkoa-2025-09-29 --ImmSight-Cat-20250929-1634-B5 13096-1
+  - Aitzkoa-2025-08-11 --ImmSight-Cat-20250811-1615-F11 10806-2
+  - Aitzkoa-2025-09-22 --ImmSight-Cat-20250922-1629-D2 13083-1
+  - Aitzkoa-2025-09-01 --ImmSight-Cat-20250901-1720-C8 13040-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-C5 12988-1
+  - Aitzkoa-2025-07-21 --ImmSight-Cat-20250721-1453-H2 12942-1
+  - Aitzkoa-2023-05-16---ImmSight-Cat-20230516-1609 (1)-D11 10273-1
+  - Aitzkoa-2024-06-24 --ImmSight-Cat-20240624-1616-D2 11776-1
+  - Aitzkoa-2025-01-27 --ImmSight-Cat-20250127-1730-H1 9976-2
+  Ylim_90K:
+  - Aitzkoa-2024-02-12---ImmSight-Cat-20240212-1619-B2 8446-3
+  xlim_65K:
+  - Aitzkoa-2024-11-26 --ImmSight-Cat-20241126-1704-B11 A Detect B053
+  - Aitzkoa-2025-09-02 --ImmSight-Cat-20250902-1428-H2 A Detect Y033
+  xlim_70K:
+  - Aitzkoa-2025-07-28 --ImmSight-Cat-20250728-1526-D8 12944-1
+  - Aitzkoa-2025-09-29 --ImmSight-Cat-20250929-1634-A5 13095-1
+  - Aitzkoa-2025-09-29 --ImmSight-Cat-20250929-1634-C5 13097-1
+  - Aitzkoa-2025-08-11 --ImmSight-Cat-20250811-1615-G11 10843-2
+  - Aitzkoa-2025-09-22 --ImmSight-Cat-20250922-1629-B2 9326-4
+  - Aitzkoa-2022-12-12---ImmSight-1546-A3 9924-1
+  - Aitzkoa-2022-12-19---ImmSight-Cat-20221219-1619-A2 8958-2 FDI
+  - Aitzkoa-2022-12-19---ImmSight-Cat-20221219-1619-C2 8953-2 FDI
+  - Aitzkoa-2023-01-10---ImmSight-Cat-20230110-1706-F2 9950-1
+  - Aitzkoa-2023-01-10---ImmSight-Cat-20230110-1706-H2 ADetect T049
+  - Aitzkoa-2023-01-17---ImmSight-Cat-20230117-1641-A2 8767-2
+  - Aitzkoa-2023-01-23---ImmSight-Cat-20230123-1539-H2 9985-1
+  - Aitzkoa-2023-01-31---ImmSight-Cat-20230131-1600-C5 9999-1
+  - Aitzkoa-2023-01-31---ImmSight-Cat-20230131-1600-D5 10000-1
+  - Aitzkoa-2023-02-12---ImmSight-Cat-20230213-1616-H8 10443-1
+  - Aitzkoa-2023-02-14---ImmSight-Cat-20230214-1748-A8 7599-3
+  - Aitzkoa-2023-02-27---ImmSight-Cat-20230227-1611-A8 8817-2
+  - Aitzkoa-2023-02-28---ImmSight-Cat-20230228-1653(1)-C11 7550-3
+  - Aitzkoa-2023-02-28---ImmSight-Cat-20230228-1701-G11 Adetect B035
+  - Aitzkoa-2023-03-06---ImmSight-Cat-20230306-1611-A2 7357-3
+  - Aitzkoa-2023-03-06---ImmSight-Cat-20230306-1611-D2 10079-1
+  - Aitzkoa-2023-03-13---ImmSight-Cat-20230313-1559-E2 10099-1
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1703-A8 7576-3
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1703-E8 10105-1
+  - Aitzkoa-2023-03-20---ImmSight--20230320-1709-A11 8740-2
+  - Aitzkoa-2023-03-20---ImmSight--20230320-1709-B11 10449-1 FDI
+  - Aitzkoa-2023-03-20---ImmSight-Cat-20230320-1709-A11 8740-2
+  - Aitzkoa-2023-03-20---ImmSight-Cat-20230320-1709-B11 10449-1 FDI
+  - Aitzkoa-2023-03-21---ImmSight-Cat-20230321-1837-A1 7766-3
+  - Aitzkoa-2023-03-21---ImmSight-Cat-20230321-1837-B1 10117-1
+  - Aitzkoa-2023-03-21---ImmSight-Cat-20230321-1837-E1 10120-1
+  - Aitzkoa-2023-03-27---ImmSight-Cat-20230327-1553-A7 7717-3
+  - Aitzkoa-2023-03-28---ImmSight-Cat-20230328-1643-D11 10137-1
+  - Aitzkoa-2023-03-28---ImmSight-Cat-20230328-1643-E11 10452-1 FDI
+  - Aitzkoa-2023-04-17---ImmSight-Cat-20230417-1826 (1)-C10 10185-1
+  - Aitzkoa-2023-04-18---ImmSight-Cat-20230418-1650(1)-C2 10187-1
+  - Aitzkoa-2023-05-02---ImmSight-Cat-20230502-1742-G11 Adetect O004
+  - Aitzkoa-2023-05-16---ImmSight-Cat-20230516-1609-B11 10271-1
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-A5 6495-4
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-B5 10290-1
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-E1 6495-4 old B panel
+  - Aitzkoa-2023-06-19---ImmSight-Cat-20230619-1620-B5 9765-2
+  - Aitzkoa-2023-06-20---ImmSight-Cat-20230620-1434-A8 10835-1
+  - Aitzkoa-2023-06-20---ImmSight-Cat-20230620-1434-C8 10837-1
+  - Aitzkoa-2023-06-26---ImmSight-Cat-20230626-1642-A11 8927-2 FDI
+  - Aitzkoa-2023-07-03---ImmSight-Cat-20230703-1709-A2 7523-3
+  - Aitzkoa-2023-07-04---ImmSight-Cat-20230704-1648-A5 10862-1
+  - Aitzkoa-2023-07-04---ImmSight-Cat-20230704-1648-C5 10864-1
+  - Aitzkoa-2023-09-05---ImmSight-Cat-20230905-1551-H5 10955-1
+  - Aitzkoa-2023-09-26---ImmSight-Cat-20230926-1448-C11 11019-1
+  - Aitzkoa-2023-10-02---ImmSight-Cat-20231002-1440-G11 6647-4
+  - Aitzkoa-2023-10-03---ImmSight-Cat-20231003-1446-B2 ADetect C050
+  - Aitzkoa-2023-10-10---ImmSight-Cat-20231010-1620-B5 Adetect E040
+  - Aitzkoa-2023-10-16---ImmSight-Cat-20231016-1520-A8 6756-4
+  - Aitzkoa-2023-10-29---ImmSight-Cat-20231030-1556-B5 9447-2
+  - Aitzkoa-2023-11-07---ImmSight-Cat-20231107-1710-A11 6893-4
+  - Aitzkoa-2023-11-07---ImmSight-Cat-20231107-1710-B11 9272-2
+  - Aitzkoa-2023-11-13---ImmSight-Cat-20231113-1421-H11 8056-4
+  - Aitzkoa-2023-11-20---ImmSight-Cat-20231120-1559-B5 8127-3
+  - Aitzkoa-2023-11-20---ImmSight-Cat-20231120-1559-D5 9614-2 FDI
+  - Aitzkoa-2023-11-27---ImmSight-Cat-20231127-1523-H2 8120-3
+  - Aitzkoa-2023-12-19---ImmSight-Cat-20231219-1602-B8 Adetect P070
+  - Aitzkoa-2024-01-22---ImmSight-Cat-20240122-1428-D11 11269-1
+  - Aitzkoa-2024-01-23---ImmSight-Cat-20240123-1550-H8 Adetect U053
+  - Aitzkoa-2024-01-29---ImmSight-Cat-20240129-1630-G11 11316-1
+  - Aitzkoa-2024-01-29---ImmSight-Cat-20240129-1630-H11 11318-1
+  - Aitzkoa-2024-02-12---ImmSight-Cat-20240212-1619-A2 8117-3
+  - Aitzkoa-2024-02-26---ImmSight-Cat-20240226-1647-A8 8318.3
+  - Aitzkoa-2024-02-26---ImmSight-Cat-20240226-1647-B8 8325.3
+  - Aitzkoa-2024-02-27---ImmSight-Cat-20240227-1800-A11 Adetect S032
+  - Aitzkoa-2024-03-04---ImmSight-Cat-20240304-1511-C11 9593-2 FDI
+  - Aitzkoa-2024-03-12---ImmSight-Cat-20240312-1609-H2 8336-3
+  - Aitzkoa-2024-04-02---ImmSight-Cat-20240402-1431-B11 Adetect N052
+  - Aitzkoa-2024-04-08---ImmSight-Cat-20240408-1615-B2 9625-2 FDI
+  - Aitzkoa-2024-04-09---ImmSight-Cat-20240409-1433-D2 9433-2
+  - Aitzkoa-2024-04-15---ImmSight-Cat-20240415-1528-G2 11315-2
+  - Aitzkoa-2024-04-16---ImmSight-Cat-20240416-1556-B5 8396-3
+  - Aitzkoa-2024-04-23---ImmSight-Cat-20240423-1519-A8 7105-4
+  - Aitzkoa-2024-04-29---ImmSight-Cat-20240429-1529-C8 7049-4
+  - Aitzkoa-2024-04-29---ImmSight-Cat-20240429-1529-E8 9555-2 FDI
+  - Aitzkoa-2024-05-13---ImmSight-Cat-20240513-1607-D2 9512-2
+  - Aitzkoa-2024-05-28---ImmSight-Cat-20240528-1500-H5 Adetect T133
+  - Aitzkoa-2024-06-04 --ImmSight-Cat-20240604-1607-C8 Adetect T120
+  - Aitzkoa-2024-06-04 --ImmSight-Cat-20240604-1607-D8 Adetect T140
+  - Aitzkoa-2024-06-10 --ImmSight-Cat-20240610-1624-E8 9724-2
+  - Aitzkoa-2024-06-17 --ImmSight-Cat-20240617-1600-F11 9769-2
+  - Aitzkoa-2024-06-18 --ImmSight-Cat-20240618-1822-A2 7141-4
+  - Aitzkoa-2024-09-16 --ImmSight-Cat-20240916-1650-E2 8535-3
+  - Aitzkoa-2024-09-23 --ImmSight-Cat-20240923-1547-B10 8788-3 FDI
+  - Aitzkoa-2024-10-28 --ImmSight-Cat-20241028-1722-C5 9781-2
+  - Aitzkoa-2024-10-29 --ImmSight-Cat-20241029-1630-F5 10420-2 FDI
+  - Aitzkoa-2024-11-11 --ImmSight-Cat-20241111-1701-F8 9742-2
+  - Aitzkoa-2024-11-12 --ImmSight-Cat-20241112-1619-H8 A Detect Q015
+  - Aitzkoa-2024-11-18 --ImmSight-Cat-20241118-1655-A11 8952-3 FDI
+  - Aitzkoa-2024-12-03 --ImmSight-Cat-20241203-1701-D2 A Detect Q021
+  - Aitzkoa-2024-12-03 --ImmSight-Cat-20241203-1701-E2 A Detect Q023
+  - Aitzkoa-2024-12-16  --ImmSight-Cat-20241216-1713-E5 9878-2
+  - Aitzkoa-2025-01-07 --ImmSight-Cat-20250107-1550-G5 Adetect S050
+  - Aitzkoa-2025-01-07 --ImmSight-Cat-20250107-1550-H5 Adetect V011
+  - Aitzkoa-2025-01-13 --ImmSight-Cat-20250113-1600-E8 9880-2
+  - Aitzkoa-2025-01-27 --ImmSight-Cat-20250127-1730-F1 8960-3 FDI
+  - Aitzkoa-2025-01-27 --ImmSight-Cat-20250127-1730-H1 9976-2
+  - Aitzkoa-2025-01-28 --ImmSight-Cat-20250128-1911-D2 Adetect D044
+  - Aitzkoa-2025-02-03 --ImmSight-Cat-20250203-1600-H2 10959-2
+  xlim_85K:
+  - Aitzkoa-2025-06-17 --ImmSight-Cat-20250617-1803-D2 Adetect P101
+  xlim_80K:
+  - Aitzkoa-2025-06-02 --ImmSight-Cat-20250602-1634-E8 10460-2 FDI
+  - Aitzkoa-2025-07-28 --ImmSight-Cat-20250728-1526-C8 10877-2
+  - Aitzkoa-2025-06-03 --ImmSight-Cat-20250603-1504-F8 7955-4
+  - Aitzkoa-2022-12-13---ImmSight-Cat-20221213-1741-C3 9926-1
+  - Aitzkoa-2022-12-13---ImmSight-Cat-20221213-1741-D3 9925-1
+  - Aitzkoa-2022-12-13---ImmSight-Cat-20221213-1741-E3 7404-3
+  - Aitzkoa-2022-12-13---ImmSight-Cat-20221213-1741-G3 8821-2 FDI
+  - Aitzkoa-2022-12-20---ImmSight-Cat-20221220-1612-A2 9937-1
+  - Aitzkoa-2022-12-20---ImmSight-Cat-20221220-1612-B2 9938-1
+  - Aitzkoa-2022-12-20---ImmSight-Cat-20221220-1612-C2 A-Detect A037
+  - Aitzkoa-2023-01-23---ImmSight-Cat-20230123-1539-E2 7392-3
+  - Aitzkoa-2023-01-23---ImmSight-Cat-20230123-1539-F2 9983-1
+  - Aitzkoa-2023-01-24---ImmSight-Cat-20230124-1522-A5 9987-1
+  - Aitzkoa-2023-01-31---ImmSight-Cat-20230131-1600-G5 ADetect F022
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-1613-A6 8960-2 FDI
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-1613-B6 10082-1
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-1613-G5 Adetect T045
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1644-B6 8914-2 FDI
+  - Aitzkoa-2023-04-03---ImmSight-Cat-20230403-1626-G9 10146-1
+  - Aitzkoa-2023-04-11---ImmSight-Cat-20230411-1646-D6 10161-1
+  - Aitzkoa-2023-04-24---ImmSight-Cat-20230424-1653-H5 10204-1
+  - Aitzkoa-2023-04-25---ImmSight-Cat-20230425-1554-D2 Adetect J040
+  - Aitzkoa-2023-05-02---ImmSight-Cat-20230502-1742-F8 8375-3 FDI
+  - Aitzkoa-2023-05-08---ImmSight-Cat-20230508-1740-B2 7693-3
+  - Aitzkoa-2023-05-15---ImmSight-Cat-20230515-1619-C8 9052-2
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-B8 9043-2 FDI
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-C8 10803-1
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-E8 10806-1
+  - Aitzkoa-2023-06-13---ImmSight-Cat-20230613-1638-F2 Adetect T080
+  - Aitzkoa-2023-06-20---ImmSight-Cat-20230620-1434-D8 Adetect T076
+  - Aitzkoa-2023-06-27---ImmSight-Cat-20230627-1609-G11 Adetect D039
+  - Aitzkoa-2023-06-27---ImmSight-Cat-20230627-1609-H11 Adetect I042
+  - Aitzkoa-2023-07-03---ImmSight-Cat-20230703-1709-D2 10858-1
+  - Aitzkoa-2023-07-04---ImmSight-Cat-20230704-1648-E5 Adetect T068
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-C2 10882-1
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-A5 7851-2
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-B5 9100-2
+  - Aitzkoa-2023-10-17---ImmSight-Cat-20231017-1456-D11 Adetect T088
+  - Aitzkoa-2023-10-23---ImmSight-Cat-20231023-1441-D2 11092-1
+  - Aitzkoa-2023-11-07---ImmSight-Cat-20231107-1710-D11 Adetect P059
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-E2 Adetect N043
+  - Aitzkoa-2023-11-28---ImmSight-Cat-20231128-1637-E8 Adetect S028
+  - Aitzkoa-2023-12-04---ImmSight-Cat-20231204-1447-A11 6749-4
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-C2 Adetect F028
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-E2 Adetect J055
+  - Aitzkoa-2023-12-12---ImmSight-Cat-20231212-1554-A6 9263-2
+  - Aitzkoa-2024-01-23---ImmSight-Cat-20240123-1550-E8 Adetect A046
+  - Aitzkoa-2024-02-12---ImmSight-Cat-20240212-1619-B2 8446-3
+  - Aitzkoa-2024-04-08---ImmSight-Cat-20240408-1615-A2 6950-4
+  - Aitzkoa-2024-04-08---ImmSight-Cat-20240408-1615-C2 9588-2
+  - Aitzkoa-2024-04-29---ImmSight-Cat-20240429-1529-D8 7090-4
+  - Aitzkoa-2024-05-07---ImmSight-Cat-20240507-1446-C2 Adetect Y007
+  - Aitzkoa-2024-06-10 --ImmSight-Cat-20240610-1624-F8 10361-2 FDI
+  - Aitzkoa-2024-06-18 --ImmSight-Cat-20240618-1822-B2 ADetect Y009
+  - Aitzkoa-2024-06-24 --ImmSight-Cat-20240624-1616-E2 11777-1
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-A5 8441-3
+  - Aitzkoa-2024-09-23 --ImmSight-Cat-20240923-1547-F10 10430-2 FDI
+  - Aitzkoa-2024-10-07 --ImmSight-Cat-20241007-1735-B5 8789-3 FDI
+  - Aitzkoa-2024-11-04 --ImmSight-Cat-20241104-1636 (1)-H5 10009-2
+  - Aitzkoa-2024-11-05 --ImmSight-Cat-20241105-1650-A8 A Detect F042
+  - Aitzkoa-2025-02-03 --ImmSight-Cat-20250203-1600-G4 10446-2
+  - Aitzkoa-Comp 2024-09-09 --ImmSight-Cat-20240909-1919-F3 7333-4
+  No_clutter_240K:
+  - Aitzkoa-2022-12-13---ImmSight-Cat-20221213-1741-C3 9926-1
+  - Aitzkoa-2022-12-13---ImmSight-Cat-20221213-1741-G3 8821-2 FDI
+  - Aitzkoa-2023-01-17---ImmSight-Cat-20230117-1641-C2 9971-1
+  - Aitzkoa-2023-01-23---ImmSight-Cat-20230123-1539-F2 9983-1
+  - Aitzkoa-2023-01-23---ImmSight-Cat-20230123-1539-G2 9984-1
+  - Aitzkoa-2023-01-30---ImmSight-Cat-20230130-1602-B6 9998-1
+  - Aitzkoa-2023-02-07---ImmSight-Cat-20230207-1717-A9 10018-1
+  - Aitzkoa-2023-02-07---ImmSight-Cat-20230207-1717-B9 10020-1
+  - Aitzkoa-2023-02-07---ImmSight-Cat-20230207-1717-D9 Adetect U027
+  - Aitzkoa-2023-03-06---ImmSight-Cat-20230306-1611-B2 7759-3
+  - Aitzkoa-2023-03-06---ImmSight-Cat-20230306-1611-C2 8954-2
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-1613-C6 10084-1
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-1613-G5 Adetect T045
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-2001-C12 10084-1
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1644-A6 7576-3
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1644-B6 8914-2 FDI
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1644-C6 10103-1
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1644-D6 10104-1
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1644-E6 10105-1
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1703-E8 10105-1
+  - Aitzkoa-2023-03-27---ImmSight-Cat-20230327-1553-A7 7717-3
+  - Aitzkoa-2023-03-27---ImmSight-Cat-20230327-1553-C7 10132-1
+  - Aitzkoa-2023-04-04---ImmSight-Cat-20230404-1609-E2 Adetect T061
+  - Aitzkoa-2023-04-11---ImmSight-Cat-20230411-1646-D6 10161-1
+  - Aitzkoa-2023-04-18---ImmSight-Cat-20230418-1650(1)-B2 8955-2
+  - Aitzkoa-2023-04-18---ImmSight-Cat-20230418-1650(1)-D2 10188-1
+  - Aitzkoa-2023-04-25---ImmSight-Cat-20230425-1554-D2 Adetect J040
+  - Aitzkoa-2023-05-02---ImmSight-Cat-20230502-1742-G8 10223-1
+  - Aitzkoa-2023-05-02---ImmSight-Cat-20230502-1742-H8 10225-1
+  - Aitzkoa-2023-05-08---ImmSight-Cat-20230508-1740-A2 6510-5
+  - Aitzkoa-2023-05-08---ImmSight-Cat-20230508-1740-B2 7693-3
+  - Aitzkoa-2023-05-08---ImmSight-Cat-20230508-1740-C2 10249-1
+  - Aitzkoa-2023-05-08---ImmSight-Cat-20230508-1740-D2 10250-1
+  - Aitzkoa-2023-05-08---ImmSight-Cat-20230508-1740-E2 10455-1 FDI
+  - Aitzkoa-2023-05-09---ImmSight-Cat-20230509-1649-A5 10254-1
+  - Aitzkoa-2023-05-09---ImmSight-Cat-20230509-1649-B5 10255-1
+  - Aitzkoa-2023-05-09---ImmSight-Cat-20230509-1649-C5 10256-1
+  - Aitzkoa-2023-05-09---ImmSight-Cat-20230509-1649-E5 Adetect J041
+  - Aitzkoa-2023-05-15---ImmSight-Cat-20230515-1619-A8 7788-3
+  - Aitzkoa-2023-05-22---ImmSight-Cat-20230522-1608-B2 9023-2 FDI
+  - Aitzkoa-2023-05-22---ImmSight-Cat-20230522-1608-C2 10456-1 FDI
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-A5 6495-4
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-E8 10806-1
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-F8 Adetect N036
+  - Aitzkoa-2023-06-13---ImmSight-Cat-20230613-1638-B2 10823-1
+  - Aitzkoa-2023-06-13---ImmSight-Cat-20230613-1638-C2 10824-1
+  - Aitzkoa-2023-06-27---ImmSight-Cat-20230627-1609-E11 9098-2 FDI
+  - Aitzkoa-2023-07-03---ImmSight-Cat-20230703-1709-A2 7523-3
+  - Aitzkoa-2023-07-03---ImmSight-Cat-20230703-1709-B2 10856-1
+  - Aitzkoa-2023-07-03---ImmSight-Cat-20230703-1709-D2 10858-1
+  - Aitzkoa-2023-07-03---ImmSight-Cat-20230703-1709-E2 10859-1
+  - Aitzkoa-2023-07-03---ImmSight-Cat-20230703-1709-F2 10860-1
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-B2 10881-1
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-D2 10883-1
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-E2 10884-1
+  - Aitzkoa-2023-09-04---ImmSight-Cat-20230904-1743-C2 9344-2
+  - Aitzkoa-2023-09-05---ImmSight-Cat-20230905-1551-G5 10954-1
+  - Aitzkoa-2023-09-05---ImmSight-Cat-20230905-1551-H5 10955-1
+  - Aitzkoa-2023-09-11---ImmSight-Cat-20230911-1704-B8 10462-1 FDI
+  - Aitzkoa-2023-09-11---ImmSight-Cat-20230911-1704-C8 10970-1
+  - Aitzkoa-2023-09-18---ImmSight-Cat-20230918-1528-B2 9102-2
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-C5 10996-1
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-D5 10997-1
+  - Aitzkoa-2023-09-25---ImmSight-Cat-20230925-1712-D8 11015-1
+  - Aitzkoa-2023-09-26---ImmSight-Cat-20230926-1448-C11 11019-1
+  - Aitzkoa-2023-10-02---ImmSight-Cat-20231002-1440-H11 11035-1
+  - Aitzkoa-2023-10-16---ImmSight-Cat-20231016-1520-A8 6756-4
+  - Aitzkoa-2023-10-16---ImmSight-Cat-20231016-1520-B8 8093-3
+  - Aitzkoa-2023-10-16---ImmSight-Cat-20231016-1520-C8 11070-1
+  - Aitzkoa-2023-10-24---ImmSight-Cat-20231024-1706-H3 Adetect S026
+  - Aitzkoa-2023-10-29---ImmSight-Cat-20231030-1556-B5 9447-2
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-A8 6600-4
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-B8 7845-3
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-C8 9046-2
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-D8 9117-2
+  - Aitzkoa-2023-11-07---ImmSight-Cat-20231107-1710-A11 6893-4
+  - Aitzkoa-2023-11-07---ImmSight-Cat-20231107-1710-D11 Adetect P059
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-A2 9557-2 FDI
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-B2 Adetect A043
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-D2 Adetect J054
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-E2 Adetect N043
+  - Aitzkoa-2023-11-20---ImmSight-Cat-20231120-1559-B5 8127-3
+  - Aitzkoa-2023-11-27---ImmSight-Cat-20231127-1523-H2 8120-3
+  - Aitzkoa-2023-11-28---ImmSight-Cat-20231128-1637-B8 9165-2
+  - Aitzkoa-2023-11-28---ImmSight-Cat-20231128-1637-C8 Adetect F027
+  - Aitzkoa-2023-11-28---ImmSight-Cat-20231128-1637-D8 Adetect I047
+  - Aitzkoa-2023-11-28---ImmSight-Cat-20231128-1637-E8 Adetect S028
+  - Aitzkoa-2023-12-04---ImmSight-Cat-20231204-1447-A11 6749-4
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-A2 8053-3
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-B2 9153-2
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-C2 Adetect F028
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-D2 Adetect I049
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-E2 Adetect J055
+  - Aitzkoa-2023-12-12---ImmSight-Cat-20231212-1554-A6 9263-2
+  - Aitzkoa-2023-12-12---ImmSight-Cat-20231212-1554-B5 Adetect F029
+  - Aitzkoa-2023-12-12---ImmSight-Cat-20231212-1554-C5 Adetect K020
+  - Aitzkoa-2023-12-12---ImmSight-Cat-20231212-1554-D5 Adetect T100
+  - Aitzkoa-2023-12-19---ImmSight-Cat-20231219-1602-C8 Adetect T104
+  - Aitzkoa-2024-01-23---ImmSight-Cat-20240123-1550-E8 Adetect A046
+  - Aitzkoa-2024-01-23---ImmSight-Cat-20240123-1550-F8 Adetect E043
+  - Aitzkoa-2024-01-23---ImmSight-Cat-20240123-1550-G8 Adetect U051
+  - Aitzkoa-2024-01-23---ImmSight-Cat-20240123-1550-H8 Adetect U053
+  - Aitzkoa-2024-01-29---ImmSight-Cat-20240129-1630-G11 11316-1
+  - Aitzkoa-2024-02-12---ImmSight-Cat-20240212-1619-A2 8117-3
+  - Aitzkoa-2024-02-20---ImmSight-Cat-20240220-1449-B5 Adetect F032
+  - Aitzkoa-2024-02-20---ImmSight-Cat-20240220-1449-D5 Adetect Y002
+  - Aitzkoa-2024-03-05---ImmSight-Cat-20240305-1437-E8 Adetect T136
+  - Aitzkoa-2024-03-11---ImmSight-Cat-20240311-1511-A2 7212-4
+  - Aitzkoa-2024-03-18---ImmSight-Cat-20240318-1603-A5 7039-4
+  - Aitzkoa-2024-03-18---ImmSight-Cat-20240318-1603-B5 7154-4
+  - Aitzkoa-2024-03-18---ImmSight-Cat-20240318-1603-C5 8408-3
+  - Aitzkoa-2024-03-18---ImmSight-Cat-20240318-1603-D5 9533-2 FDI
+  - Aitzkoa-2024-03-24---ImmSight-Cat-20240325-1447-H5 9750-2
+  - Aitzkoa-2024-04-08---ImmSight-Cat-20240408-1615-B2 9625-2 FDI
+  - Aitzkoa-2024-04-08---ImmSight-Cat-20240408-1615-C2 9588-2
+  - Aitzkoa-2024-04-09---ImmSight-Cat-20240409-1433-D2 9433-2
+  - Aitzkoa-2024-04-15---ImmSight-Cat-20240415-1528-G2 11315-2
+  - Aitzkoa-2024-04-16---ImmSight-Cat-20240416-1556-C5 Adetect Y003
+  - Aitzkoa-2024-04-22---ImmSight-Cat-20240422-1640-F5 10471-FDI
+  - Aitzkoa-2024-04-22---ImmSight-Cat-20240422-1640-G5 10470-FDI
+  - Aitzkoa-2024-04-23---ImmSight-Cat-20240423-1519-B8 Adetect T137
+  - Aitzkoa-2024-04-29---ImmSight-Cat-20240429-1529-E8 9555-2 FDI
+  - Aitzkoa-2024-05-06---ImmSight-Cat-20240506-1424-H11 10961-2
+  - Aitzkoa-2024-05-07---ImmSight-Cat-20240507-1446-B2 Adetect S035
+  - Aitzkoa-2024-05-13---ImmSight-Cat-20240513-1607-D2 9512-2
+  - Aitzkoa-2024-05-28---ImmSight-Cat-20240528-1500-H5 Adetect T133
+  - Aitzkoa-2024-06-11 --ImmSight-Cat-20240611-1629-A11 10348-2 FDI
+  - Aitzkoa-2024-06-17 --ImmSight-Cat-20240617-1600-G11 10368-2 FDI
+  - Aitzkoa-2024-06-24 --ImmSight-Cat-20240624-1616-C2 11775-1
+  - Aitzkoa-2024-06-24 --ImmSight-Cat-20240624-1616-D2 11776-1
+  - Aitzkoa-2024-06-25 --ImmSight-Cat-20240625-1630-F2 7056-4
+  - Aitzkoa-2024-06-25 --ImmSight-Cat-20240625-1630-H2 Adetect Q010
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-B5 8510-3 FDI
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-C5 7273-4
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-D5 Adetect Y016
+  - Aitzkoa-2024-09-10 --ImmSight-Cat-20240910-1551-A2 7272-4
+  - Aitzkoa-2024-10-07 --ImmSight-Cat-20241007-1735-D5 10413-2 FDI
+  - Aitzkoa-2024-10-08 --ImmSight-Cat-20241008-1817-B8 Adetect Q013
+  - Aitzkoa-2024-11-04 --ImmSight-Cat-20241104-1636 (1)-G5 8756-3
+  - Aitzkoa-2024-11-04 --ImmSight-Cat-20241104-1636-G5 8756-3
+  - Aitzkoa-2024-12-03 --ImmSight-Cat-20241203-1701-F2 A Detect U059
+  - Aitzkoa-2024-12-17 --ImmSight-Cat-20241217-1745-D8 10189-2
+  - Aitzkoa-2025-01-14 --ImmSight-Cat-20250114-1547-G8 A Detect S044
+  - Aitzkoa-2025-01-20 --ImmSight-Cat-20250120-1641-B11 7455-1
+  - Aitzkoa-2025-01-27 --ImmSight-Cat-20250127-1730-G1 9864-2
+  - Aitzkoa-2025-01-27 --ImmSight-Cat-20250127-1730-H1 9976-2
+  - Aitzkoa-2025-02-03 --ImmSight-Cat-20250203-1600-F2 9983-2
+  - Aitzkoa-2025-02-03 --ImmSight-Cat-20250203-1600-G4 10446-2
+  - Aitzkoa-2025-02-03 --ImmSight-Cat-20250203-1600-H2 10959-2
+  - Aitzkoa-2025-02-04 --ImmSight-Cat-20250204-1710-B8 Adetect S053
+  - Aitzkoa-2025-02-04 --ImmSight-Cat-20250204-1710-C8 Adetect U061
+  Ylim_75K:
+  - Aitzkoa-2023-05-09---ImmSight-Cat-20230509-1649-C5 10256-1
+  Dijkstra failure:
+  - Aitzkoa-2023-01-09---ImmSight-Cat-20230109-1615-A2 7452-3
+  - Aitzkoa-2023-01-09---ImmSight-Cat-20230109-1615-B2 9946-1
+  - Aitzkoa-2023-02-28---ImmSight-Cat-20230228-1657-D11 10063-1
+  - Aitzkoa-2023-02-28---ImmSight-Cat-20230228-1701-E11 10064-1
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-1613-D5 10085-1
+  - Aitzkoa-2023-05-09---ImmSight-Cat-20230509-1649-C5 10256-1
+  - Aitzkoa-2023-05-15---ImmSight-Cat-20230515-1619-B8 7877-3
+  - Aitzkoa-2023-09-12---ImmSight-Cat-20230912-1721-A11 7967-3
+  - Aitzkoa-2023-09-25---ImmSight-Cat-20230925-1712-C4 7932-3
+Singlet Gating:
+  CUSTOM_2:
+  - Aitzkoa-2025-07-08 --ImmSight-Cat-20250708-1507-D5 11038-2
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-1613-C6 10084-1
+  adjustAngle_14:
+  - Aitzkoa-Comp 2024-09-09 --ImmSight-Cat-20240909-1919-F4 9577-2
+  - Aitzkoa-2025-02-11 --ImmSight-Cat-20250211-1815-B11 Adetect P091
+  - Aitzkoa-2025-02-11 --ImmSight-Cat-20250211-1741-B11 Adetect P091
+  - Aitzkoa-2025-02-10 --ImmSight-Cat-20250210-1800-F8 10454-2 FDI
+  - Aitzkoa-2025-03-24 --ImmSight-Cat-20250324-1548-A2 9029-3
+  - Aitzkoa-2025-03-24 --ImmSight-Cat-20250324-1548-B2 10078-2
+  - Aitzkoa-2025-03-25 --ImmSight-Cat-20250325-1515-E2 A Detect T186
+  adjustAngle_10:
+  - Aitzkoa-Comp 2024-09-09 --ImmSight-Cat-20240909-1919-F4 9577-2
+  - Aitzkoa-2023-03-06---ImmSight-Cat-20230306-1611-B2 7759-3
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-B5 8510-3 FDI
+  adjustAngle_5:
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-2001-C12 10084-1
+  - Aitzkoa-2023-10-02---ImmSight-Cat-20231002-1440-H11 11035-1
+  - Aitzkoa-2024-04-15---ImmSight-Cat-20240415-1528-G2 11315-2
+  - Aitzkoa-2023-09-25---ImmSight-Cat-20230925-1712-D8 11015-1
+  heightScale_3:
+  - Aitzkoa-2025-06-02 --ImmSight-Cat-20250602-1634-E8 10460-2 FDI
+  - Aitzkoa-2025-07-28 --ImmSight-Cat-20250728-1526-C8 10877-2
+  - Aitzkoa-2025-08-11 --ImmSight-Cat-20250811-1615-H11 12959-1
+  - Aitzkoa-2025-05-13 --ImmSight-Cat-20250513-1621-F2 Adetect S060
+  - Aitzkoa-2025-08-12 --ImmSight-Cat-20250812-1609-A2 12960-1
+  - Aitzkoa-2025-07-22 --ImmSight-Cat-20250722-1541-A8 10188-2
+  - Aitzkoa-2023-01-09---ImmSight-Cat-20230109-1615-A2 7452-3
+  - Aitzkoa-2023-02-27---ImmSight-Cat-20230227-1611-A8 8817-2
+  - Aitzkoa-2023-02-28---ImmSight-Cat-20230228-1701-E11 10064-1
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-2001-C12 10084-1
+  - Aitzkoa-2023-03-13---ImmSight-Cat-20230313-1559-E2 10099-1
+  - Aitzkoa-2023-03-21---ImmSight-Cat-20230321-1837-B1 10117-1
+  - Aitzkoa-2023-03-28---ImmSight-Cat-20230328-1640-A11 8919-2
+  - Aitzkoa-2023-05-09---ImmSight-Cat-20230509-1649-A5 10254-1
+  - Aitzkoa-2023-05-15---ImmSight-Cat-20230515-1619-B8 7877-3
+  - Aitzkoa-2023-05-16---ImmSight-Cat-20230516-1609-B11 10271-1
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-B5 10290-1
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-E2 6495-4 weird B panel
+  - Aitzkoa-2023-06-13---ImmSight-Cat-20230613-1638-F2 Adetect T080
+  - Aitzkoa-2023-09-26---ImmSight-Cat-20230926-1448-C11 11019-1
+  - Aitzkoa-2023-11-07---ImmSight-Cat-20231107-1710-A11 6893-4
+  - Aitzkoa-2023-11-27---ImmSight-Cat-20231127-1523-H2 8120-3
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-E2 Adetect J055
+  - Aitzkoa-2023-12-12---ImmSight-Cat-20231212-1554-C5 Adetect K020
+  - Aitzkoa-2023-12-12---ImmSight-Cat-20231212-1554-D5 Adetect T100
+  - Aitzkoa-2023-12-19---ImmSight-Cat-20231219-1602-A8 Adetect I051
+  - Aitzkoa-2024-04-02---ImmSight-Cat-20240402-1431-A11 9389-2 FDI
+  - Aitzkoa-2024-04-08---ImmSight-Cat-20240408-1615-A2 6950-4
+  - Aitzkoa-2024-04-09---ImmSight-Cat-20240409-1433-D2 9433-2
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-A5 8441-3
+  - Aitzkoa-2024-10-07 --ImmSight-Cat-20241007-1735-D5 10413-2 FDI
+  - Aitzkoa-2024-12-02 --ImmSight-Cat-20241202-1655-A2 7443-4
+  - Aitzkoa-2024-12-09 --ImmSight-Cat-20241209-1718-G2 9735-2
+  - Aitzkoa-2025-01-07 --ImmSight-Cat-20250107-1550-H5 Adetect V011
+  - Aitzkoa-Comp 2024-09-09 --ImmSight-Cat-20240909-1919-F4 9577-2
+  - Aitzkoa-2025-02-11 --ImmSight-Cat-20250211-1815-B11 Adetect P091
+  - Aitzkoa-2025-02-11 --ImmSight-Cat-20250211-1741-B11 Adetect P091
+  - Aitzkoa-2025-02-10 --ImmSight-Cat-20250210-1800-F8 10454-2 FDI
+  heightScale_1:
+  - Aitzkoa-Comp 2024-09-09 --ImmSight-Cat-20240909-1919-F4 9577-2
+  heightScale_2:
+  - Aitzkoa-2025-06-09 --ImmSight-Cat-20250609-1546-B11 10082-2
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-E5 12990-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-C5 12988-1
+  - Aitzkoa-2025-06-10 --ImmSight-Cat-20250610-1439-E11 A Detect R014
+  - Aitzkoa-2025-05-26 --ImmSight-Cat-20250526-1538-E5 9099-3 FDI
+  - Aitzkoa-2025-08-04 --ImmSight-Cat-20250804-1535-B11 12949-1
+  - Aitzkoa-2025-07-08 --ImmSight-Cat-20250708-1507-D5 11038-2
+  - Aitzkoa-2025-09-01 --ImmSight-Cat-20250901-1720-B8 10956-2
+  - Aitzkoa-2025-07-07 --ImmSight-Cat-20250707-1422-B5 12906-1
+  widthScale_4:
+  - Aitzkoa-2023-05-15---ImmSight-Cat-20230515-1619-B8 7877-3
+  widthScale_6:
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-B5 8510-3 FDI
+  - Aitzkoa-Comp 2024-09-09 --ImmSight-Cat-20240909-1919-F4 9577-2
+CD45_CD19 Gating:
+  CUSTOM_00000:
+  - Aitzkoa-Comp 2024-09-09 --ImmSight-Cat-20240909-1919-F4 9577-2
+  CUSTOM_x_1900:
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-B5 8510-3 FDI
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-A5 8441-3
+  CUSTOM_y_to_2500:
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-A5 8441-3
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-B5 8510-3 FDI
+  xlim_+100:
+  - Aitzkoa-2022-12-13---ImmSight-Cat-20221213-1741-D3 9925-1
+  - Aitzkoa-2023-01-30---ImmSight-Cat-20230130-1602-B6 9998-1
+  - Aitzkoa-2023-02-14---ImmSight-Cat-20230214-1748-E8 Adetect A039
+  - Aitzkoa-2023-05-08---ImmSight-Cat-20230508-1740-A2 6510-5
+  - Aitzkoa-2023-05-08---ImmSight-Cat-20230508-1740-B2 7693-3
+  - Aitzkoa-2023-05-08---ImmSight-Cat-20230508-1740-C2 10249-1
+  - Aitzkoa-2023-05-16---ImmSight-Cat-20230516-1609 (1)-D11 10273-1
+  - Aitzkoa-2023-05-22---ImmSight-Cat-20230522-1608-A2 6649-5
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-B5 10290-1
+  - Aitzkoa-2023-06-13---ImmSight-Cat-20230613-1638-B2 10823-1
+  - Aitzkoa-2023-06-20---ImmSight-Cat-20230620-1434-C8 10837-1
+  - Aitzkoa-2023-07-03---ImmSight-Cat-20230703-1709-B2 10856-1
+  - Aitzkoa-2023-07-03---ImmSight-Cat-20230703-1709-E2 10859-1
+  - Aitzkoa-2023-07-04---ImmSight-Cat-20230704-1648-C5 10864-1
+  - Aitzkoa-2023-07-04---ImmSight-Cat-20230704-1648-E5 Adetect T068
+  - Aitzkoa-2023-09-04---ImmSight-Cat-20230904-1743-D2 10950-1
+  - Aitzkoa-2023-09-05---ImmSight-Cat-20230905-1551-F5 10953-1
+  - Aitzkoa-2023-09-05---ImmSight-Cat-20230905-1551-G5 10954-1
+  - Aitzkoa-2023-09-05---ImmSight-Cat-20230905-1551-H5 10955-1
+  - Aitzkoa-2023-09-18---ImmSight-Cat-20230918-1528-B2 9102-2
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-B5 9100-2
+  - Aitzkoa-2023-10-10---ImmSight-Cat-20231010-1620-A5 8022-3
+  - Aitzkoa-2023-10-16---ImmSight-Cat-20231016-1520-B8 8093-3
+  - Aitzkoa-2023-10-23---ImmSight-Cat-20231023-1441-B2 11090-1
+  - Aitzkoa-2023-10-23---ImmSight-Cat-20231023-1441-D2 11092-1
+  - Aitzkoa-2023-10-29---ImmSight-Cat-20231030-1556-B5 9447-2
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-D8 9117-2
+  - Aitzkoa-2023-11-07---ImmSight-Cat-20231107-1710-A11 6893-4
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-C2 Adetect H032
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-B2 9153-2
+  - Aitzkoa-2024-03-18---ImmSight-Cat-20240318-1603-C5 8408-3
+  - Aitzkoa-2024-03-18---ImmSight-Cat-20240318-1603-D5 9533-2 FDI
+  - Aitzkoa-2024-04-08---ImmSight-Cat-20240408-1615-A2 6950-4
+  - Aitzkoa-2024-04-16---ImmSight-Cat-20240416-1556-A5 8294-3
+  - Aitzkoa-2024-04-29---ImmSight-Cat-20240429-1529-E8 9555-2 FDI
+  - Aitzkoa-2024-05-13---ImmSight-Cat-20240513-1607-D2 9512-2
+  - Aitzkoa-2024-05-20---ImmSight-Cat-20240520-1428-A5 7155-4
+  - Aitzkoa-2024-05-27---ImmSight-Cat-20240527-1742-E5 9590-2
+  - Aitzkoa-2024-05-28---ImmSight-Cat-20240528-1500-H5 Adetect T133
+  - Aitzkoa-2024-06-11 --ImmSight-Cat-20240611-1629-A11 10348-2 FDI
+  - Aitzkoa-2024-06-24 --ImmSight-Cat-20240624-1616-C2 11775-1
+  - Aitzkoa-2024-09-16 --ImmSight-Cat-20240916-1650-F2 12082-1
+  - Aitzkoa-2024-09-17 --ImmSight-Cat-20240917-1719-B7 9607-2 FDI
+  - Aitzkoa-2024-09-17 --ImmSight-Cat-20240917-1719-E7 A Detect Y015
+  - Aitzkoa-2024-09-23 --ImmSight-Cat-20240923-1547-A10 7442-4
+  - Aitzkoa-2024-10-08 --ImmSight-Cat-20241008-1817-C8 Adetect T161
+  - Aitzkoa-2024-11-04 --ImmSight-Cat-20241104-1636-G5 8756-3
+  - Aitzkoa-2024-11-11 --ImmSight-Cat-20241111-1701-D8 8750-3
+  - Aitzkoa-2024-11-11 --ImmSight-Cat-20241111-1701-G8 9875-2
+  xlim_+1000:
+  - Aitzkoa-2022-12-19---ImmSight-Cat-20221219-1619-A2 8958-2 FDI
+  - Aitzkoa-2022-12-20---ImmSight-Cat-20221220-1612-C2 A-Detect A037
+  - Aitzkoa-2023-04-03---ImmSight-Cat-20230403-1626-H9 10147-1
+  - Aitzkoa-2023-05-09---ImmSight-Cat-20230509-1649-A5 10254-1
+  - Aitzkoa-2023-11-07---ImmSight-Cat-20231107-1710-D11 Adetect P059
+  xlim_+200:
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-A5 8441-3
+  - Aitzkoa-2022-12-13---ImmSight-Cat-20221213-1741-C3 9926-1
+  - Aitzkoa-2023-01-10---ImmSight-Cat-20230110-1842-A5 9952-1
+  - Aitzkoa-2023-02-06---ImmSight-Cat-20230206-1619-C11 10016-1
+  - Aitzkoa-2023-02-07---ImmSight-Cat-20230207-1717-A9 10018-1
+  - Aitzkoa-2023-02-07---ImmSight-Cat-20230207-1717-D9 Adetect U027
+  - Aitzkoa-2023-02-14---ImmSight-Cat-20230214-1748-A8 7599-3
+  - Aitzkoa-2023-02-14---ImmSight-Cat-20230214-1748-B8 10033-1
+  - Aitzkoa-2023-02-14---ImmSight-Cat-20230214-1748-C8 10035-1
+  - Aitzkoa-2023-02-14---ImmSight-Cat-20230214-1748-F8 Adetect B034
+  - Aitzkoa-2023-02-27---ImmSight-Cat-20230227-1611-B8 8843-2
+  - Aitzkoa-2023-02-28---ImmSight-Cat-20230228-1653(1)-C11 7550-3
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1703-A8 7576-3
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1703-D8 10104-1
+  - Aitzkoa-2023-03-20---ImmSight-Cat-20230320-1709-B11 10449-1 FDI
+  - Aitzkoa-2023-03-21---ImmSight-Cat-20230321-1837-C1 10118-1
+  - Aitzkoa-2023-03-21---ImmSight-Cat-20230321-1837-E1 10120-1
+  - Aitzkoa-2023-03-27---ImmSight-Cat-20230327-1553-B7 10131-1
+  - Aitzkoa-2023-03-28---ImmSight-Cat-20230328-1643-D11 10137-1
+  - Aitzkoa-2023-03-28---ImmSight-Cat-20230328-1643-E11 10452-1 FDI
+  - Aitzkoa-2023-04-03---ImmSight-Cat-20230403-1626-F9 6534-4
+  - Aitzkoa-2023-04-04---ImmSight-Cat-20230404-1609-B2 10149-1
+  - Aitzkoa-2023-04-17---ImmSight-Cat-20230417-1826 (1)-C10 10185-1
+  - Aitzkoa-2023-04-18---ImmSight-Cat-20230418-1650(1)-E2 Adetect C046
+  - Aitzkoa-2023-04-25---ImmSight-Cat-20230425-1554-C2 10211-1
+  - Aitzkoa-2023-04-25---ImmSight-Cat-20230425-1554-D2 Adetect J040
+  - Aitzkoa-2023-05-16---ImmSight-Cat-20230516-1609-B11 10271-1
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-E2 6495-4 weird B panel
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-D8 10804-1
+  - Aitzkoa-2023-06-12---ImmSight-Cat-20230612-1623-G11 8994-2
+  - Aitzkoa-2023-06-20---ImmSight-Cat-20230620-1434-A8 10835-1
+  - Aitzkoa-2023-06-20---ImmSight-Cat-20230620-1434-B8 10836-1
+  - Aitzkoa-2023-07-10---ImmSight-Cat-20230710-1637-B8 10877-1
+  - Aitzkoa-2023-07-10---ImmSight-Cat-20230710-1637-D8 10878-1
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-A2 10880-1
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-D5 10997-1
+  - Aitzkoa-2023-09-25---ImmSight-Cat-20230925-1712-B8 8002-3
+  - Aitzkoa-2023-09-25---ImmSight-Cat-20230925-1712-D8 11015-1
+  - Aitzkoa-2023-09-26---ImmSight-Cat-20230926-1448-B11 9185-2
+  - Aitzkoa-2023-09-26---ImmSight-Cat-20230926-1448-C11 11019-1
+  - Aitzkoa-2023-10-10---ImmSight-Cat-20231010-1620-B5 Adetect E040
+  - Aitzkoa-2023-10-16---ImmSight-Cat-20231016-1520-A8 6756-4
+  - Aitzkoa-2023-10-17---ImmSight-Cat-20231017-1456-C11 Adetect P060
+  - Aitzkoa-2023-10-24---ImmSight-Cat-20231024-1706-G3 Adetect P054
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-B8 7845-3
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-A2 9557-2 FDI
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-B2 Adetect A043
+  - Aitzkoa-2023-11-20---ImmSight-Cat-20231120-1559-D5 9614-2 FDI
+  - Aitzkoa-2024-02-19---ImmSight-Cat-20240219-1443-H2 8305-3
+  - Aitzkoa-2024-02-20---ImmSight-Cat-20240220-1449-C5 Adetect P077
+  - Aitzkoa-2024-02-20---ImmSight-Cat-20240220-1449-D5 Adetect Y002
+  - Aitzkoa-2024-02-26---ImmSight-Cat-20240226-1647-A8 8318.3
+  - Aitzkoa-2024-02-27---ImmSight-Cat-20240227-1800-A11 Adetect S032
+  - Aitzkoa-2024-03-04---ImmSight-Cat-20240304-1511-C11 9593-2 FDI
+  - Aitzkoa-2024-03-05---ImmSight-Cat-20240305-1437-D8 Adetect T115
+  - Aitzkoa-2024-03-11---ImmSight-Cat-20240311-1511-A2 7212-4
+  - Aitzkoa-2024-03-18---ImmSight-Cat-20240318-1603-B5 7154-4
+  - Aitzkoa-2024-03-24---ImmSight-Cat-20240325-1447-H5 9750-2
+  - Aitzkoa-2024-04-09---ImmSight-Cat-20240409-1433-D2 9433-2
+  - Aitzkoa-2024-04-16---ImmSight-Cat-20240416-1556-C5 Adetect Y003
+  - Aitzkoa-2024-04-22---ImmSight-Cat-20240422-1640-F5 10471-FDI
+  - Aitzkoa-2024-05-06---ImmSight-Cat-20240506-1424-H11 10961-2
+  - Aitzkoa-2024-05-13---ImmSight-Cat-20240513-1607-E2 11370-2
+  - Aitzkoa-2024-05-20---ImmSight-Cat-20240520-1428-B5 9826-2
+  - Aitzkoa-2024-05-20---ImmSight-Cat-20240520-1428-C5 10335-2 FDI
+  - Aitzkoa-2024-05-28---ImmSight-Cat-20240528-1500-F5 10343-2 FDI
+  - Aitzkoa-2024-06-04 --ImmSight-Cat-20240604-1607-D8 Adetect T140
+  - Aitzkoa-2024-06-17 --ImmSight-Cat-20240617-1600-G11 10368-2 FDI
+  - Aitzkoa-2024-06-24 --ImmSight-Cat-20240624-1616-E2 11777-1
+  - Aitzkoa-2024-09-10 --ImmSight-Cat-20240910-1551-A2 7272-4
+  - Aitzkoa-2024-09-16 --ImmSight-Cat-20240916-1650-E2 8535-3
+  - Aitzkoa-2024-09-17 --ImmSight-Cat-20240917-1719-C7 A Detect P086
+  - Aitzkoa-2024-09-24 --ImmSight-Cat-20240924-1634-C2 Adetect M002
+  - Aitzkoa-2024-10-21 --ImmSight-Cat-20241021-1705-C2 9944-2
+  - Aitzkoa-2024-10-28 --ImmSight-Cat-20241028-1722-A5 7479-4
+  - Aitzkoa-2024-11-05 --ImmSight-Cat-20241105-1650-B8 A Detect Y025
+  - Aitzkoa-2024-11-11 --ImmSight-Cat-20241111-1701-F8 9742-2
+  - Aitzkoa-2025-01-27 --ImmSight-Cat-20250127-1730-H1 9976-2
+  - Aitzkoa-2025-01-28 --ImmSight-Cat-20250128-1911-D2 Adetect D044
+  xlim_+500:
+  - Aitzkoa-2023-01-16---ImmSight-Cat-20230116-1628-E2 8827-2
+  - Aitzkoa-2023-01-23---ImmSight-Cat-20230123-1539-E2 7392-3
+  - Aitzkoa-2023-01-24---ImmSight-Cat-20230124-1522-A5 9987-1
+  - Aitzkoa-2023-02-06---ImmSight-Cat-20230206-1619-A11 7623-3
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1644-D6 10104-1
+  - Aitzkoa-2023-03-20---ImmSight--20230320-1709-A11 8740-2
+  - Aitzkoa-2023-03-20---ImmSight-Cat-20230320-1709-A11 8740-2
+  - Aitzkoa-2023-03-27---ImmSight-Cat-20230327-1553-A7 7717-3
+  - Aitzkoa-2023-04-04---ImmSight-Cat-20230404-1609-C2 10150-1
+  - Aitzkoa-2023-04-11---ImmSight-Cat-20230411-1646-B6 10158-1
+  - Aitzkoa-2023-04-24---ImmSight-Cat-20230424-1653-H5 10204-1
+  - Aitzkoa-2023-05-08---ImmSight-Cat-20230508-1740-D2 10250-1
+  - Aitzkoa-2023-05-29---ImmSight-Cat-20230529-1551-G2 7828-3
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-E8 10806-1
+  - Aitzkoa-2023-09-25---ImmSight-Cat-20230925-1712-C8 8104-3
+  - Aitzkoa-2023-09-25---ImmSight-Cat-20230925-1712-E8 11016-1
+  - Aitzkoa-2023-09-26---ImmSight-Cat-20230926-1448-E11 Adetect A042
+  - Aitzkoa-2023-10-24---ImmSight-Cat-20231024-1706-H3 Adetect S026
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-E8 9168-2
+  - Aitzkoa-2023-11-20---ImmSight-Cat-20231120-1559-A5 8083-3
+  - Aitzkoa-2024-04-09---ImmSight-Cat-20240409-1433-E2 Adetect O017
+  - Aitzkoa-2024-10-07 --ImmSight-Cat-20241007-1735-C5 9720-2
+  - Aitzkoa-2024-11-18 --ImmSight-Cat-20241118-1655-A11 8952-3 FDI
+  xlim_-100:
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-2001-C12 10084-1
+  ylim_-100:
+  - Aitzkoa-2023-01-31---ImmSight-Cat-20230131-1600-E5 10001-1
+  - Aitzkoa-2023-02-21---ImmSight-Cat-20230221-1708-H6 10046-1
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-B5 9100-2
+  - Aitzkoa-2023-11-28---ImmSight-Cat-20231128-1637-A8 8088-3
+  ylim_-200:
+  - Aitzkoa-2022-12-19---ImmSight-Cat-20221219-1619-B2 8822-2 FDI
+  - Aitzkoa-2023-05-15---ImmSight-Cat-20230515-1619-A8 7788-3
+  - Aitzkoa-2023-10-16---ImmSight-Cat-20231016-1520-B8 8093-3
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-E1 6495-4 old B panel
+  - Aitzkoa-2023-11-07---ImmSight-Cat-20231107-1710-B11 9272-2
+  - Aitzkoa-2023-12-04---ImmSight-Cat-20231204-1447-B11 9307-2
+  - Aitzkoa-2024-02-27---ImmSight-Cat-20240227-1800-A11 Adetect S032
+  - Aitzkoa-2024-03-11---ImmSight-Cat-20240311-1511-A2 7212-4
+CD19 Gating:
+  xlim=200:
+  - Aitzkoa-2023-02-20---ImmSight-Cat-20230220-1557-B5 8902-2 FDI
+  - Aitzkoa-2023-02-20---ImmSight-Cat-20230220-1557-D5 10044-1
+  - Aitzkoa-2023-02-20---ImmSight-Cat-20230220-1557-C5 10043-1
+  xlim=400:
+  - Aitzkoa-2025-02-11 --ImmSight-Cat-20250211-1815-B11 Adetect P091
+  - Aitzkoa-2025-02-11 --ImmSight-Cat-20250211-1741-B11 Adetect P091
+  - Aitzkoa-2025-02-10 --ImmSight-Cat-20250210-1800-F8 10454-2 FDI
+Monocyte Gating:
+  CUSTOM_hi=1800:
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-A5 8441-3
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-B5 8510-3 FDI
+  CUSTOM_lo=1800:
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-B5 8510-3 FDI
+  - Aitzkoa-2023-09-05---ImmSight-Cat-20230905-1727-H1 7927-3
+  CUSTOM_lo=800:
+  - Aitzkoa-2023-10-17---ImmSight-Cat-20231017-1456-B11 Adetect F025
+  CUSTOM_lo=1100:
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-B2 10881-1
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-D5 Adetect Y016
+  CUSTOM_lo=1500:
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-A5 8441-3
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-C5 7273-4
+  CUSTOM_y+1000:
+  - Aitzkoa-2023-02-07---ImmSight-Cat-20230207-1717-A9 10018-1
+  - Aitzkoa-2023-11-07---ImmSight-Cat-20231107-1710-D11 Adetect P059
+  - Aitzkoa-2024-04-08---ImmSight-Cat-20240408-1615-C2 9588-2
+  CUSTOM_y-1000:
+  - Aitzkoa-2023-12-04---ImmSight-Cat-20231204-1447-B11 9307-2
+  - Aitzkoa-2024-02-27---ImmSight-Cat-20240227-1800-A11 Adetect S032
+  - Aitzkoa-2024-03-26---ImmSight-Cat-20240326-1645-G8 Adetect P074
+  - Aitzkoa-2024-10-22 --ImmSight-Cat-20241022-1817-G12 A Detect P079
+  CUSTOM_y-2000:
+  - Aitzkoa-2022-12-13---ImmSight-Cat-20221213-1741-C3 9926-1
+  - Aitzkoa-2023-01-23---ImmSight-Cat-20230123-1539-H2 9985-1
+  - Aitzkoa-2023-02-14---ImmSight-Cat-20230214-1748-C8 10035-1
+  - Aitzkoa-2023-05-15---ImmSight-Cat-20230515-1619-A8 7788-3
+  - Aitzkoa-2023-05-15---ImmSight-Cat-20230515-1619-B8 7877-3
+  - Aitzkoa-2023-05-16---ImmSight-Cat-20230516-1609-A11 8924-3 FDI
+  - Aitzkoa-2023-06-26---ImmSight-Cat-20230626-1642-B11 10842-1
+  - Aitzkoa-2023-07-03---ImmSight-Cat-20230703-1709-A2 7523-3
+  - Aitzkoa-2023-07-03---ImmSight-Cat-20230703-1709-E2 10859-1
+  - Aitzkoa-2023-10-03---ImmSight-Cat-20231003-1446-A2 ADetect B049
+  - Aitzkoa-2024-01-23---ImmSight-Cat-20240123-1550-G8 Adetect U051
+  - Aitzkoa-2024-02-20---ImmSight-Cat-20240220-1449-A5 9421-2
+  - Aitzkoa-2024-03-05---ImmSight-Cat-20240305-1437-E8 Adetect T136
+  - Aitzkoa-2024-03-24---ImmSight-Cat-20240325-1447-H5 9750-2
+  - Aitzkoa-2024-05-20---ImmSight-Cat-20240520-1428-B5 9826-2
+  - Aitzkoa-2024-10-28 --ImmSight-Cat-20241028-1722-D5 10440-2 FDI
+  - Aitzkoa-2024-12-16  --ImmSight-Cat-20241216-1713-D5 8800-3 FDI
+  - Aitzkoa-2024-12-17 --ImmSight-Cat-20241217-1745-B8 Adetect S051
+  - Aitzkoa-2025-01-07 --ImmSight-Cat-20250107-1550-F5 Adetect I058
+  - Aitzkoa-2025-01-07 --ImmSight-Cat-20250107-1550-H5 Adetect V011
+  - Aitzkoa-2025-01-20 --ImmSight-Cat-20250120-1641-C11 7623-4
+  - Aitzkoa-Comp 2024-09-09 --ImmSight-Cat-20240909-1919-F3 7333-4
+  - Aitzkoa-2023-09-11---ImmSight-Cat-20230911-1704-C8 10970-1
+  CUSTOM_y-3000:
+  - Aitzkoa-2023-01-10---ImmSight-Cat-20230110-1842-A5 9952-1
+  - Aitzkoa-2024-11-04 --ImmSight-Cat-20241104-1636 (1)-H5 10009-2
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-G5 Adetect T098
+  - Aitzkoa-2022-12-19---ImmSight-Cat-20221219-1619-C2 8953-2 FDI
+  - Aitzkoa-2023-01-17---ImmSight-Cat-20230117-1641-A2 8767-2
+  - Aitzkoa-2023-02-14---ImmSight-Cat-20230214-1748-E8 Adetect A039
+  - Aitzkoa-2023-03-28---ImmSight-Cat-20230328-1643-F11 Adetect C043-1
+  - Aitzkoa-2023-07-10---ImmSight-Cat-20230710-1637-C8 Adetect B040
+  - Aitzkoa-2024-09-23 --ImmSight-Cat-20240923-1547-B10 8788-3 FDI
+  - Aitzkoa-2024-09-24 --ImmSight-Cat-20240924-1634-D2 Adetect P087
+  - Aitzkoa-2024-12-17 --ImmSight-Cat-20241217-1745-C8 Adetect T180
+  - Aitzkoa-2025-01-20 --ImmSight-Cat-20250120-1641-B11 7455-1
+  CUSTOM_y-4000:
+  - Aitzkoa-2025-01-07 --ImmSight-Cat-20250107-1550-G5 Adetect S050
+  - Aitzkoa-2025-01-20 --ImmSight-Cat-20250120-1641-D11 10058-2
+  - Aitzkoa-2023-01-09---ImmSight-Cat-20230109-1615-B2 9946-1
+  - Aitzkoa-2025-01-27 --ImmSight-Cat-20250127-1730-H1 9976-2
+  CUSTOM_y=20000:
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-A5 8441-3
+  CUSTOM_y=10000:
+  - Aitzkoa-2023-09-05---ImmSight-Cat-20230905-1727-H1 7927-3
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-B5 8510-3 FDI
+  CUSTOM_y=1000:
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-F2 Adetect T112
+  - Aitzkoa-2025-01-27 --ImmSight-Cat-20250127-1730-G1 9864-2
+  CUSTOM_y=2000:
+  - Aitzkoa-2025-01-27 --ImmSight-Cat-20250127-1730-G1 9864-2
+  - Aitzkoa-2024-10-14 --ImmSight-Cat-20241014-1713-H8 9739-2
+  - Aitzkoa-2025-03-24 --ImmSight-Cat-20250324-1548-A2 9029-3
+  - Aitzkoa-2023-01-31---ImmSight-Cat-20230131-1600-E5 10001-1
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-F2 Adetect T112
+  CUSTOM_y=3000:
+  - Aitzkoa-2025-09-22 --ImmSight-Cat-20250922-1629-E2 13084-1
+  - Aitzkoa-2024-12-09 --ImmSight-Cat-20241209-1718-G2 9735-2
+  - Aitzkoa-2025-04-29 --ImmSight-Cat-20250429-1502-E11 A Detect E055
+  CUSTOM_y=8000:
+  - Aitzkoa-2025-09-08 --ImmSight-Cat-20250908-1726-G11 13055-1
+  - Aitzkoa-2025-09-09 --ImmSight-Cat-20250909-1604-F8 A Detect Q053
+  - Aitzkoa-2025-09-08 --ImmSight-Cat-20250908-1726-C11 10937-2
+  - Aitzkoa-2025-09-08 --ImmSight-Cat-20250908-1726-A11 9068-3
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-C5 7273-4
+  hi+100:
+  - Aitzkoa-2023-02-14---ImmSight-Cat-20230214-1748-D8 10036-1
+  - Aitzkoa-2023-03-28---ImmSight-Cat-20230328-1643-E11 10452-1 FDI
+  - Aitzkoa-2023-06-20---ImmSight-Cat-20230620-1434-A8 10835-1
+  - Aitzkoa-2023-06-27---ImmSight-Cat-20230627-1609-G11 Adetect D039
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-B2 10881-1
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-C2 10882-1
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-D2 10883-1
+  - Aitzkoa-2023-09-11---ImmSight-Cat-20230911-1704-C8 10970-1
+  - Aitzkoa-2023-09-18---ImmSight-Cat-20230918-1528-A2 8293-2
+  - Aitzkoa-2023-09-18---ImmSight-Cat-20230918-1528-C2 9268-2
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-F5 Adetect T087
+  - Aitzkoa-2023-10-17---ImmSight-Cat-20231017-1456-A11 9372-2
+  - Aitzkoa-2023-10-29---ImmSight-Cat-20231030-1556-A5 7923-3
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-A2 9557-2 FDI
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-A2 8053-3
+  - Aitzkoa-2023-12-12---ImmSight-Cat-20231212-1554-A6 9263-2
+  - Aitzkoa-2023-12-19---ImmSight-Cat-20231219-1602-C8 Adetect T104
+  - Aitzkoa-2024-03-05---ImmSight-Cat-20240305-1437-E8 Adetect T136
+  - Aitzkoa-2024-04-08---ImmSight-Cat-20240408-1615-C2 9588-2
+  - Aitzkoa-2024-05-28---ImmSight-Cat-20240528-1500-H5 Adetect T133
+  - Aitzkoa-2024-06-04 --ImmSight-Cat-20240604-1607-D8 Adetect T140
+  - Aitzkoa-2024-06-10 --ImmSight-Cat-20240610-1624-E8 9724-2
+  - Aitzkoa-2024-09-10 --ImmSight-Cat-20240910-1551-C2 Adetect A056
+  - Aitzkoa-2023-09-11---ImmSight-Cat-20230911-1704-C8 10970-1
+  - Aitzkoa-2023-10-17---ImmSight-Cat-20231017-1456-B11 Adetect F025
+  - Aitzkoa-2024-06-04 --ImmSight-Cat-20240604-1607-C8 Adetect T120
+  hi+200:
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-A2 10880-1
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-E2 10884-1
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-A5 7851-2
+  - Aitzkoa-2023-10-23---ImmSight-Cat-20231023-1441-B2 11090-1
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-B2 Adetect A043
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-A2 9557-2 FDI
+  - Aitzkoa-2023-12-19---ImmSight-Cat-20231219-1602-B8 Adetect P070
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-D5 Adetect Y016
+  hi+500:
+  - Aitzkoa-2024-03-05---ImmSight-Cat-20240305-1437-D8 Adetect T115
+  - Aitzkoa-2023-09-05---ImmSight-Cat-20230905-1727-H1 7927-3
+  hi-100:
+  - Aitzkoa-2023-04-24---ImmSight-Cat-20230424-1653-G5 7765-3
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-C5 Adetect K011
+  - Aitzkoa-2023-09-26---ImmSight-Cat-20230926-1448-D11 11020-1
+  - Aitzkoa-2024-03-18---ImmSight-Cat-20240318-1603-C5 8408-3
+  - Aitzkoa-2024-09-24 --ImmSight-Cat-20240924-1634-E2 Adetect S047
+  - Aitzkoa-2024-10-28 --ImmSight-Cat-20241028-1722-D5 10440-2 FDI
+  hi-200:
+  - Aitzkoa-2023-04-24---ImmSight-Cat-20230424-1653-H5 10204-1
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1703-B8 8914-2 FDI
+  - Aitzkoa-2023-04-25---ImmSight-Cat-20230425-1554-B2 10209-1
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-A5 6495-4
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-D2 Adetect J054
+  - Aitzkoa-2024-09-17 --ImmSight-Cat-20240917-1719-B7 9607-2 FDI
+  - Aitzkoa-2024-09-23 --ImmSight-Cat-20240923-1547-E10 9913-2
+  - Aitzkoa-2024-10-21 --ImmSight-Cat-20241021-1705-B2 9698-2
+  - Aitzkoa-2024-12-02 --ImmSight-Cat-20241202-1655-A2 7443-4
+  - Aitzkoa-2024-12-17 --ImmSight-Cat-20241217-1745-B8 Adetect S051
+  - Aitzkoa-2025-01-28 --ImmSight-Cat-20250128-1911-E2 Adetect T169
+  - Aitzkoa-2025-02-03 --ImmSight-Cat-20250203-1600-F2 9983-2
+  lo+100:
+  - Aitzkoa-2024-12-02 --ImmSight-Cat-20241202-1655-C2 8760-3
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-D5 Adetect Y016
+  - Aitzkoa-2023-06-20---ImmSight-Cat-20230620-1434-B8 10836-1
+  - Aitzkoa-2023-07-10---ImmSight-Cat-20230710-1637-A8 10876-1
+  - Aitzkoa-2023-07-10---ImmSight-Cat-20230710-1637-C8 Adetect B040
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-E2 10884-1
+  - Aitzkoa-2023-09-18---ImmSight-Cat-20230918-1528-B2 9102-2
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-D5 10997-1
+  - Aitzkoa-2023-10-16---ImmSight-Cat-20231016-1520-B8 8093-3
+  - Aitzkoa-2023-12-19---ImmSight-Cat-20231219-1602-B8 Adetect P070
+  - Aitzkoa-2024-03-05---ImmSight-Cat-20240305-1437-D8 Adetect T115
+  - Aitzkoa-2024-06-10 --ImmSight-Cat-20240610-1624-E8 9724-2
+  - Aitzkoa-2024-06-11 --ImmSight-Cat-20240611-1629-C11 Adetect Q003
+  - Aitzkoa-2024-11-11 --ImmSight-Cat-20241111-1701-E8 8822-3 FDI
+  lo+200:
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-B2 10881-1
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-D2 10883-1
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-B5 9100-2
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-C5 10996-1
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-E5 Adetect T083
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-A2 9557-2 FDI
+  lo-200:
+  - Aitzkoa-2024-09-17 --ImmSight-Cat-20240917-1719-A7 10401-2 FDI
+  ylim+100:
+  - Aitzkoa-2024-01-29---ImmSight-Cat-20240129-1630-G11 11316-1
+  - Aitzkoa-2023-07-04---ImmSight-Cat-20230704-1648-A5 10862-1
+  - Aitzkoa-2024-03-05---ImmSight-Cat-20240305-1437-E8 Adetect T136
+  ylim-200:
+  - Aitzkoa-2023-04-24---ImmSight-Cat-20230424-1653-H5 10204-1
+  CD16_range_100_6000:
+  - Aitzkoa-2025-03-24 --ImmSight-Cat-20250324-1548-A2 9029-3
+  CD16_range_2000:
+  - Aitzkoa-2024-06-11 --ImmSight-Cat-20240611-1629-C11 Adetect Q003
+  - Aitzkoa-2024-03-26---ImmSight-Cat-20240326-1645-G8 Adetect P074
+  - Aitzkoa-2023-10-17---ImmSight-Cat-20231017-1456-B11 Adetect F025
+  - Aitzkoa-2024-09-23 --ImmSight-Cat-20240923-1547-D10 9701-2
+  - Aitzkoa-2025-04-14 --ImmSight-Cat-20250414-1607-B8 10134-2
+  CD16lim=200:
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-B5 9266-2
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-C5 12988-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-D5 12989-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-E5 12990-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-F5 12991-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-G5 12992-1
+  - Aitzkoa-2025-08-26 --ImmSight-Cat-20250826-1455-E2 12995-1
+  - Aitzkoa-2025-08-26 --ImmSight-Cat-20250826-1455-F2 A Detect O036
+  - Aitzkoa-2024-10-14 --ImmSight-Cat-20241014-1713-H8 9739-2
+  CD16lim=5000:
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-A5 8441-3 
+  CD16lim=500:
+  - Aitzkoa-2025-09-08 --ImmSight-Cat-20250908-1726-D11 10957-2
+  - Aitzkoa-2024-12-09 --ImmSight-Cat-20241209-1718-G2 9735-2
+  - Aitzkoa-2025-01-27 --ImmSight-Cat-20250127-1730-G1 9864-2
+  CD16lim=1000:
+  - Aitzkoa-2025-09-08 --ImmSight-Cat-20250908-1726-F11 13054-1
+  - Aitzkoa-2023-01-31---ImmSight-Cat-20230131-1600-E5 10001-1
+  - Aitzkoa-2023-05-15---ImmSight-Cat-20230515-1619-E8 10269-1
+  CD16lim=2000:
+  - Aitzkoa-2025-09-09 --ImmSight-Cat-20250909-1604-F8 A Detect Q053
+  - Aitzkoa-2023-01-30---ImmSight-Cat-20230130-1602-B6 9998-1
+  - Aitzkoa-2025-04-15 --ImmSight-Cat-20250415-1511-C11 Adetect T187
+  - Aitzkoa-2024-09-23 --ImmSight-Cat-20240923-1547-B10 8788-3 FDI 
+  - Aitzkoa-2024-04-30---ImmSight-Cat-20240430-1518-A11 Adetect F035
+  - Aitzkoa-2024-12-16  --ImmSight-Cat-20241216-1713-D5 8800-3 FDI
+  - Aitzkoa-2023-10-17---ImmSight-Cat-20231017-1456-B11 Adetect F025
+  - Aitzkoa-2024-06-17 --ImmSight-Cat-20240617-1600-F11 9769-2
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-D5 Adetect Y016
+  - Aitzkoa-2023-02-28---ImmSight-Cat-20230228-1701-E11 10064-1
+  CD16lim=3000:
+  - Aitzkoa-2024-09-23 --ImmSight-Cat-20240923-1547-A10 7442-4 
+  - Aitzkoa-2024-06-11 --ImmSight-Cat-20240611-1629-A11 10348-2 FDI
+  - Aitzkoa-2024-06-10 --ImmSight-Cat-20240610-1624-F8 10361-2 FDI
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-C8 10803-1
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-C5 7273-4
+  CD16lim=4000:
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-B5 8510-3 FDI
+  - Aitzkoa-2023-06-13---ImmSight-Cat-20230613-1638-D2 10825-1
+NK Gating:
+  CUSTOM_y2=600:
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-B5 9266-2
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-C5 12988-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-D5 12989-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-E5 12990-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-F5 12991-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-G5 12992-1
+  - Aitzkoa-2025-08-26 --ImmSight-Cat-20250826-1455-E2 12995-1
+  - Aitzkoa-2025-08-26 --ImmSight-Cat-20250826-1455-F2 A Detect O036
+  CD16=5000:
+  - Aitzkoa-2025-04-28 --ImmSight-Cat-20250428-1517-G8 10140-2
+  CD16=10000:
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-A5 8441-3
+  CUSTOM_x=1000:
+  - Aitzkoa-2023-02-27---ImmSight-Cat-20230227-1611-B8 8843-2
+  - Aitzkoa-2025-03-24 --ImmSight-Cat-20250324-1548-B2 10078-2
+  CUSTOM_x=2000:
+  - Aitzkoa-2024-10-14 --ImmSight-Cat-20241014-1713-G8 9003-3
+  - Aitzkoa-2024-10-21 --ImmSight-Cat-20241021-1705-A2 8547-3 FDI
+  - Aitzkoa-2025-01-07 --ImmSight-Cat-20250107-1550-H5 Adetect V011
+  - Aitzkoa-2025-02-17 --ImmSight-Cat-20250217-1643-B2 9829-2
+  - Aitzkoa-2025-02-17 --ImmSight-Cat-20250217-1643-C2 9920-2
+  - Aitzkoa-2025-02-17 --ImmSight-Cat-20250217-1643-D2 10030-2
+  - Aitzkoa-2025-02-17 --ImmSight-Cat-20250217-1643-E2 10094-2
+  - Aitzkoa-2025-02-24 --ImmSight-Cat-20250224-1652-H5 10248-2
+  - Aitzkoa-2025-03-18 --ImmSight-Cat-20250318-1607-B11 8967-3
+  - Aitzkoa-2025-03-31 --ImmSight-Cat-20250331-1546-G2 10138-2
+  - Aitzkoa-2025-05-05 --ImmSight-Cat-20250505-1501-G11 8479-4 FDI
+  CUSTOM_x=300:
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-B5 9266-2
+  - Aitzkoa-2024-10-14 --ImmSight-Cat-20241014-1713-H8 9739-2
+  - Aitzkoa-2025-08-26 --ImmSight-Cat-20250826-1455-F2 A Detect O036
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-G5 12992-1
+  - Aitzkoa-2025-08-26 --ImmSight-Cat-20250826-1455-E2 12995-1
+  CUSTOM_x=3000:
+  - Aitzkoa-2025-09-30 --ImmSight-Cat-20250930-1454-H5 A Detect S064
+  - Aitzkoa-2024-02-27---ImmSight-Cat-20240227-1800-B11 Adetect T126
+  - Aitzkoa-2024-04-02---ImmSight-Cat-20240402-1431-A11 9389-2 FDI
+  - Aitzkoa-2024-11-11 --ImmSight-Cat-20241111-1701-G8 9875-2
+  - Aitzkoa-2024-12-09 --ImmSight-Cat-20241209-1718-H2 9916-2
+  - Aitzkoa-2025-01-28 --ImmSight-Cat-20250128-1911-E2 Adetect T169
+  - Aitzkoa-2025-04-07 --ImmSight-Cat-20250407-1526-C5 10150-2
+  - Aitzkoa-2025-04-15 --ImmSight-Cat-20250415-1511-B11 Adetect K030
+  CUSTOM_x=4000:
+  - Aitzkoa-2024-04-16---ImmSight-Cat-20240416-1556-A5 8294-3
+  - Aitzkoa-2024-05-14---ImmSight-Cat-20240514-1540-H2 Adetect T135
+  CUSTOM_x=200:
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-B5 9266-2
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-C5 12988-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-D5 12989-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-E5 12990-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-F5 12991-1
+  CUSTOM_x=800:
+  - Aitzkoa-2025-03-03 --ImmSight-Cat-20250303-1548-E8 10162-2
+  CUSTOM_sigma+4:
+  - Aitzkoa-2025-09-08 --ImmSight-Cat-20250908-1726-E11 10981-2
+  - Aitzkoa-2025-09-08 --ImmSight-Cat-20250908-1726-F11 13054-1
+  - Aitzkoa-2025-07-07 --ImmSight-Cat-20250707-1422-B5 12906-1
+  - Aitzkoa-2025-09-30 --ImmSight-Cat-20250930-1454-G5 A Detect M005
+  - Aitzkoa-2023-05-15---ImmSight-Cat-20230515-1619-A8 7788-3
+  - Aitzkoa-2024-02-20---ImmSight-Cat-20240220-1449-C5 Adetect P077
+  - Aitzkoa-2024-03-26---ImmSight-Cat-20240326-1645-G8 Adetect P074
+  - Aitzkoa-2024-04-23---ImmSight-Cat-20240423-1519-A8 7105-4
+  - Aitzkoa-2024-10-28 --ImmSight-Cat-20241028-1722-A5 7479-4
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-A5 8441-3
+  - Aitzkoa-2023-10-31---ImmSight-Cat-20231031-1424-D5 Adetect T109
+  - Aitzkoa-2025-03-25 --ImmSight-Cat-20250325-1515-D2 A Detect E050
+  CUSTOM_y1=1000:
+  - Aitzkoa-2025-09-30 --ImmSight-Cat-20250930-1454-H5 A Detect S064
+  - Aitzkoa-2025-09-22 --ImmSight-Cat-20250922-1629-B2 9326-4
+  - Aitzkoa-2023-10-31---ImmSight-Cat-20231031-1424-D5 Adetect T109
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-G5 Adetect T098
+  - Aitzkoa-2023-11-28---ImmSight-Cat-20231128-1637-D8 Adetect I047
+  - Aitzkoa-2023-11-28---ImmSight-Cat-20231128-1637-E8 Adetect S028
+  - Aitzkoa-2024-10-28 --ImmSight-Cat-20241028-1722-A5 7479-4
+  CUSTOM_y1=800:
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-B5 9266-2
+  - Aitzkoa-2024-02-20---ImmSight-Cat-20240220-1449-C5 Adetect P077
+  - Aitzkoa-2025-01-13 --ImmSight-Cat-20250113-1600-F8 10450-2 FDI
+  - Aitzkoa-2025-04-14 --ImmSight-Cat-20250414-1607-B8 10134-2
+  CUSTOM_y1=600:
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-B5 9266-2
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-C5 12988-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-D5 12989-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-E5 12990-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-F5 12991-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-G5 12992-1
+  - Aitzkoa-2025-08-26 --ImmSight-Cat-20250826-1455-E2 12995-1
+  - Aitzkoa-2025-08-26 --ImmSight-Cat-20250826-1455-F2 A Detect O036
+  CUSTOM_y1=200:
+  - Aitzkoa-2022-12-19---ImmSight-Cat-20221219-1619-A2 8958-2 FDI
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-A5 8441-3
+  sigma_1:
+  - Aitzkoa-2025-06-09 --ImmSight-Cat-20250609-1546-C11 10278-2
+  - Aitzkoa-2025-06-09 --ImmSight-Cat-20250609-1546-A11 9098-3 FDI
+  - Aitzkoa-2025-09-29 --ImmSight-Cat-20250929-1634-C5 13097-1
+  - Aitzkoa-2025-09-23 --ImmSight-Cat-20250923-1550-F2 A Detect F055
+  - Aitzkoa-2025-05-13 --ImmSight-Cat-20250513-1621-F2 Adetect S060
+  - Aitzkoa-2025-06-17 --ImmSight-Cat-20250617-1803-A2 10217-2
+  - Aitzkoa-2025-06-17 --ImmSight-Cat-20250617-1803-C2 Adetect B059
+  - Aitzkoa-2025-06-17 --ImmSight-Cat-20250617-1803-B2 10872-2
+  - Aitzkoa-2025-09-09 --ImmSight-Cat-20250909-1604-G8 A Detect Y041
+  - Aitzkoa-2025-09-09 --ImmSight-Cat-20250909-1604-F8 A Detect Q053
+  - Aitzkoa-2025-05-27 --ImmSight-Cat-20250527-1502-B8 A Detect E053
+  - Aitzkoa-2025-05-27 --ImmSight-Cat-20250527-1502-A8 7938-4
+  - Aitzkoa-2025-05-26 --ImmSight-Cat-20250526-1538-E5 9099-3 FDI
+  - Aitzkoa-2025-08-04 --ImmSight-Cat-20250804-1535-B11 12949-1
+  - Aitzkoa-2025-05-19 --ImmSight-Cat-20250519-1454-G2 7927-4
+  - Aitzkoa-2025-05-06 --ImmSight-Cat-20250506-1437-C2 A Detect T194
+  - Aitzkoa-2025-05-06 --ImmSight-Cat-20250506-1437-A2 7756-4
+  - Aitzkoa-2024-10-14 --ImmSight-Cat-20241014-1713-E8 8652-3 FDI
+  - Aitzkoa-2025-01-13 --ImmSight-Cat-20250113-1600-E8 9880-2
+  - Aitzkoa-2023-06-12---ImmSight-Cat-20230612-1623-G11 8994-2
+  - Aitzkoa-2025-02-10 --ImmSight-Cat-20250210-1800-D8 8740-3 FDI
+  - Aitzkoa-2025-02-10 --ImmSight-Cat-20250210-1800-E8 10452-2 FDI
+  - Aitzkoa-2025-02-11 --ImmSight-Cat-20250211-1741-D11 Adetect Y026
+  - Aitzkoa-2025-02-18 --ImmSight-Cat-20250218-1536-H2 A Detect N064
+  - Aitzkoa-2025-02-24 --ImmSight-Cat-20250224-1652-G5 9010-3
+  - Aitzkoa-2025-03-04 --ImmSight-Cat-20250304-1533-C8 A Detect N062
+  - Aitzkoa-2025-03-18 --ImmSight-Cat-20250318-1607-C11 A Detect Q041
+  - Aitzkoa-2025-03-18 --ImmSight-Cat-20250318-1607-E11 A Detect Y024
+  - Aitzkoa-2025-04-01 --ImmSight-Cat-20250401-1512-H2 A Detect V009
+  - Aitzkoa-2025-04-07 --ImmSight-Cat-20250407-1526-B5 10149-2
+  - Aitzkoa-2025-04-07 --ImmSight-Cat-20250407-1526-D5 10458-2 FDI
+  - Aitzkoa-2025-04-08 --ImmSight-Cat-20250408-1527-F5 A Detect Q046
+  - Aitzkoa-2025-04-15 --ImmSight-Cat-20250415-1511-C11 Adetect T187
+  - Aitzkoa-2025-04-15 --ImmSight-Cat-20250415-1511-D11 Adetect V013
+  - Aitzkoa-2025-04-28 --ImmSight-Cat-20250428-1517-E8 8939-3
+  - Aitzkoa-2025-04-29 --ImmSight-Cat-20250429-1502-F11 A Detect P094
+  - Aitzkoa-2025-05-05 --ImmSight-Cat-20250505-1501-H11 9072-3
+  - Aitzkoa-2025-05-12 --ImmSight-Cat-20250512-1727-E2 10213-2
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-D8 9117-2
+  - Aitzkoa-2024-03-05---ImmSight-Cat-20240305-1437-E8 Adetect T136
+  - Aitzkoa-2025-02-11 --ImmSight-Cat-20250211-1741-A11 10435-2 FDI
+  - Aitzkoa-2025-02-11 --ImmSight-Cat-20250211-1741-C11 Adetect V006
+  - Aitzkoa-2025-02-17 --ImmSight-Cat-20250217-1643-A2 8921-3
+  sigma_0.5:
+  - Aitzkoa-2025-02-25 --ImmSight-Cat-20250225-1519-G8 A Detect Q039
+  - Aitzkoa-2025-03-24 --ImmSight-Cat-20250324-1548-C2 10119-2
+  - Aitzkoa-2025-04-08 --ImmSight-Cat-20250408-1527-E5 10114-2
+  - Aitzkoa-2025-04-08 --ImmSight-Cat-20250408-1527-G5 A Detect V002
+  - Aitzkoa-2025-04-14 --ImmSight-Cat-20250414-1607-C8 10147-2
+  - Aitzkoa-2025-04-15 --ImmSight-Cat-20250415-1511-A11 Adetect K029
+  sigma_1.5:
+  - Aitzkoa-2025-06-24 --ImmSight-Cat-20250624-1546-G2 A Detect Y036
+  - Aitzkoa-2025-09-08 --ImmSight-Cat-20250908-1726-C11 10937-2
+  - Aitzkoa-2025-05-20 --ImmSight-Cat-20250520-1425-D5 A Detect K033
+  - Aitzkoa-2025-05-20 --ImmSight-Cat-20250520-1425-B5 A Detect F047
+  - Aitzkoa-2025-05-20 --ImmSight-Cat-20250520-1425-A5 10459-2 FDI
+  - Aitzkoa-2025-09-01 --ImmSight-Cat-20250901-1720-A8 10920-2
+  - Aitzkoa-2024-11-05 --ImmSight-Cat-20241105-1650-B8 A Detect Y025
+  - Aitzkoa-2025-03-31 --ImmSight-Cat-20250331-1546-F2 8924-3 FDI
+  - Aitzkoa-2023-06-12---ImmSight-Cat-20230612-1623-G11 8994-2
+  - Aitzkoa-2023-10-10---ImmSight-Cat-20231010-1620-C5 Adetect J049
+  - Aitzkoa-2024-03-26---ImmSight-Cat-20240326-1645-F8 9269-2 FDI
+  - Aitzkoa-2025-01-21 --ImmSight-Cat-20250121-1606-H11 Adetect T177
+  - Aitzkoa-2024-03-11---ImmSight-Cat-20240311-1511-D2 9540-2
+  - Aitzkoa-2024-05-06---ImmSight-Cat-20240506-1424-H11 10961-2
+  - Aitzkoa-2024-06-03--ImmSight-Cat-20240603-1608-B8 10358-2 FDI
+  - Aitzkoa-2024-10-07 --ImmSight-Cat-20241007-1735-C5 9720-2
+  - Aitzkoa-2024-10-08 --ImmSight-Cat-20241008-1817-B8 Adetect Q013
+  - Aitzkoa-2024-11-11 --ImmSight-Cat-20241111-1701-E8 8822-3 FDI
+  - Aitzkoa-2024-12-16  --ImmSight-Cat-20241216-1713-E5 9878-2
+  - Aitzkoa-2024-12-17 --ImmSight-Cat-20241217-1745-A8 Adetect R008
+  - Aitzkoa-2024-12-17 --ImmSight-Cat-20241217-1745-D8 10189-2
+  - Aitzkoa-2024-11-12 --ImmSight-Cat-20241112-1619-H8 A Detect Q015
+  - Aitzkoa-2025-02-25 --ImmSight-Cat-20250225-1519-F8 A Detect Q037
+  - Aitzkoa-2025-03-18 --ImmSight-Cat-20250318-1607-D11 A Detect V018
+  - Aitzkoa-2025-05-06 --ImmSight-Cat-20250506-1437-B2 A Detect F048
+  sigma_2:
+  - Aitzkoa-2025-06-09 --ImmSight-Cat-20250609-1546-B11 10082-2
+  - Aitzkoa-2025-06-03 --ImmSight-Cat-20250603-1504-G8 A Detect T188
+  - Aitzkoa-2025-09-29 --ImmSight-Cat-20250929-1634-D5 13098-1
+  - Aitzkoa-2025-08-11 --ImmSight-Cat-20250811-1615-F11 10806-2
+  - Aitzkoa-2025-08-11 --ImmSight-Cat-20250811-1615-H11 12959-1
+  - Aitzkoa-2025-09-22 --ImmSight-Cat-20250922-1629-D2 13083-1
+  - Aitzkoa-2025-09-22 --ImmSight-Cat-20250922-1629-C2 13081-1
+  - Aitzkoa-2025-06-17 --ImmSight-Cat-20250617-1803-D2 Adetect P101
+  - Aitzkoa-2025-08-12 --ImmSight-Cat-20250812-1609-D2 12963-1
+  - Aitzkoa-2025-08-12 --ImmSight-Cat-20250812-1609-A2 12960-1
+  - Aitzkoa-2025-08-12 --ImmSight-Cat-20250812-1609-B2 12961-1
+  - Aitzkoa-2025-07-22 --ImmSight-Cat-20250722-1541-B8 12943-1
+  - Aitzkoa-2025-07-22 --ImmSight-Cat-20250722-1541-A8 10188-2
+  - Aitzkoa-2025-06-16 --ImmSight-Cat-20250616-1519-F11 10814-2
+  - Aitzkoa-2025-07-29 --ImmSight-Cat-20250729-1529-F8 12946-1
+  - Aitzkoa-2025-05-27 --ImmSight-Cat-20250527-1502-C8 A Detect T195
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-A5 9153-3
+  - Aitzkoa-2025-06-10 --ImmSight-Cat-20250610-1439-E11 A Detect R014
+  - Aitzkoa-2025-05-26 --ImmSight-Cat-20250526-1538-G5 10240-2
+  - Aitzkoa-2025-05-26 --ImmSight-Cat-20250526-1538-H5 10261-2
+  - Aitzkoa-2025-05-26 --ImmSight-Cat-20250526-1538-F5 10237-2
+  - Aitzkoa-2025-09-08 --ImmSight-Cat-20250908-1726-G11 13055-1
+  - Aitzkoa-2025-09-08 --ImmSight-Cat-20250908-1726-B11 10046-3
+  - Aitzkoa-2025-07-08 --ImmSight-Cat-20250708-1507-D5 11038-2
+  - Aitzkoa-2025-07-08 --ImmSight-Cat-20250708-1507-E5 12931-1
+  - Aitzkoa-2025-07-08 --ImmSight-Cat-20250708-1507-F5 12932-1
+  - Aitzkoa-2025-05-19 --ImmSight-Cat-20250519-1454-H2 10463-2 FDI
+  - Aitzkoa-2025-07-21 --ImmSight-Cat-20250721-1453-H2 12942-1
+  - Aitzkoa-2025-09-01 --ImmSight-Cat-20250901-1720-B8 10956-2
+  - Aitzkoa-2025-08-05 --ImmSight-Cat-20250805-1419-C11 12951-1
+  - Aitzkoa-2025-08-05 --ImmSight-Cat-20250805-1419-D11 12952-1
+  - Aitzkoa-2025-07-07 --ImmSight-Cat-20250707-1422-A5 9650-2
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-A2 9557-2 FDI
+  - Aitzkoa-2022-12-20---ImmSight-Cat-20221220-1612-C2 A-Detect A037
+  - Aitzkoa-2023-01-10---ImmSight-Cat-20230110-1706-F2 9950-1
+  - Aitzkoa-2023-01-16---ImmSight-Cat-20230116-1628-E2 8827-2
+  - Aitzkoa-2023-01-23---ImmSight-Cat-20230123-1539-E2 7392-3
+  - Aitzkoa-2023-02-07---ImmSight-Cat-20230207-1717-D9 Adetect U027
+  - Aitzkoa-2023-04-25---ImmSight-Cat-20230425-1554-C2 10211-1
+  - Aitzkoa-2023-05-02---ImmSight-Cat-20230502-1742-G11 Adetect O004
+  - Aitzkoa-2023-05-09---ImmSight-Cat-20230509-1649-A5 10254-1
+  - Aitzkoa-2023-05-16---ImmSight-Cat-20230516-1609 (1)-D11 10273-1
+  - Aitzkoa-2023-05-16---ImmSight-Cat-20230516-1609-C11 10272-1
+  - Aitzkoa-2023-05-22---ImmSight-Cat-20230522-1608-C2 10456-1 FDI
+  - Aitzkoa-2023-05-29---ImmSight-Cat-20230529-1551-G2 7828-3
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-C8 10803-1
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-D8 10804-1
+  - Aitzkoa-2023-06-20---ImmSight-Cat-20230620-1434-A8 10835-1
+  - Aitzkoa-2023-06-20---ImmSight-Cat-20230620-1434-C8 10837-1
+  - Aitzkoa-2023-07-03---ImmSight-Cat-20230703-1709-F2 10860-1
+  - Aitzkoa-2023-09-04---ImmSight-Cat-20230904-1743-E2 10951-1
+  - Aitzkoa-2023-09-05---ImmSight-Cat-20230905-1551-G5 10954-1
+  - Aitzkoa-2023-09-05---ImmSight-Cat-20230905-1551-H5 10955-1
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-B5 9100-2
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-E5 Adetect T083
+  - Aitzkoa-2023-09-25---ImmSight-Cat-20230925-1712-D8 11015-1
+  - Aitzkoa-2023-10-03---ImmSight-Cat-20231003-1446-C2 ADetect T096
+  - Aitzkoa-2023-10-10---ImmSight-Cat-20231010-1620-D5 Adetect P064
+  - Aitzkoa-2023-10-16---ImmSight-Cat-20231016-1520-B8 8093-3
+  - Aitzkoa-2023-10-16---ImmSight-Cat-20231016-1520-C8 11070-1
+  - Aitzkoa-2023-10-29---ImmSight-Cat-20231030-1556-B5 9447-2
+  - Aitzkoa-2023-10-31---ImmSight-Cat-20231031-1424-C5 Adetect K014
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-D8 9117-2
+  - Aitzkoa-2023-11-07---ImmSight-Cat-20231107-1710-B11 9272-2
+  - Aitzkoa-2023-11-07---ImmSight-Cat-20231107-1710-D11 Adetect P059
+  - Aitzkoa-2023-11-20---ImmSight-Cat-20231120-1559-A5 8083-3
+  - Aitzkoa-2023-11-20---ImmSight-Cat-20231120-1559-C5 9204-2 FDI
+  - Aitzkoa-2023-11-20---ImmSight-Cat-20231120-1559-D5 9614-2 FDI
+  - Aitzkoa-2023-11-28---ImmSight-Cat-20231128-1637-A8 8088-3
+  - Aitzkoa-2023-12-12---ImmSight-Cat-20231212-1554-A6 9263-2
+  - Aitzkoa-2023-12-12---ImmSight-Cat-20231212-1554-C5 Adetect K020
+  - Aitzkoa-2024-01-23---ImmSight-Cat-20240123-1550-F8 Adetect E043
+  - Aitzkoa-2024-02-20---ImmSight-Cat-20240220-1449-B5 Adetect F032
+  - Aitzkoa-2024-02-26---ImmSight-Cat-20240226-1647-B8 8325.3
+  - Aitzkoa-2024-03-04---ImmSight-Cat-20240304-1511-C11 9593-2 FDI
+  - Aitzkoa-2024-03-05---ImmSight-Cat-20240305-1437-D8 Adetect T115
+  - Aitzkoa-2024-03-18---ImmSight-Cat-20240318-1603-D5 9533-2 FDI
+  - Aitzkoa-2024-04-08---ImmSight-Cat-20240408-1615-C2 9588-2
+  - Aitzkoa-2024-04-09---ImmSight-Cat-20240409-1433-E2 Adetect O017
+  - Aitzkoa-2024-05-06---ImmSight-Cat-20240506-1424-G11 7145-4
+  - Aitzkoa-2024-05-07---ImmSight-Cat-20240507-1446-A2 10320-2 FDI
+  - Aitzkoa-2024-05-20---ImmSight-Cat-20240520-1428-A5 7155-4
+  - Aitzkoa-2024-05-28---ImmSight-Cat-20240528-1500-H5 Adetect T133
+  - Aitzkoa-2024-06-04 --ImmSight-Cat-20240604-1607-C8 Adetect T120
+  - Aitzkoa-2024-06-10 --ImmSight-Cat-20240610-1624-E8 9724-2
+  - Aitzkoa-2024-06-11 --ImmSight-Cat-20240611-1629-A11 10348-2 FDI
+  - Aitzkoa-2024-06-11 --ImmSight-Cat-20240611-1629-B11 Adetect N056
+  - Aitzkoa-2024-06-17 --ImmSight-Cat-20240617-1600-F11 9769-2
+  - Aitzkoa-2024-06-18 --ImmSight-Cat-20240618-1822-A2 7141-4
+  - Aitzkoa-2024-06-24 --ImmSight-Cat-20240624-1616-C2 11775-1
+  - Aitzkoa-2024-06-25 --ImmSight-Cat-20240625-1630-F2 7056-4
+  - Aitzkoa-2024-07-02 --ImmSight-Cat-20240702-1718-B5 11812-1
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-C5 7273-4
+  - Aitzkoa-2024-09-10 --ImmSight-Cat-20240910-1551-A2 7272-4
+  - Aitzkoa-2024-09-16 --ImmSight-Cat-20240916-1650-D2 7242-4
+  - Aitzkoa-2024-09-17 --ImmSight-Cat-20240917-1719-B7 9607-2 FDI
+  - Aitzkoa-2024-09-24 --ImmSight-Cat-20240924-1634-B2 Adetect F038
+  - Aitzkoa-2024-10-07 --ImmSight-Cat-20241007-1735-D5 10413-2 FDI
+  - Aitzkoa-2024-11-04 --ImmSight-Cat-20241104-1636 (1)-G5 8756-3
+  - Aitzkoa-2024-11-04 --ImmSight-Cat-20241104-1636-G5 8756-3
+  - Aitzkoa-2024-12-02 --ImmSight-Cat-20241202-1655-B2 7450-4
+  - Aitzkoa-2024-12-03 --ImmSight-Cat-20241203-1701-E2 A Detect Q023
+  - Aitzkoa-2024-12-03 --ImmSight-Cat-20241203-1701-F2 A Detect U059
+  - Aitzkoa-2025-01-13 --ImmSight-Cat-20250113-1600-F8 10450-2 FDI
+  - Aitzkoa-2025-01-14 --ImmSight-Cat-20250114-1547-G8 A Detect S044
+  - Aitzkoa-2025-01-28 --ImmSight-Cat-20250128-1911-D2 Adetect D044
+  - Aitzkoa-2025-02-03 --ImmSight-Cat-20250203-1600-H2 10959-2
+  - Aitzkoa-2025-02-04 --ImmSight-Cat-20250204-1710-B8 Adetect S053
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-B8 9043-2 FDI
+  - Aitzkoa-2023-09-26---ImmSight-Cat-20230926-1448-E11 Adetect A042
+  - Aitzkoa-2023-11-27---ImmSight-Cat-20231127-1523-H2 8120-3
+  - Aitzkoa-2024-02-12---ImmSight-Cat-20240212-1619-B2 8446-3
+  - Aitzkoa-2024-04-15---ImmSight-Cat-20240415-1528-G2 11315-2
+  - Aitzkoa-2024-04-23---ImmSight-Cat-20240423-1519-B8 Adetect T137
+  - Aitzkoa-2024-05-13---ImmSight-Cat-20240513-1607-E2 11370-2
+  - Aitzkoa-2024-09-10 --ImmSight-Cat-20240910-1551-B2 Adetect A052
+  - Aitzkoa-2024-09-17 --ImmSight-Cat-20240917-1719-E7 A Detect Y015
+  - Aitzkoa-2024-09-23 --ImmSight-Cat-20240923-1547-C10 9659-2
+  - Aitzkoa-2024-10-07 --ImmSight-Cat-20241007-1735-A5 8665-3
+  - Aitzkoa-2024-12-17 --ImmSight-Cat-20241217-1745-B8 Adetect S051
+  - Aitzkoa-2025-01-20 --ImmSight-Cat-20250120-1641-B11 7455-1
+  - Aitzkoa-2025-01-20 --ImmSight-Cat-20250120-1641-D11 10058-2
+  - Aitzkoa-2024-10-21 --ImmSight-Cat-20241021-1705-C2 9944-2
+  - Aitzkoa-2024-10-28 --ImmSight-Cat-20241028-1722-D5 10440-2 FDI
+  - Aitzkoa-2024-10-29 --ImmSight-Cat-20241029-1630-E5 8767-3
+  - Aitzkoa-2024-12-02 --ImmSight-Cat-20241202-1655-C2 8760-3
+  - Aitzkoa-2023-10-16---ImmSight-Cat-20231016-1520-A8 6756-4
+  sigma_2.5:
+  - Aitzkoa-2025-05-20 --ImmSight-Cat-20250520-1425-C5 A Detect I060
+  - Aitzkoa-2025-04-15 --ImmSight-Cat-20250415-1511-D11 Adetect V013
+  - Aitzkoa-2024-02-27---ImmSight-Cat-20240227-1800-B11 Adetect T126
+  - Aitzkoa-2022-12-12---ImmSight-1546-A3 9924-1
+  - Aitzkoa-2022-12-20---ImmSight-Cat-20221220-1612-B2 9938-1
+  - Aitzkoa-2023-01-17---ImmSight-Cat-20230117-1641-B2 9969-1
+  - Aitzkoa-2023-01-30---ImmSight-Cat-20230130-1602-A6 7726-3
+  - Aitzkoa-2023-02-28---ImmSight-Cat-20230228-1701-E11 10064-1
+  - Aitzkoa-2023-03-06---ImmSight-Cat-20230306-1611-B2 7759-3
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-1613-G5 Adetect T045
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1644-A6 7576-3
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1644-D6 10104-1
+  - Aitzkoa-2023-04-11---ImmSight-Cat-20230411-1646-E6 Adetect K016
+  - Aitzkoa-2023-04-18---ImmSight-Cat-20230418-1650(1)-D2 10188-1
+  - Aitzkoa-2023-05-08---ImmSight-Cat-20230508-1740-C2 10249-1
+  - Aitzkoa-2023-05-09---ImmSight-Cat-20230509-1649-D5 Adetect A040
+  - Aitzkoa-2023-05-22---ImmSight-Cat-20230522-1608-A2 6649-5
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-A8 7913-3
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-E8 10806-1
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-F8 Adetect N036
+  - Aitzkoa-2023-06-12---ImmSight-Cat-20230612-1623-F11 8967-2
+  - Aitzkoa-2023-06-12---ImmSight-Cat-20230612-1623-H11 10821-1
+  - Aitzkoa-2023-06-13---ImmSight-Cat-20230613-1638-B2 10823-1
+  - Aitzkoa-2023-06-13---ImmSight-Cat-20230613-1638-C2 10824-1
+  - Aitzkoa-2023-06-13---ImmSight-Cat-20230613-1638-D2 10825-1
+  - Aitzkoa-2023-06-13---ImmSight-Cat-20230613-1638-E2 Adetect T072
+  - Aitzkoa-2023-06-26---ImmSight-Cat-20230626-1642-A11 8927-2 FDI
+  - Aitzkoa-2023-06-27---ImmSight-Cat-20230627-1609-E11 9098-2 FDI
+  - Aitzkoa-2023-06-27---ImmSight-Cat-20230627-1609-G11 Adetect D039
+  - Aitzkoa-2023-07-03---ImmSight-Cat-20230703-1709-B2 10856-1
+  - Aitzkoa-2023-07-10---ImmSight-Cat-20230710-1637-B8 10877-1
+  - Aitzkoa-2023-07-10---ImmSight-Cat-20230710-1637-D8 10878-1
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-C2 10882-1
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-D2 10883-1
+  - Aitzkoa-2023-09-04---ImmSight-Cat-20230904-1743-D2 10950-1
+  - Aitzkoa-2023-09-05---ImmSight-Cat-20230905-1551-F5 10953-1
+  - Aitzkoa-2023-09-11---ImmSight-Cat-20230911-1704-A8 10969-1
+  - Aitzkoa-2023-09-11---ImmSight-Cat-20230911-1704-B8 10462-1 FDI
+  - Aitzkoa-2023-09-11---ImmSight-Cat-20230911-1704-D8 10972-1
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-A5 7851-2
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-C5 10996-1
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-F5 Adetect T087
+  - Aitzkoa-2023-09-25---ImmSight-Cat-20230925-1712-E8 11016-1
+  - Aitzkoa-2023-09-26---ImmSight-Cat-20230926-1448-A11 9039-2 FDI
+  - Aitzkoa-2023-09-26---ImmSight-Cat-20230926-1448-D11 11020-1
+  - Aitzkoa-2023-10-02---ImmSight-Cat-20231002-1440-G11 6647-4
+  - Aitzkoa-2023-10-02---ImmSight-Cat-20231002-1440-H11 11035-1
+  - Aitzkoa-2023-10-10---ImmSight-Cat-20231010-1620-A5 8022-3
+  - Aitzkoa-2023-10-10---ImmSight-Cat-20231010-1620-B5 Adetect E040
+  - Aitzkoa-2023-10-17---ImmSight-Cat-20231017-1456-A11 9372-2
+  - Aitzkoa-2023-10-17---ImmSight-Cat-20231017-1456-C11 Adetect P060
+  - Aitzkoa-2023-10-23---ImmSight-Cat-20231023-1441-B2 11090-1
+  - Aitzkoa-2023-10-24---ImmSight-Cat-20231024-1706-G3 Adetect P054
+  - Aitzkoa-2023-10-24---ImmSight-Cat-20231024-1706-H3 Adetect S026
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-A8 6600-4
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-B8 7845-3
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-E8 9168-2
+  - Aitzkoa-2023-11-07---ImmSight-Cat-20231107-1710-A11 6893-4
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-E2 Adetect N043
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-B2 9153-2
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-F2 Adetect T112
+  - Aitzkoa-2023-12-12---ImmSight-Cat-20231212-1554-D5 Adetect T100
+  - Aitzkoa-2023-12-19---ImmSight-Cat-20231219-1602-A8 Adetect I051
+  - Aitzkoa-2023-12-19---ImmSight-Cat-20231219-1602-B8 Adetect P070
+  - Aitzkoa-2023-12-19---ImmSight-Cat-20231219-1602-C8 Adetect T104
+  - Aitzkoa-2024-01-23---ImmSight-Cat-20240123-1550-E8 Adetect A046
+  - Aitzkoa-2024-01-23---ImmSight-Cat-20240123-1550-G8 Adetect U051
+  - Aitzkoa-2024-01-29---ImmSight-Cat-20240129-1630-G11 11316-1
+  - Aitzkoa-2024-01-29---ImmSight-Cat-20240129-1630-H11 11318-1
+  - Aitzkoa-2024-02-19---ImmSight-Cat-20240219-1443-G2 7173-4
+  - Aitzkoa-2024-02-19---ImmSight-Cat-20240219-1443-H2 8305-3
+  - Aitzkoa-2024-02-20---ImmSight-Cat-20240220-1449-A5 9421-2
+  - Aitzkoa-2024-02-20---ImmSight-Cat-20240220-1449-D5 Adetect Y002
+  - Aitzkoa-2024-03-05---ImmSight-Cat-20240305-1437-E8 Adetect T136
+  - Aitzkoa-2024-03-11---ImmSight-Cat-20240311-1511-A2 7212-4
+  - Aitzkoa-2024-03-11---ImmSight-Cat-20240311-1511-B2 7023-4
+  - Aitzkoa-2024-03-11---ImmSight-Cat-20240311-1511-C2 9446-2
+  - Aitzkoa-2024-03-18---ImmSight-Cat-20240318-1603-B5 7154-4
+  - Aitzkoa-2024-03-26---ImmSight-Cat-20240326-1645-E8 8424-3
+  - Aitzkoa-2024-04-02---ImmSight-Cat-20240402-1431-B11 Adetect N052
+  - Aitzkoa-2024-04-08---ImmSight-Cat-20240408-1615-B2 9625-2 FDI
+  - Aitzkoa-2024-04-16---ImmSight-Cat-20240416-1556-B5 8396-3
+  - Aitzkoa-2024-04-16---ImmSight-Cat-20240416-1556-C5 Adetect Y003
+  - Aitzkoa-2024-04-22---ImmSight-Cat-20240422-1640-D5 7100-4
+  - Aitzkoa-2024-04-22---ImmSight-Cat-20240422-1640-F5 10471-FDI
+  - Aitzkoa-2024-04-29---ImmSight-Cat-20240429-1529-E8 9555-2 FDI
+  - Aitzkoa-2024-04-30---ImmSight-Cat-20240430-1518-A11 Adetect F035
+  - Aitzkoa-2024-04-30---ImmSight-Cat-20240430-1518-B11 Adetect T145
+  - Aitzkoa-2024-05-07---ImmSight-Cat-20240507-1446-B2 Adetect S035
+  - Aitzkoa-2024-05-14---ImmSight-Cat-20240514-1540-F2 10352-2 FDI
+  - Aitzkoa-2024-05-27---ImmSight-Cat-20240527-1742-E5 9590-2
+  - Aitzkoa-2024-05-28---ImmSight-Cat-20240528-1500-F5 10343-2 FDI
+  - Aitzkoa-2024-06-04 --ImmSight-Cat-20240604-1607-D8 Adetect T140
+  - Aitzkoa-2024-06-24 --ImmSight-Cat-20240624-1616-D2 11776-1
+  - Aitzkoa-2024-06-24 --ImmSight-Cat-20240624-1616-E2 11777-1
+  - Aitzkoa-2024-06-25 --ImmSight-Cat-20240625-1630-G2 Adetect O023
+  - Aitzkoa-2024-07-02 --ImmSight-Cat-20240702-1718-A5 11811-1
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-B5 8510-3 FDI
+  - Aitzkoa-2024-09-16 --ImmSight-Cat-20240916-1650-E2 8535-3
+  - Aitzkoa-2024-09-17 --ImmSight-Cat-20240917-1719-A7 10401-2 FDI
+  - Aitzkoa-2024-09-17 --ImmSight-Cat-20240917-1719-C7 A Detect P086
+  - Aitzkoa-2024-09-23 --ImmSight-Cat-20240923-1547-F10 10430-2 FDI
+  - Aitzkoa-2024-09-24 --ImmSight-Cat-20240924-1634-A2 7446-2
+  - Aitzkoa-2024-10-07 --ImmSight-Cat-20241007-1735-B5 8789-3 FDI
+  - Aitzkoa-2024-10-08 --ImmSight-Cat-20241008-1817-A8 10396-2 FDI
+  - Aitzkoa-2024-10-08 --ImmSight-Cat-20241008-1817-C8 Adetect T161
+  - Aitzkoa-2024-10-14 --ImmSight-Cat-20241014-1713-D8 7428-4
+  - Aitzkoa-2024-10-14 --ImmSight-Cat-20241014-1713-F8 8815-3 FDI
+  - Aitzkoa-2024-10-15 --ImmSight-Cat-20241015-1710-H11 Adetect Q012
+  - Aitzkoa-2024-10-22 --ImmSight-Cat-20241022-1817-G12 A Detect P079
+  - Aitzkoa-2024-10-28 --ImmSight-Cat-20241028-1722-B5 9751-2
+  - Aitzkoa-2024-10-29 --ImmSight-Cat-20241029-1630-F5 10420-2 FDI
+  - Aitzkoa-2024-11-05 --ImmSight-Cat-20241105-1650-A8 A Detect F042
+  - Aitzkoa-2024-11-11 --ImmSight-Cat-20241111-1701-C8 7431-4
+  - Aitzkoa-2024-11-11 --ImmSight-Cat-20241111-1701-D8 8750-3
+  - Aitzkoa-2024-11-11 --ImmSight-Cat-20241111-1701-F8 9742-2
+  - Aitzkoa-2024-12-02 --ImmSight-Cat-20241202-1655-A2 7443-4
+  - Aitzkoa-2024-12-17 --ImmSight-Cat-20241217-1745-C8 Adetect T180
+  - Aitzkoa-2025-01-27 --ImmSight-Cat-20250127-1730-F1 8960-3 FDI
+  - Aitzkoa-2025-02-03 --ImmSight-Cat-20250203-1600-F2 9983-2
+  sigma_3.5:
+  - Aitzkoa-2024-05-14---ImmSight-Cat-20240514-1540-H2 Adetect T135
+  - Aitzkoa-2024-04-02---ImmSight-Cat-20240402-1431-A11 9389-2 FDI
+  - Aitzkoa-2023-10-16---ImmSight-Cat-20231016-1520-A8 6756-4
+  sigma_4.5:
+  - Aitzkoa-2025-09-01 --ImmSight-Cat-20250901-1720-C8 13040-1
+  sigma_5.0:
+  - Aitzkoa-2025-09-02 --ImmSight-Cat-20250902-1428-G2 A Detect T198
+  sigma_10.0:
+  - Aitzkoa-2025-06-03 --ImmSight-Cat-20250603-1504-H8 A Detect T201
+  y1+50%:
+  - Aitzkoa-2025-06-09 --ImmSight-Cat-20250609-1546-C11 10278-2
+  - Aitzkoa-2025-06-09 --ImmSight-Cat-20250609-1546-B11 10082-2
+  - Aitzkoa-2024-10-14 --ImmSight-Cat-20241014-1713-G8 9003-3
+  y1-50%:
+  - Aitzkoa-2024-12-09 --ImmSight-Cat-20241209-1718-H2 9916-2
+  y2-10%:
+  - Aitzkoa-2024-09-10 --ImmSight-Cat-20240910-1551-A2 7272-4
+  y2-20%:
+  - Aitzkoa-2025-09-02 --ImmSight-Cat-20250902-1428-G2 A Detect T198
+  - Aitzkoa-2025-07-29 --ImmSight-Cat-20250729-1529-F8 12946-1
+  - Aitzkoa-2023-05-02---ImmSight-Cat-20230502-1742-G11 Adetect O004
+  - Aitzkoa-2023-09-11---ImmSight-Cat-20230911-1704-D8 10972-1
+  - Aitzkoa-2023-10-24---ImmSight-Cat-20231024-1706-G3 Adetect P054
+  - Aitzkoa-2023-10-31---ImmSight-Cat-20231031-1424-D5 Adetect T109
+  - Aitzkoa-2023-11-07---ImmSight-Cat-20231107-1710-C11 Adetect B044
+  - Aitzkoa-2023-11-28---ImmSight-Cat-20231128-1637-B8 9165-2
+  - Aitzkoa-2024-06-11 --ImmSight-Cat-20240611-1629-B11 Adetect N056
+  - Aitzkoa-2024-09-24 --ImmSight-Cat-20240924-1634-A2 7446-2
+  y2-50%:
+  - Aitzkoa-2025-06-17 --ImmSight-Cat-20250617-1803-A2 10217-2
+  - Aitzkoa-2025-06-17 --ImmSight-Cat-20250617-1803-B2 10872-2
+  - Aitzkoa-2025-08-12 --ImmSight-Cat-20250812-1609-B2 12961-1
+  - Aitzkoa-2025-06-16 --ImmSight-Cat-20250616-1519-F11 10814-2
+  - Aitzkoa-2025-05-26 --ImmSight-Cat-20250526-1538-F5 10237-2
+  - Aitzkoa-2025-08-04 --ImmSight-Cat-20250804-1535-B11 12949-1
+  - Aitzkoa-2023-04-04---ImmSight-Cat-20230404-1609-D2 10453-1 FDI
+  - Aitzkoa-2023-01-16---ImmSight-Cat-20230116-1628-F2 9967-2
+  - Aitzkoa-2023-01-31---ImmSight-Cat-20230131-1600-C5 9999-1
+  - Aitzkoa-2023-02-07---ImmSight-Cat-20230207-1717-D9 Adetect U027
+  - Aitzkoa-2023-02-12---ImmSight-Cat-20230213-1616-H8 10443-1
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1644-B6 8914-2 FDI
+  - Aitzkoa-2023-05-15---ImmSight-Cat-20230515-1619-A8 7788-3
+  - Aitzkoa-2023-05-22---ImmSight-Cat-20230522-1608-C2 10456-1 FDI
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-F8 Adetect N036
+  - Aitzkoa-2023-06-20---ImmSight-Cat-20230620-1434-A8 10835-1
+  - Aitzkoa-2023-07-04---ImmSight-Cat-20230704-1648-B5 10863-1
+  - Aitzkoa-2023-09-05---ImmSight-Cat-20230905-1551-G5 10954-1
+  - Aitzkoa-2023-09-26---ImmSight-Cat-20230926-1448-A11 9039-2 FDI
+  - Aitzkoa-2023-10-02---ImmSight-Cat-20231002-1440-G11 6647-4
+  - Aitzkoa-2023-10-03---ImmSight-Cat-20231003-1446-C2 ADetect T096
+  - Aitzkoa-2023-10-24---ImmSight-Cat-20231024-1706-F3 8174-3
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-A2 9557-2 FDI
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-C2 Adetect F028
+  - Aitzkoa-2024-01-23---ImmSight-Cat-20240123-1550-E8 Adetect A046
+  - Aitzkoa-2024-01-29---ImmSight-Cat-20240129-1630-G11 11316-1
+  - Aitzkoa-2024-03-05---ImmSight-Cat-20240305-1437-D8 Adetect T115
+  - Aitzkoa-2024-03-18---ImmSight-Cat-20240318-1603-C5 8408-3
+  - Aitzkoa-2024-04-16---ImmSight-Cat-20240416-1556-C5 Adetect Y003
+  - Aitzkoa-2024-06-25 --ImmSight-Cat-20240625-1630-F2 7056-4
+  - Aitzkoa-2024-07-02 --ImmSight-Cat-20240702-1718-B5 11812-1
+  - Aitzkoa-2024-10-22 --ImmSight-Cat-20241022-1817-G12 A Detect P079
+  - Aitzkoa-2024-12-17 --ImmSight-Cat-20241217-1745-D8 10189-2
+  - Aitzkoa-2025-01-07 --ImmSight-Cat-20250107-1550-H5 Adetect V011
+  - Aitzkoa-2025-01-13 --ImmSight-Cat-20250113-1600-E8 9880-2
+  - Aitzkoa-2025-02-04 --ImmSight-Cat-20250204-1710-B8 Adetect S053
+  - Aitzkoa-2023-01-10---ImmSight-Cat-20230110-1706-F2 9950-1
+  y2-70%:
+  - Aitzkoa-2025-07-28 --ImmSight-Cat-20250728-1526-D8 12944-1
+  - Aitzkoa-2025-08-11 --ImmSight-Cat-20250811-1615-G11 10843-2
+  - Aitzkoa-2025-08-12 --ImmSight-Cat-20250812-1609-A2 12960-1
+  - Aitzkoa-2025-06-24 --ImmSight-Cat-20250624-1546-G2 A Detect Y036
+  - Aitzkoa-2025-09-08 --ImmSight-Cat-20250908-1726-E11 10981-2
+  - Aitzkoa-2025-05-20 --ImmSight-Cat-20250520-1425-D5 A Detect K033
+  - Aitzkoa-2025-07-07 --ImmSight-Cat-20250707-1422-A5 9650-2
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-F5 Adetect T087
+  CUSTOM_y2=3000:
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-B5 8510-3 FDI
+  CUSTOM_y2=2000:
+  - Aitzkoa-2023-02-12---ImmSight-Cat-20230213-1616-F8 8295-2
+  - Aitzkoa-2023-03-20---ImmSight-Cat-20230320-1709-A11 8740-2
+  - Aitzkoa-2023-04-18---ImmSight-Cat-20230418-1650(1)-A2 7746-3
+  - Aitzkoa-2023-04-24---ImmSight-Cat-20230424-1653-F5 7478-2
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-D8 10804-1
+  - Aitzkoa-2023-07-03---ImmSight-Cat-20230703-1709-F2 10860-1
+  - Aitzkoa-2023-07-10---ImmSight-Cat-20230710-1637-A8 10876-1
+  - Aitzkoa-2023-07-10---ImmSight-Cat-20230710-1637-C8 Adetect B040
+  - Aitzkoa-2023-09-18---ImmSight-Cat-20230918-1528-C2 9268-2
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-A5 7851-2
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-B5 9100-2
+  - Aitzkoa-2023-09-26---ImmSight-Cat-20230926-1448-B11 9185-2
+  - Aitzkoa-2023-09-26---ImmSight-Cat-20230926-1448-E11 Adetect A042
+  - Aitzkoa-2023-10-02---ImmSight-Cat-20231002-1440-H11 11035-1
+  - Aitzkoa-2023-10-10---ImmSight-Cat-20231010-1620-C5 Adetect J049
+  - Aitzkoa-2023-10-23---ImmSight-Cat-20231023-1441-B2 11090-1
+  - Aitzkoa-2024-03-05---ImmSight-Cat-20240305-1437-E8 Adetect T136
+  - Aitzkoa-2024-04-08---ImmSight-Cat-20240408-1615-A2 6950-4
+  - Aitzkoa-2024-06-11 --ImmSight-Cat-20240611-1629-A11 10348-2 FDI
+  - Aitzkoa-2024-09-24 --ImmSight-Cat-20240924-1634-A2 7446-2
+  - Aitzkoa-2025-02-17 --ImmSight-Cat-20250217-1643-C2 9920-2
+  - Aitzkoa-2025-02-25 --ImmSight-Cat-20250225-1519-G8 A Detect Q039
+  - Aitzkoa-2025-03-03 --ImmSight-Cat-20250303-1548-D8 9969-3
+  - Aitzkoa-2025-03-18 --ImmSight-Cat-20250318-1607-B11 8967-3
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-A5 8441-3
+  CUSTOM_y2=1000:
+  - Aitzkoa-2023-03-06---ImmSight-Cat-20230306-1611-B2 7759-3
+  - Aitzkoa-2025-02-24 --ImmSight-Cat-20250224-1652-H5 10248-2
+  - Aitzkoa-2025-04-14 --ImmSight-Cat-20250414-1607-C8 10147-2
+  - Aitzkoa-2024-11-12 --ImmSight-Cat-20241112-1619-H8 A Detect Q015
+  - Aitzkoa-2025-04-15 --ImmSight-Cat-20250415-1511-D11 Adetect V013
+  - Aitzkoa-2023-02-28---ImmSight-Cat-20230228-1701-E11 10064-1
+  - Aitzkoa-2023-10-16---ImmSight-Cat-20231016-1520-C8 11070-1
+  - Aitzkoa-2022-12-13---ImmSight-Cat-20221213-1741-E3 7404-3
+  - Aitzkoa-2022-12-13---ImmSight-Cat-20221213-1741-G3 8821-2 FDI
+  - Aitzkoa-2022-12-19---ImmSight-Cat-20221219-1619-C2 8953-2 FDI
+  - Aitzkoa-2023-03-21---ImmSight-Cat-20230321-1837-D1 10119-1
+  - Aitzkoa-2023-03-27---ImmSight-Cat-20230327-1553-B7 10131-1
+  - Aitzkoa-2023-04-11---ImmSight-Cat-20230411-1646-B6 10158-1
+  - Aitzkoa-2023-04-18---ImmSight-Cat-20230418-1650(1)-D2 10188-1
+  - Aitzkoa-2023-06-13---ImmSight-Cat-20230613-1638-E2 Adetect T072
+  - Aitzkoa-2023-06-19---ImmSight-Cat-20230619-1620-B5 9765-2
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-D5 10997-1
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-C8 9046-2
+  - Aitzkoa-2023-11-27---ImmSight-Cat-20231127-1523-H2 8120-3
+  - Aitzkoa-2023-12-19---ImmSight-Cat-20231219-1602-A8 Adetect I051
+  - Aitzkoa-2024-03-12---ImmSight-Cat-20240312-1609-H2 8336-3
+  - Aitzkoa-2024-04-08---ImmSight-Cat-20240408-1615-B2 9625-2 FDI
+  - Aitzkoa-2024-04-22---ImmSight-Cat-20240422-1640-D5 7100-4
+  - Aitzkoa-2024-05-14---ImmSight-Cat-20240514-1540-H2 Adetect T135
+  - Aitzkoa-2024-06-04 --ImmSight-Cat-20240604-1607-D8 Adetect T140
+  - Aitzkoa-2024-06-24 --ImmSight-Cat-20240624-1616-D2 11776-1
+  - Aitzkoa-2024-10-08 --ImmSight-Cat-20241008-1817-A8 10396-2 FDI
+  - Aitzkoa-2025-01-20 --ImmSight-Cat-20250120-1641-D11 10058-2
+  - Aitzkoa-2025-01-21 --ImmSight-Cat-20250121-1606-H11 Adetect T177
+  - Aitzkoa-2025-01-27 --ImmSight-Cat-20250127-1730-G1 9864-2
+  - Aitzkoa-2022-12-19---ImmSight-Cat-20221219-1619-A2 8958-2 FDI
+  - Aitzkoa-2024-12-09 --ImmSight-Cat-20241209-1718-H2 9916-2
+  - Aitzkoa-2022-12-19---ImmSight-Cat-20221219-1619-B2 8822-2 FDI
+  - Aitzkoa-2022-12-20---ImmSight-Cat-20221220-1612-C2 A-Detect A037
+  - Aitzkoa-2023-01-10---ImmSight-Cat-20230110-1706-H2 ADetect T049
+  - Aitzkoa-2023-01-16---ImmSight-Cat-20230116-1628-E2 8827-2
+  - Aitzkoa-2023-01-17---ImmSight-Cat-20230117-1641-A2 8767-2
+  - Aitzkoa-2023-01-17---ImmSight-Cat-20230117-1641-C2 9971-1
+  - Aitzkoa-2023-01-23---ImmSight-Cat-20230123-1539-E2 7392-3
+  - Aitzkoa-2023-01-31---ImmSight-Cat-20230131-1600-F5 10002-1
+  - Aitzkoa-2023-02-06---ImmSight-Cat-20230206-1619-A11 7623-3
+  - Aitzkoa-2023-02-06---ImmSight-Cat-20230206-1619-C11 10016-1
+  - Aitzkoa-2023-02-07---ImmSight-Cat-20230207-1717-B9 10020-1
+  - Aitzkoa-2023-02-07---ImmSight-Cat-20230207-1717-C9 Adetect E028
+  - Aitzkoa-2023-02-14---ImmSight-Cat-20230214-1748-D8 10036-1
+  - Aitzkoa-2023-02-27---ImmSight-Cat-20230227-1611-B8 8843-2
+  - Aitzkoa-2023-02-28---ImmSight-Cat-20230228-1701-G11 Adetect B035
+  - Aitzkoa-2023-02-28---ImmSight-Cat-20230228-1701-H11 Adetect C040
+  - Aitzkoa-2023-03-06---ImmSight-Cat-20230306-1611-A2 7357-3
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1644-A6 7576-3
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1644-B6 8914-2 FDI
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1644-D6 10104-1
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1644-E6 10105-1
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1703-A8 7576-3
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1703-B8 8914-2 FDI
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1703-E8 10105-1
+  - Aitzkoa-2023-04-04---ImmSight-Cat-20230404-1609-C2 10150-1
+  - Aitzkoa-2023-04-11---ImmSight-Cat-20230411-1646-D6 10161-1
+  - Aitzkoa-2023-04-24---ImmSight-Cat-20230424-1653-G5 7765-3
+  - Aitzkoa-2023-04-25---ImmSight-Cat-20230425-1554-B2 10209-1
+  - Aitzkoa-2023-05-02---ImmSight-Cat-20230502-1742-F8 8375-3 FDI
+  - Aitzkoa-2023-05-08---ImmSight-Cat-20230508-1740-C2 10249-1
+  - Aitzkoa-2023-05-08---ImmSight-Cat-20230508-1740-D2 10250-1
+  - Aitzkoa-2023-05-09---ImmSight-Cat-20230509-1649-A5 10254-1
+  - Aitzkoa-2023-05-16---ImmSight-Cat-20230516-1609 (1)-D11 10273-1
+  - Aitzkoa-2023-05-16---ImmSight-Cat-20230516-1609-C11 10272-1
+  - Aitzkoa-2023-05-29---ImmSight-Cat-20230529-1551-G2 7828-3
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-A8 7913-3
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-E8 10806-1
+  - Aitzkoa-2023-06-13---ImmSight-Cat-20230613-1638-C2 10824-1
+  - Aitzkoa-2023-07-04---ImmSight-Cat-20230704-1648-A5 10862-1
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-C2 10882-1
+  - Aitzkoa-2023-10-16---ImmSight-Cat-20231016-1520-B8 8093-3
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-D8 9117-2
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-D2 Adetect J054
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-E2 Adetect N043
+  - Aitzkoa-2023-11-20---ImmSight-Cat-20231120-1559-B5 8127-3
+  - Aitzkoa-2023-11-20---ImmSight-Cat-20231120-1559-D5 9614-2 FDI
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-A2 8053-3
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-B2 9153-2
+  - Aitzkoa-2023-12-12---ImmSight-Cat-20231212-1554-C5 Adetect K020
+  - Aitzkoa-2023-12-12---ImmSight-Cat-20231212-1554-D5 Adetect T100
+  - Aitzkoa-2023-12-19---ImmSight-Cat-20231219-1602-B8 Adetect P070
+  - Aitzkoa-2023-12-19---ImmSight-Cat-20231219-1602-C8 Adetect T104
+  - Aitzkoa-2024-02-27---ImmSight-Cat-20240227-1800-B11 Adetect T126
+  - Aitzkoa-2024-03-26---ImmSight-Cat-20240326-1645-E8 8424-3
+  - Aitzkoa-2024-04-02---ImmSight-Cat-20240402-1431-A11 9389-2 FDI
+  - Aitzkoa-2024-04-22---ImmSight-Cat-20240422-1640-F5 10471-FDI
+  - Aitzkoa-2024-04-29---ImmSight-Cat-20240429-1529-E8 9555-2 FDI
+  - Aitzkoa-2024-04-30---ImmSight-Cat-20240430-1518-A11 Adetect F035
+  - Aitzkoa-2024-05-06---ImmSight-Cat-20240506-1424-G11 7145-4
+  - Aitzkoa-2024-09-10 --ImmSight-Cat-20240910-1551-B2 Adetect A052
+  - Aitzkoa-2024-09-16 --ImmSight-Cat-20240916-1650-E2 8535-3
+  - Aitzkoa-2024-10-07 --ImmSight-Cat-20241007-1735-B5 8789-3 FDI
+  - Aitzkoa-2024-10-14 --ImmSight-Cat-20241014-1713-D8 7428-4
+  - Aitzkoa-2024-10-14 --ImmSight-Cat-20241014-1713-F8 8815-3 FDI
+  - Aitzkoa-2024-10-21 --ImmSight-Cat-20241021-1705-C2 9944-2
+  - Aitzkoa-2024-10-29 --ImmSight-Cat-20241029-1630-F5 10420-2 FDI
+  - Aitzkoa-2024-11-04 --ImmSight-Cat-20241104-1636-G5 8756-3
+  - Aitzkoa-2024-12-02 --ImmSight-Cat-20241202-1655-A2 7443-4
+  - Aitzkoa-2024-12-02 --ImmSight-Cat-20241202-1655-C2 8760-3
+  - Aitzkoa-2024-12-03 --ImmSight-Cat-20241203-1701-D2 A Detect Q021
+  - Aitzkoa-2024-12-17 --ImmSight-Cat-20241217-1745-B8 Adetect S051
+  - Aitzkoa-2025-01-07 --ImmSight-Cat-20250107-1550-F5 Adetect I058
+  - Aitzkoa-2025-01-20 --ImmSight-Cat-20250120-1641-B11 7455-1
+  - Aitzkoa-2025-01-20 --ImmSight-Cat-20250120-1641-C11 7623-4
+  - Aitzkoa-2025-01-27 --ImmSight-Cat-20250127-1730-H1 9976-2
+  - Aitzkoa-2025-02-03 --ImmSight-Cat-20250203-1600-H2 10959-2
+  - Aitzkoa-2025-02-04 --ImmSight-Cat-20250204-1710-C8 Adetect U061
+  - Aitzkoa-2025-02-17 --ImmSight-Cat-20250217-1643-B2 9829-2
+  - Aitzkoa-2025-02-17 --ImmSight-Cat-20250217-1643-D2 10030-2
+  - Aitzkoa-2025-02-18 --ImmSight-Cat-20250218-1536-G2 A Detect A059
+  - Aitzkoa-2025-02-18 --ImmSight-Cat-20250218-1536-H2 A Detect N064
+  - Aitzkoa-2025-03-18 --ImmSight-Cat-20250318-1607-E11 A Detect Y024
+  - Aitzkoa-2025-03-24 --ImmSight-Cat-20250324-1548-C2 10119-2
+  - Aitzkoa-2025-03-31 --ImmSight-Cat-20250331-1546-G2 10138-2
+  - Aitzkoa-2025-04-07 --ImmSight-Cat-20250407-1526-B5 10149-2
+  - Aitzkoa-2025-04-07 --ImmSight-Cat-20250407-1526-C5 10150-2
+  - Aitzkoa-2025-05-06 --ImmSight-Cat-20250506-1437-B2 A Detect F048
+  hixlim_step+1000:
+  - Aitzkoa-2025-07-14 --ImmSight-Cat-20250714-1628-H5 12940-1
+  - Aitzkoa-2025-07-14 --ImmSight-Cat-20250714-1628-G5 12939-1
+  - Aitzkoa-2025-06-02 --ImmSight-Cat-20250602-1634-D8 10223-2
+  hixlim_step+500:
+  - Aitzkoa-2025-07-28 --ImmSight-Cat-20250728-1526-D8 12944-1
+  y2=0.1:
+  - Aitzkoa-2025-06-02 --ImmSight-Cat-20250602-1634-D8 10223-2
+  - Aitzkoa-2025-06-03 --ImmSight-Cat-20250603-1504-G8 A Detect T188
+  - Aitzkoa-2025-05-13 --ImmSight-Cat-20250513-1621-F2 Adetect S060
+  - Aitzkoa-2025-06-17 --ImmSight-Cat-20250617-1803-E2 Adetect Q043
+  - Aitzkoa-2025-05-27 --ImmSight-Cat-20250527-1502-C8 A Detect T195
+  y2=0.15:
+  - Aitzkoa-2025-09-02 --ImmSight-Cat-20250902-1428-H2 A Detect Y033
+  y2=0.2:
+  - Aitzkoa-2025-06-09 --ImmSight-Cat-20250609-1546-C11 10278-2
+  - Aitzkoa-2025-06-03 --ImmSight-Cat-20250603-1504-F8 7955-4
+  - Aitzkoa-2025-06-23 --ImmSight-Cat-20250623-1446-G11 10282-2
+  - Aitzkoa-2025-06-17 --ImmSight-Cat-20250617-1803-D2 Adetect P101
+  - Aitzkoa-2025-09-08 --ImmSight-Cat-20250908-1726-A11 9068-3
+  - Aitzkoa-2025-09-08 --ImmSight-Cat-20250908-1726-F11 13054-1
+  - Aitzkoa-2025-09-08 --ImmSight-Cat-20250908-1726-B11 10046-3
+  - Aitzkoa-2025-07-08 --ImmSight-Cat-20250708-1507-E5 12931-1
+  - Aitzkoa-2025-09-01 --ImmSight-Cat-20250901-1720-A8 10920-2
+  - Aitzkoa-2025-09-01 --ImmSight-Cat-20250901-1720-C8 13040-1
+  y2=0.6:
+  - Aitzkoa-2025-09-29 --ImmSight-Cat-20250929-1634-D5 13098-1
+  - Aitzkoa-2025-09-29 --ImmSight-Cat-20250929-1634-A5 13095-1
+  - Aitzkoa-2025-05-19 --ImmSight-Cat-20250519-1454-H2 10463-2 FDI
+  y2=0.7:
+  - Aitzkoa-2025-05-27 --ImmSight-Cat-20250527-1502-B8 A Detect E053
+  - Aitzkoa-2025-07-21 --ImmSight-Cat-20250721-1453-H2 12942-1
+  y1=2.0:
+  - Aitzkoa-2025-08-11 --ImmSight-Cat-20250811-1615-E11 10206-2
+  - Aitzkoa-2025-08-11 --ImmSight-Cat-20250811-1615-F11 10806-2
+  - Aitzkoa-2025-07-22 --ImmSight-Cat-20250722-1541-B8 12943-1
+  y1=3.0:
+  - Aitzkoa-2025-09-02 --ImmSight-Cat-20250902-1428-G2 A Detect T198
+  y1=4.0:
+  - Aitzkoa-2025-09-29 --ImmSight-Cat-20250929-1634-A5 13095-1
+  - Aitzkoa-2025-09-29 --ImmSight-Cat-20250929-1634-C5 13097-1
+  y1=5.0:
+  - Aitzkoa-2025-07-28 --ImmSight-Cat-20250728-1526-C8 10877-2
+  y1=6.0:
+  - Aitzkoa-2025-07-22 --ImmSight-Cat-20250722-1541-A8 10188-2
+  y1=2.5:
+  - Aitzkoa-2025-07-08 --ImmSight-Cat-20250708-1507-D5 11038-2
+  y1=10.0:
+  - Aitzkoa-2025-07-07 --ImmSight-Cat-20250707-1422-B5 12906-1
+  no corner:
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-B5 9266-2
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-C5 12988-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-D5 12989-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-E5 12990-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-F5 12991-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-G5 12992-1
+  - Aitzkoa-2025-08-26 --ImmSight-Cat-20250826-1455-E2 12995-1
+  - Aitzkoa-2025-08-26 --ImmSight-Cat-20250826-1455-F2 A Detect O036
+  
+DC Gating:
+  sigma+0.5:
+  - Aitzkoa-2023-01-17---ImmSight-Cat-20230117-1641-A2 8767-2
+  - Aitzkoa-2023-01-17---ImmSight-Cat-20230117-1641-B2 9969-1
+  - Aitzkoa-2023-02-07---ImmSight-Cat-20230207-1717-D9 Adetect U027
+  - Aitzkoa-2023-02-14---ImmSight-Cat-20230214-1748-C8 10035-1
+  - Aitzkoa-2023-02-14---ImmSight-Cat-20230214-1748-F8 Adetect B034
+  - Aitzkoa-2023-02-28---ImmSight-Cat-20230228-1653(1)-C11 7550-3
+  - Aitzkoa-2023-03-06---ImmSight-Cat-20230306-1611-B2 7759-3
+  - Aitzkoa-2023-03-20---ImmSight-Cat-20230320-1709-B11 10449-1 FDI
+  - Aitzkoa-2023-03-21---ImmSight-Cat-20230321-1837-C1 10118-1
+  - Aitzkoa-2023-03-28---ImmSight-Cat-20230328-1643-C11 10136-1
+  - Aitzkoa-2023-04-17---ImmSight-Cat-20230417-1826 (1)-C10 10185-1
+  - Aitzkoa-2023-04-18---ImmSight-Cat-20230418-1650(1)-C2 10187-1
+  - Aitzkoa-2023-04-24---ImmSight-Cat-20230424-1653-F5 7478-2
+  - Aitzkoa-2023-04-25---ImmSight-Cat-20230425-1554-C2 10211-1
+  - Aitzkoa-2023-05-02---ImmSight-Cat-20230502-1742-H11 Adetect T065
+  - Aitzkoa-2023-05-08---ImmSight-Cat-20230508-1740-D2 10250-1
+  - Aitzkoa-2023-05-09---ImmSight-Cat-20230509-1649-A5 10254-1
+  - Aitzkoa-2023-05-09---ImmSight-Cat-20230509-1649-B5 10255-1
+  - Aitzkoa-2023-05-15---ImmSight-Cat-20230515-1619-A8 7788-3
+  - Aitzkoa-2023-06-26---ImmSight-Cat-20230626-1642-C11 10843-1
+  - Aitzkoa-2023-06-26---ImmSight-Cat-20230626-1642-D11 10844-1
+  - Aitzkoa-2023-07-03---ImmSight-Cat-20230703-1709-D2 10858-1
+  - Aitzkoa-2023-07-03---ImmSight-Cat-20230703-1709-F2 10860-1
+  - Aitzkoa-2023-09-04---ImmSight-Cat-20230904-1743-C2 9344-2
+  - Aitzkoa-2023-09-11---ImmSight-Cat-20230911-1704-A8 10969-1
+  - Aitzkoa-2023-09-12---ImmSight-Cat-20230912-1721-A11 7967-3
+  - Aitzkoa-2023-09-25---ImmSight-Cat-20230925-1712-D8 11015-1
+  - Aitzkoa-2023-09-26---ImmSight-Cat-20230926-1448-E11 Adetect A042
+  - Aitzkoa-2023-10-03---ImmSight-Cat-20231003-1446-C2 ADetect T096
+  - Aitzkoa-2023-10-10---ImmSight-Cat-20231010-1620-A5 8022-3
+  - Aitzkoa-2023-10-17---ImmSight-Cat-20231017-1456-C11 Adetect P060
+  - Aitzkoa-2023-10-31---ImmSight-Cat-20231031-1424-D5 Adetect T109
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-C8 9046-2
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-D8 9117-2
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-E8 9168-2
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-A2 9557-2 FDI
+  - Aitzkoa-2023-11-28---ImmSight-Cat-20231128-1637-A8 8088-3
+  - Aitzkoa-2023-12-04---ImmSight-Cat-20231204-1447-A11 6749-4
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-A2 8053-3
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-B2 9153-2
+  - Aitzkoa-2023-12-12---ImmSight-Cat-20231212-1554-C5 Adetect K020
+  - Aitzkoa-2023-12-12---ImmSight-Cat-20231212-1554-D5 Adetect T100
+  - Aitzkoa-2024-01-23---ImmSight-Cat-20240123-1550-D8 9331-2
+  - Aitzkoa-2024-01-29---ImmSight-Cat-20240129-1630-G11 11316-1
+  - Aitzkoa-2024-02-12---ImmSight-Cat-20240212-1619-A2 8117-3
+  - Aitzkoa-2024-02-20---ImmSight-Cat-20240220-1449-B5 Adetect F032
+  - Aitzkoa-2024-02-27---ImmSight-Cat-20240227-1800-B11 Adetect T126
+  - Aitzkoa-2024-03-05---ImmSight-Cat-20240305-1437-E8 Adetect T136
+  - Aitzkoa-2024-03-11---ImmSight-Cat-20240311-1511-A2 7212-4
+  - Aitzkoa-2024-03-18---ImmSight-Cat-20240318-1603-C5 8408-3
+  - Aitzkoa-2024-04-02---ImmSight-Cat-20240402-1431-A11 9389-2 FDI
+  - Aitzkoa-2024-04-09---ImmSight-Cat-20240409-1433-D2 9433-2
+  - Aitzkoa-2024-04-15---ImmSight-Cat-20240415-1528-G2 11315-2
+  - Aitzkoa-2024-04-16---ImmSight-Cat-20240416-1556-B5 8396-3
+  - Aitzkoa-2024-05-06---ImmSight-Cat-20240506-1424-H11 10961-2
+  - Aitzkoa-2024-05-13---ImmSight-Cat-20240513-1607-D2 9512-2
+  - Aitzkoa-2024-05-13---ImmSight-Cat-20240513-1607-E2 11370-2
+  - Aitzkoa-2024-05-28---ImmSight-Cat-20240528-1500-H5 Adetect T133
+  - Aitzkoa-2024-06-04 --ImmSight-Cat-20240604-1607-C8 Adetect T120
+  - Aitzkoa-2024-06-10 --ImmSight-Cat-20240610-1624-F8 10361-2 FDI
+  - Aitzkoa-2024-06-10 --ImmSight-Cat-20240610-1624-G8 10363-2 FDI
+  - Aitzkoa-2024-06-11 --ImmSight-Cat-20240611-1629-B11 Adetect N056
+  - Aitzkoa-2024-06-18 --ImmSight-Cat-20240618-1822-A2 7141-4
+  - Aitzkoa-2024-09-16 --ImmSight-Cat-20240916-1650-E2 8535-3
+  - Aitzkoa-2024-09-16 --ImmSight-Cat-20240916-1650-F2 12082-1
+  - Aitzkoa-2024-09-24 --ImmSight-Cat-20240924-1634-B2 Adetect F038
+  - Aitzkoa-2024-09-24 --ImmSight-Cat-20240924-1634-C2 Adetect M002
+  - Aitzkoa-2024-10-07 --ImmSight-Cat-20241007-1735-D5 10413-2 FDI
+  - Aitzkoa-2024-10-22 --ImmSight-Cat-20241022-1817-H12 A Detect P085
+  - Aitzkoa-2023-09-18---ImmSight-Cat-20230918-1528-B2 9102-2
+  - Aitzkoa-2024-05-14---ImmSight-Cat-20240514-1540-H2 Adetect T135
+  sigma+1:
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-E5 Adetect T083
+  - Aitzkoa-2023-06-27---ImmSight-Cat-20230627-1609-F11 10846-1
+  - Aitzkoa-2023-03-27---ImmSight-Cat-20230327-1553-A7 7717-3
+  - Aitzkoa-2023-03-28---ImmSight-Cat-20230328-1643-D11 10137-1
+  - Aitzkoa-2023-03-28---ImmSight-Cat-20230328-1643-E11 10452-1 FDI
+  - Aitzkoa-2023-09-05---ImmSight-Cat-20230905-1551-H5 10955-1
+  - Aitzkoa-2023-09-11---ImmSight-Cat-20230911-1704-D8 10972-1
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-B5 9100-2
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-F5 Adetect T087
+  - Aitzkoa-2023-10-03---ImmSight-Cat-20231003-1446-A2 ADetect B049
+  - Aitzkoa-2023-10-16---ImmSight-Cat-20231016-1520-B8 8093-3
+  - Aitzkoa-2023-10-17---ImmSight-Cat-20231017-1456-A11 9372-2
+  - Aitzkoa-2023-10-24---ImmSight-Cat-20231024-1706-F3 8174-3
+  - Aitzkoa-2023-10-29---ImmSight-Cat-20231030-1556-A5 7923-3
+  - Aitzkoa-2023-10-29---ImmSight-Cat-20231030-1556-B5 9447-2
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-B8 7845-3
+  - Aitzkoa-2023-11-13---ImmSight-Cat-20231113-1421-G11 8052-3
+  - Aitzkoa-2023-12-12---ImmSight-Cat-20231212-1554-A6 9263-2
+  - Aitzkoa-2023-12-19---ImmSight-Cat-20231219-1602-B8 Adetect P070
+  - Aitzkoa-2024-02-26---ImmSight-Cat-20240226-1647-B8 8325.3
+  - Aitzkoa-2024-05-06---ImmSight-Cat-20240506-1424-G11 7145-4
+  - Aitzkoa-2024-05-20---ImmSight-Cat-20240520-1428-C5 10335-2 FDI
+  - Aitzkoa-2024-05-27---ImmSight-Cat-20240527-1742-E5 9590-2
+  - Aitzkoa-2024-06-03--ImmSight-Cat-20240603-1608-B8 10358-2 FDI
+  - Aitzkoa-2024-07-02 --ImmSight-Cat-20240702-1718-A5 11811-1
+  - Aitzkoa-2023-01-23---ImmSight-Cat-20230123-1539-F2 9983-1
+  - Aitzkoa-2023-02-20---ImmSight-Cat-20230220-1557-B5 8902-2 FDI
+  - Aitzkoa-2023-03-20---ImmSight--20230320-1709-B11 10449-1 FDI
+  - Aitzkoa-2023-04-03---ImmSight-Cat-20230403-1626-G9 10146-1
+  - Aitzkoa-2023-05-08---ImmSight-Cat-20230508-1740-B2 7693-3
+  - Aitzkoa-2023-05-15---ImmSight-Cat-20230515-1619-C8 9052-2
+  - Aitzkoa-2023-05-16---ImmSight-Cat-20230516-1609-B11 10271-1
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-A5 6495-4
+  - Aitzkoa-2024-05-28---ImmSight-Cat-20240528-1500-F5 10343-2 FDI
+  - Aitzkoa-2024-06-24 --ImmSight-Cat-20240624-1616-E2 11777-1
+  - Aitzkoa-2023-09-25---ImmSight-Cat-20230925-1712-C8 8104-3
+  sigma+1.5:
+  - Aitzkoa-2024-05-20---ImmSight-Cat-20240520-1428-A5 7155-4
+  - Aitzkoa-2023-10-10---ImmSight-Cat-20231010-1620-C5 Adetect J049
+  - Aitzkoa-2023-07-04---ImmSight-Cat-20230704-1648-A5 10862-1
+  - Aitzkoa-2023-06-26---ImmSight-Cat-20230626-1642-A11 8927-2 FDI
+  - Aitzkoa-2023-09-26---ImmSight-Cat-20230926-1448-D11 11020-1
+  - Aitzkoa-2023-09-04---ImmSight-Cat-20230904-1743-E2 10951-1
+  - Aitzkoa-2024-06-24 --ImmSight-Cat-20240624-1616-C2 11775-1
+  - Aitzkoa-2024-06-10 --ImmSight-Cat-20240610-1624-E8 9724-2
+  - Aitzkoa-2024-04-08---ImmSight-Cat-20240408-1615-A2 6950-4
+  - Aitzkoa-2023-12-19---ImmSight-Cat-20231219-1602-A8 Adetect I051
+  - Aitzkoa-2023-11-07---ImmSight-Cat-20231107-1710-B11 9272-2
+  - Aitzkoa-2023-10-29---ImmSight-Cat-20231030-1556-A5 7923-3
+  - Aitzkoa-2023-10-23---ImmSight-Cat-20231023-1441-D2 11092-1
+  - Aitzkoa-2023-10-23---ImmSight-Cat-20231023-1441-C2 11091-1
+  - Aitzkoa-2023-10-23---ImmSight-Cat-20231023-1441-B2 11090-1
+  - Aitzkoa-2023-10-23---ImmSight-Cat-20231023-1441-A2 8168-3
+  - Aitzkoa-2023-10-02---ImmSight-Cat-20231002-1440-H11 11035-1
+  - Aitzkoa-2023-09-26---ImmSight-Cat-20230926-1448-B11 9185-2
+  - Aitzkoa-2023-09-26---ImmSight-Cat-20230926-1448-A11 9039-2 FDI
+  - Aitzkoa-2023-09-25---ImmSight-Cat-20230925-1712-E8 11016-1
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-C5 10996-1
+  - Aitzkoa-2023-09-11---ImmSight-Cat-20230911-1704-B8 10462-1 FDI
+  - Aitzkoa-2023-09-05---ImmSight-Cat-20230905-1551-F5 10953-1
+  - Aitzkoa-2023-06-20---ImmSight-Cat-20230620-1434-E8 Adetect S018
+  - Aitzkoa-2023-02-14---ImmSight-Cat-20230214-1748-B8 10033-1
+  - Aitzkoa-2023-09-18---ImmSight-Cat-20230918-1528-A2 8293-2
+  - Aitzkoa-2023-10-10---ImmSight-Cat-20231010-1620-B5 Adetect E040
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-A5 7851-2
+  - Aitzkoa-2023-02-12---ImmSight-Cat-20230213-1616-G8 10030-1
+  sigma+2.0:
+  - Aitzkoa-2023-09-04---ImmSight-Cat-20230904-1743-D2 10950-1
+  - Aitzkoa-2023-07-03---ImmSight-Cat-20230703-1709-E2 10859-1
+  - Aitzkoa-2023-07-04---ImmSight-Cat-20230704-1648-E5 Adetect T068
+  sigma+2.5:
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-D2 10883-1
+  - Aitzkoa-2024-07-02 --ImmSight-Cat-20240702-1718-B5 11812-1
+  - Aitzkoa-2023-11-07---ImmSight-Cat-20231107-1710-A11 6893-4
+  - Aitzkoa-2023-09-11---ImmSight-Cat-20230911-1704-A8 10969-1
+  - Aitzkoa-2023-09-05---ImmSight-Cat-20230905-1551-G5 10954-1
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-E2 10884-1
+  - Aitzkoa-2023-07-10---ImmSight-Cat-20230710-1637-A8 10876-1
+  - Aitzkoa-2023-06-26---ImmSight-Cat-20230626-1642-C11 10843-1
+  - Aitzkoa-2024-06-25 --ImmSight-Cat-20240625-1630-F2 7056-4
+  - Aitzkoa-2023-09-04---ImmSight-Cat-20230904-1743-B2 9018-2
+  - Aitzkoa-2023-10-03---ImmSight-Cat-20231003-1446-B2 ADetect C050
+  sigma+3.5:
+  - Aitzkoa-2023-06-20---ImmSight-Cat-20230620-1434-A8 10835-1
+  - Aitzkoa-2023-06-20---ImmSight-Cat-20230620-1434-C8 10837-1
+  sigma-0.5:
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-C5 7273-4
+  - Aitzkoa-2024-09-10 --ImmSight-Cat-20240910-1551-A2 7272-4
+  - Aitzkoa-2024-10-14 --ImmSight-Cat-20241014-1713-F8 8815-3 FDI
+  - Aitzkoa-2025-01-14 --ImmSight-Cat-20250114-1547-G8 A Detect S044
+  xlim=1100:
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-B5 8510-3 FDI
+  - Aitzkoa-2024-10-28 --ImmSight-Cat-20241028-1722-A5 7479-4
+DC_sub Gating:
+  NA:
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-A5 8441-3
+  CUSTOM_x=10000:
+  - Aitzkoa-2025-05-27 --ImmSight-Cat-20250527-1502-B8 A Detect E053
+  - Aitzkoa-2025-07-22 --ImmSight-Cat-20250722-1541-A8 10188-2
+  - Aitzkoa-2024-02-20---ImmSight-Cat-20240220-1449-D5 Adetect Y002
+  xlim+10%:
+  - Aitzkoa-2022-12-19---ImmSight-Cat-20221219-1619-A2 8958-2 FDI
+  - Aitzkoa-2023-01-17---ImmSight-Cat-20230117-1641-B2 9969-1
+  - Aitzkoa-2023-03-20---ImmSight--20230320-1709-B11 10449-1 FDI
+  - Aitzkoa-2023-03-20---ImmSight-Cat-20230320-1709-B11 10449-1 FDI
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-C2 10882-1
+  - Aitzkoa-2024-06-17 --ImmSight-Cat-20240617-1600-G11 10368-2 FDI
+  CUSTOM_y=1000:
+  - Aitzkoa-2024-10-22 --ImmSight-Cat-20241022-1817-F12 A Detect N059
+  xlim+20%:
+  - Aitzkoa-2023-03-20---ImmSight--20230320-1709-B11 10449-1 FDI
+  xlim+30%:
+  - Aitzkoa-2022-12-19---ImmSight-Cat-20221219-1619-A2 8958-2 FDI
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-C8 9046-2
+  xlim+50%:
+  - Aitzkoa-2024-10-22 --ImmSight-Cat-20241022-1817-F12 A Detect N059
+NKT Gating:
+  CUSTOM_y_to_2000:
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-C5 7273-4
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-B5 8510-3 FDI
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-A5 8441-3
+  - Aitzkoa-2023-09-05---ImmSight-Cat-20230905-1727-H1 7927-3
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-D5 Adetect Y016
+  y-200:
+  - Aitzkoa-2025-05-19 --ImmSight-Cat-20250519-1454-H2 10463-2 FDI
+  - Aitzkoa-2025-06-09 --ImmSight-Cat-20250609-1546-C11 10278-2
+  - Aitzkoa-2025-06-16 --ImmSight-Cat-20250616-1519-F11 10814-2
+  - Aitzkoa-2025-07-08 --ImmSight-Cat-20250708-1507-E5 12931-
+  - Aitzkoa-2025-07-08 --ImmSight-Cat-20250708-1507-F5 12932-1
+  - Aitzkoa-2025-07-29 --ImmSight-Cat-20250729-1529-E8 12945-1
+  - Aitzkoa-2025-08-05 --ImmSight-Cat-20250805-1419-C11 12951-1
+  - Aitzkoa-2025-08-12 --ImmSight-Cat-20250812-1609-A2 12960-1
+  - Aitzkoa-2025-09-01 --ImmSight-Cat-20250901-1720-B8 10956-2
+  - Aitzkoa-2025-09-08 --ImmSight-Cat-20250908-1726-C11 10937-2
+  - Aitzkoa-2025-09-08 --ImmSight-Cat-20250908-1726-G11 13055-1
+  - Aitzkoa-2024-04-16---ImmSight-Cat-20240416-1556-C5 Adetect Y003
+  - Aitzkoa-2023-11-27---ImmSight-Cat-20231127-1523-H2 8120-3
+  - Aitzkoa-2024-06-11 --ImmSight-Cat-20240611-1629-A11 10348-2 FDI
+  - Aitzkoa-2024-11-11 --ImmSight-Cat-20241111-1701-E8 8822-3 FDI
+  - Aitzkoa-2023-06-20---ImmSight-Cat-20230620-1434-B8 10836-1
+  - Aitzkoa-2024-06-24 --ImmSight-Cat-20240624-1616-C2 11775-1
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-E8 10806-1
+  - Aitzkoa-2023-01-24---ImmSight-Cat-20230124-1522-A5 9987-1
+  - Aitzkoa-2023-09-04---ImmSight-Cat-20230904-1743-D2 10950-1
+  - Aitzkoa-2023-09-11---ImmSight-Cat-20230911-1704-A8 10969-1
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-D8 9117-2
+  - Aitzkoa-2024-03-18---ImmSight-Cat-20240318-1603-C5 8408-3
+  - Aitzkoa-2023-05-02---ImmSight-Cat-20230502-1742-G8 10223-1
+  - Aitzkoa-2023-04-18---ImmSight-Cat-20230418-1650(1)-A2 7746-3
+  - Aitzkoa-2023-03-06---ImmSight-Cat-20230306-1611-D2 10079-1
+  - Aitzkoa-2023-10-23---ImmSight-Cat-20231023-1441-B2 11090-1
+  - Aitzkoa-2023-05-15---ImmSight-Cat-20230515-1619-E8 10269-1
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-D2 10883-1
+  - Aitzkoa-2025-01-27 --ImmSight-Cat-20250127-1730-H1 9976-2
+  - Aitzkoa-2023-04-18---ImmSight-Cat-20230418-1650(1)-B2 8955-2
+  - Aitzkoa-2023-06-26---ImmSight-Cat-20230626-1642-B11 10842-1
+  - Aitzkoa-2023-02-14---ImmSight-Cat-20230214-1748-D8 10036-1
+  - Aitzkoa-2024-04-23---ImmSight-Cat-20240423-1519-A8 7105-4
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-G5 Adetect T098
+  - Aitzkoa-2024-05-28---ImmSight-Cat-20240528-1500-G5 Adetect N053
+  - Aitzkoa-2023-05-15---ImmSight-Cat-20230515-1619-D8 9129-2 FDI
+  - Aitzkoa-2023-04-25---ImmSight-Cat-20230425-1554-C2 10211-1
+  - Aitzkoa-2025-04-28 --ImmSight-Cat-20250428-1517-F8 9129-3 FDI
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-B2 10881-1
+  - Aitzkoa-2023-05-02---ImmSight-Cat-20230502-1742-H8 10225-1
+  - Aitzkoa-2023-03-28---ImmSight-Cat-20230328-1643-F11 Adetect C043-1
+  - Aitzkoa-2024-06-10 --ImmSight-Cat-20240610-1624-F8 10361-2 FDI
+  - Aitzkoa-2024-05-06---ImmSight-Cat-20240506-1424-H11 10961-2
+  - Aitzkoa-2023-03-28---ImmSight-Cat-20230328-1643-C11 10136-1
+B_sub Gating:
+  CD27_ylim_100:
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-1613-C6 10084-1
+  - Aitzkoa-2025-02-11 --ImmSight-Cat-20250211-1815-B11 Adetect P091
+  - Aitzkoa-2025-02-10 --ImmSight-Cat-20250210-1800-F8 10454-2 FDI
+  - Aitzkoa-2025-02-11 --ImmSight-Cat-20250211-1741-B11 Adetect P091
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-2001-C12 10084-1
+  CD27_ylim_500:
+  - Aitzkoa-2023-01-16---ImmSight-Cat-20230116-1628-F2 9967-2
+  CD27_ylim_1000:
+  - Aitzkoa-2023-09-05---ImmSight-Cat-20230905-1727-H1 7927-3
+  - Aitzkoa-2024-02-20---ImmSight-Cat-20240220-1449-B5 Adetect F032
+  - Aitzkoa-2023-03-20---ImmSight--20230320-1709-A11 8740-2
+  - Aitzkoa-2023-03-28---ImmSight-Cat-20230328-1643-B11 10134-1
+  CD27_ylim_2000:
+  - Aitzkoa-2025-05-27 --ImmSight-Cat-20250527-1502-C8 A Detect T195
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-A5 8441-3
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-B5 8510-3 FDI
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-C5 7273-4
+  - Aitzkoa-2023-09-05---ImmSight-Cat-20230905-1727-H1 7927-3
+  - Aitzkoa-2023-09-05---ImmSight-Cat-20230905-1727-H1 7927-3
+  IgD_upper_xlim_500:
+  - Aitzkoa-2025-06-23 --ImmSight-Cat-20250623-1446-G11 10282-2
+  - Aitzkoa-2025-05-20 --ImmSight-Cat-20250520-1425-B5 A Detect F047
+  - Aitzkoa-2025-01-27 --ImmSight-Cat-20250127-1730-G1 9864-2
+  - Aitzkoa-2025-03-31 --ImmSight-Cat-20250331-1546-G2 10138-2
+  - Aitzkoa-2025-01-13 --ImmSight-Cat-20250113-1600-F8 10450-2 FDI
+  - Aitzkoa-2025-01-27 --ImmSight-Cat-20250127-1730-H1 9976-2
+  IgD_upper_xlim_600:
+  - Aitzkoa-2025-09-30 --ImmSight-Cat-20250930-1454-H5 A Detect S064
+  - Aitzkoa-2025-09-22 --ImmSight-Cat-20250922-1629-A2 9122-3 FDI
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-G5 12992-1
+  - Aitzkoa-2025-08-11 --ImmSight-Cat-20250811-1615-E11 10206-2
+  - Aitzkoa-2025-07-28 --ImmSight-Cat-20250728-1526-C8 10877-2
+  - Aitzkoa-2025-07-08 --ImmSight-Cat-20250708-1507-D5 11038-2
+  - Aitzkoa-2025-07-07 --ImmSight-Cat-20250707-1422-C5 12907-1
+  - Aitzkoa-2025-05-27 --ImmSight-Cat-20250527-1502-B8 A Detect E053
+  - Aitzkoa-2025-05-26 --ImmSight-Cat-20250526-1538-E5 9099-3 FDI
+  - Aitzkoa-2025-05-13 --ImmSight-Cat-20250513-1621-F2 Adetect S060
+  - Aitzkoa-2025-04-14 --ImmSight-Cat-20250414-1607-A8 9085-3 FDI
+  - Aitzkoa-2025-01-13 --ImmSight-Cat-20250113-1600-E8 9880-2
+  - Aitzkoa-2025-04-01 --ImmSight-Cat-20250401-1512-H2 A Detect V009
+  - Aitzkoa-2025-04-08 --ImmSight-Cat-20250408-1527-G5 A Detect V002
+  - Aitzkoa-2025-01-21 --ImmSight-Cat-20250121-1606-H11 Adetect T177
+  - Aitzkoa-2025-01-07 --ImmSight-Cat-20250107-1550-F5 Adetect I058
+  - Aitzkoa-2024-09-17 --ImmSight-Cat-20240917-1719-E7 A Detect Y015
+  - Aitzkoa-2024-07-02 --ImmSight-Cat-20240702-1718-A5 11811-1
+  - Aitzkoa-2023-06-27---ImmSight-Cat-20230627-1609-F11 10846-1
+  - Aitzkoa-2024-06-24 --ImmSight-Cat-20240624-1616-C2 11775-1
+  - Aitzkoa-2023-06-19---ImmSight-Cat-20230619-1620-B5 9765-2
+  - Aitzkoa-2023-01-24---ImmSight-Cat-20230124-1522-B5 ADetectI031
+  - Aitzkoa-2023-09-04---ImmSight-Cat-20230904-1743-B2 9018-2
+  - Aitzkoa-2023-09-26---ImmSight-Cat-20230926-1448-C11 11019-1
+  - Aitzkoa-2025-02-10 --ImmSight-Cat-20250210-1800-D8 8740-3 FDI
+  - Aitzkoa-2023-07-04---ImmSight-Cat-20230704-1648-C5 10864-1
+  IgD_upper_xlim_700:
+  - Aitzkoa-2023-05-08---ImmSight-Cat-20230508-1740-B2 7693-3
+  - Aitzkoa-2024-10-07 --ImmSight-Cat-20241007-1735-D5 10413-2 FDI
+  IgD_upper_xlim_1000:
+  - Aitzkoa-2025-09-01 --ImmSight-Cat-20250901-1720-D8 13041-1
+  - Aitzkoa-2025-06-02 --ImmSight-Cat-20250602-1634-E8 10460-2 FDI
+  - Aitzkoa-2024-06-11 --ImmSight-Cat-20240611-1629-A11 10348-2 FDI
+  - Aitzkoa-2023-02-06---ImmSight-Cat-20230206-1619-A11 7623-3
+  - Aitzkoa-2023-04-24---ImmSight-Cat-20230424-1653-H5 10204-1
+  - Aitzkoa-2023-03-06---ImmSight-Cat-20230306-1611-B2 7759-3
+  - Aitzkoa-2022-12-20---ImmSight-Cat-20221220-1612-A2 9937-1
+  - Aitzkoa-2023-05-02---ImmSight-Cat-20230502-1742-H11 Adetect T065
+  - Aitzkoa-2023-05-09---ImmSight-Cat-20230509-1649-E5 Adetect J041
+  - Aitzkoa-2022-12-13---ImmSight-Cat-20221213-1741-D3 9925-1
+  - Aitzkoa-2023-01-31---ImmSight-Cat-20230131-1600-E5 10001-1
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-E8 10806-1
+  - Aitzkoa-2023-04-18---ImmSight-Cat-20230418-1650(1)-B2 8955-2
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-E8 9168-2
+  - Aitzkoa-2024-09-10 --ImmSight-Cat-20240910-1551-A2 7272-4
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-B8 9043-2 FDI
+  - Aitzkoa-2023-02-06---ImmSight-Cat-20230206-1619-C11 10016-1
+  - Aitzkoa-2024-06-17 --ImmSight-Cat-20240617-1600-F11 9769-2
+  - Aitzkoa-2023-11-07---ImmSight-Cat-20231107-1710-B11 9272-2
+  - Aitzkoa-2023-12-19---ImmSight-Cat-20231219-1602-A8 Adetect I051
+  - Aitzkoa-2023-04-25---ImmSight-Cat-20230425-1554-D2 Adetect J040
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-C2 10882-1
+  - Aitzkoa-2023-12-04---ImmSight-Cat-20231204-1447-A11 6749-4
+  - Aitzkoa-2023-02-21---ImmSight-Cat-20230221-1708-H5 Adetect B029
+  - Aitzkoa-2023-12-12---ImmSight-Cat-20231212-1554-C5 Adetect K020
+  IgD_upper_xlim_1500:
+  - Aitzkoa-2025-09-09 --ImmSight-Cat-20250909-1604-G8 A Detect Y041
+  - Aitzkoa-2023-05-08---ImmSight-Cat-20230508-1740-D2 10250-1
+  - Aitzkoa-2023-05-08---ImmSight-Cat-20230508-1740-E2 10455-1 FDI
+  - Aitzkoa-2023-05-22---ImmSight-Cat-20230522-1608-B2 9023-2 FDI
+  - Aitzkoa-2023-02-06---ImmSight-Cat-20230206-1619-B11 8213-2
+  - Aitzkoa-2023-02-07---ImmSight-Cat-20230207-1717-A9 10018-1
+  - Aitzkoa-2023-05-02---ImmSight-Cat-20230502-1742-H8 10225-1
+  - Aitzkoa-2023-01-17---ImmSight-Cat-20230117-1641-A2 8767-2
+  - Aitzkoa-2023-01-30---ImmSight-Cat-20230130-1602-A6 7726-3
+  - Aitzkoa-2025-02-11 --ImmSight-Cat-20250211-1815-B11 Adetect P091
+  - Aitzkoa-2023-04-04---ImmSight-Cat-20230404-1609-B2 10149-1
+  - Aitzkoa-2023-04-18---ImmSight-Cat-20230418-1650(1)-A2 7746-3
+  - Aitzkoa-2022-12-13---ImmSight-Cat-20221213-1741-E3 7404-3
+  - Aitzkoa-2025-02-11 --ImmSight-Cat-20250211-1741-B11 Adetect P091
+  - Aitzkoa-2023-01-16---ImmSight-Cat-20230116-1628-E2 8827-2
+  - Aitzkoa-2023-01-17---ImmSight-Cat-20230117-1641-C2 9971-1
+  - Aitzkoa-2024-10-15 --ImmSight-Cat-20241015-1710-H11 Adetect Q012
+  - Aitzkoa-2023-03-21---ImmSight-Cat-20230321-1837-A1 7766-3
+  - Aitzkoa-2023-06-27---ImmSight-Cat-20230627-1609-E11 9098-2 FDI
+  - Aitzkoa-2023-01-09---ImmSight-Cat-20230109-1615-A2 7452-3
+  - Aitzkoa-2023-02-14---ImmSight-Cat-20230214-1748-D8 10036-1
+  - Aitzkoa-2024-10-14 --ImmSight-Cat-20241014-1713-G8 9003-3
+  - Aitzkoa-2023-04-04---ImmSight-Cat-20230404-1609-A2 10148-1
+  - Aitzkoa-2023-12-12---ImmSight-Cat-20231212-1554-B5 Adetect F029
+  - Aitzkoa-2022-12-13---ImmSight-Cat-20221213-1741-C3 9926-1
+  - Aitzkoa-2023-02-28---ImmSight-Cat-20230228-1657-D11 10063-1
+  - Aitzkoa-2024-03-18---ImmSight-Cat-20240318-1603-D5 9533-2 FDI
+  - Aitzkoa-2023-03-14---ImmSight-Cat-20230314-1703-B8 8914-2 FDI
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-2001-C12 10084-1
+  IgD_upper_xlim_2000:
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-A5 8441-3
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-B5 8510-3 FDI
+  - Aitzkoa-2022-12-12---ImmSight-1546-A3 9924-1
+  - Aitzkoa-2023-05-15---ImmSight-Cat-20230515-1619-E8 10269-1
+  IgD_upper_xlim_2500:
+  - Aitzkoa-2023-01-31---ImmSight-Cat-20230131-1600-D5 10000-1
+  IgD_upper_xlim_3000:
+  - Aitzkoa-2025-09-22 --ImmSight-Cat-20250922-1629-C2 13081-1
+  - Aitzkoa-2023-01-16---ImmSight-Cat-20230116-1628-F2 9967-2
+  IgD_upper_xlim_5000:
+  - Aitzkoa-2023-03-20---ImmSight--20230320-1709-A11 8740-2
+  IgD_upper_xlim_10000:
+  - Aitzkoa-2023-02-14---ImmSight-Cat-20230214-1748-B8 10033-1
+  IgD_xlim_300:
+  - Aitzkoa-2025-06-17 --ImmSight-Cat-20250617-1803-E2 Adetect Q043
+  - Aitzkoa-2025-07-08 --ImmSight-Cat-20250708-1507-F5 12932-1
+  - Aitzkoa-2022-12-13---ImmSight-Cat-20221213-1741-G3 8821-2 FDI
+  - Aitzkoa-2024-12-16  --ImmSight-Cat-20241216-1713-E5 9878-2
+  IgD_xlim_100:
+  - Aitzkoa-2024-11-26 --ImmSight-Cat-20241126-1704-B11 A Detect B053
+  - Aitzkoa-2024-12-02 --ImmSight-Cat-20241202-1655-B2 7450-4
+  - Aitzkoa-2025-02-03 --ImmSight-Cat-20250203-1600-F2 9983-2
+  - Aitzkoa-2025-04-08 --ImmSight-Cat-20250408-1527-F5 A Detect Q046
+  IgD_xlim_1000:
+  - Aitzkoa-2025-08-12 --ImmSight-Cat-20250812-1609-B2 12961-1
+  - Aitzkoa-2025-09-22 --ImmSight-Cat-20250922-1629-C2 13081-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-A5 9153-3
+  - Aitzkoa-2023-09-25---ImmSight-Cat-20230925-1712-D8 11015-1
+  - Aitzkoa-2022-12-13---ImmSight-Cat-20221213-1741-D3 9925-1
+  IgD_xlim_1500:
+  - Aitzkoa-2023-03-28---ImmSight-Cat-20230328-1643-D11 10137-1
+  - Aitzkoa-2024-05-06---ImmSight-Cat-20240506-1424-H11 10961-2
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-C8 9046-2
+  - Aitzkoa-2023-01-10---ImmSight-Cat-20230110-1706-F2 9950-1
+  - Aitzkoa-2023-05-09---ImmSight-Cat-20230509-1649-B5 10255-1
+  - Aitzkoa-2023-04-17---ImmSight-Cat-20230417-1826 (1)-C10 10185-1
+  - Aitzkoa-2023-02-06---ImmSight-Cat-20230206-1619-B11 8213-2
+  - Aitzkoa-2023-06-27---ImmSight-Cat-20230627-1609-E11 9098-2 FDI
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-C2 Adetect F028
+  - Aitzkoa-2023-05-15---ImmSight-Cat-20230515-1619-D8 9129-2 FDI
+  - Aitzkoa-2024-02-20---ImmSight-Cat-20240220-1449-B5 Adetect F032
+  - Aitzkoa-2023-04-18---ImmSight-Cat-20230418-1650(1)-E2 Adetect C046
+  - Aitzkoa-2023-03-28---ImmSight-Cat-20230328-1643-B11 10134-1
+  - Aitzkoa-2023-05-02---ImmSight-Cat-20230502-1742-G8 10223-1
+  IgD_xlim_2500:
+  - Aitzkoa-2023-12-04---ImmSight-Cat-20231204-1447-B11 9307-2
+IgA:
+  IgA_400:
+  - Aitzkoa-2025-08-05 --ImmSight-Cat-20250805-1419-C11 12951-1
+  - Aitzkoa-2025-08-04 --ImmSight-Cat-20250804-1535-B11 12949-1
+  - Aitzkoa-2025-07-08 --ImmSight-Cat-20250708-1507-E5 12931-1
+  - Aitzkoa-2025-06-17 --ImmSight-Cat-20250617-1803-C2 Adetect B059
+  - Aitzkoa-2025-06-17 --ImmSight-Cat-20250617-1803-D2 Adetect P101
+  - Aitzkoa-2025-06-09 --ImmSight-Cat-20250609-1546-B11 10082-2
+  - Aitzkoa-2025-06-09 --ImmSight-Cat-20250609-1546-A11 9098-3 FDI
+  - Aitzkoa-2025-06-02 --ImmSight-Cat-20250602-1634-D8 10223-2
+  - Aitzkoa-2024-09-24 --ImmSight-Cat-20240924-1634-E2 Adetect S047
+  - Aitzkoa-2024-10-14 --ImmSight-Cat-20241014-1713-E8 8652-3 FDI
+  - Aitzkoa-2025-04-07 --ImmSight-Cat-20250407-1526-C5 10150-2
+  - Aitzkoa-2025-02-25 --ImmSight-Cat-20250225-1519-G8 A Detect Q039
+  - Aitzkoa-2023-02-06---ImmSight-Cat-20230206-1619-A11 7623-3
+  - Aitzkoa-2024-11-12 --ImmSight-Cat-20241112-1619-H8 A Detect Q015
+  - Aitzkoa-2024-10-21 --ImmSight-Cat-20241021-1705-B2 9698-2
+  - Aitzkoa-2025-02-18 --ImmSight-Cat-20250218-1536-G2 A Detect A059
+  - Aitzkoa-2025-02-24 --ImmSight-Cat-20250224-1652-H5 10248-2
+  - Aitzkoa-2025-04-15 --ImmSight-Cat-20250415-1511-D11 Adetect V013
+  - Aitzkoa-2024-11-26 --ImmSight-Cat-20241126-1704-B11 A Detect B053
+  - Aitzkoa-2024-11-11 --ImmSight-Cat-20241111-1701-C8 7431-4
+  - Aitzkoa-2025-02-03 --ImmSight-Cat-20250203-1600-G4 10446-2
+  IgA_2000:
+  - Aitzkoa-2023-05-08---ImmSight-Cat-20230508-1740-D2 10250-1
+  - Aitzkoa-2024-04-16---ImmSight-Cat-20240416-1556-C5 Adetect Y003
+  - Aitzkoa-2023-09-26---ImmSight-Cat-20230926-1448-B11 9185-2
+  - Aitzkoa-2023-06-26---ImmSight-Cat-20230626-1642-D11 10844-1
+  - Aitzkoa-2023-09-26---ImmSight-Cat-20230926-1448-A11 9039-2 FDI
+  - Aitzkoa-2025-02-04 --ImmSight-Cat-20250204-1710-A8 7685-4
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-C5 7273-4
+transitional:
+  CD38_1500:
+  - Aitzkoa-2025-05-27 --ImmSight-Cat-20250527-1502-B8 A Detect E053
+  - Aitzkoa-2025-05-27 --ImmSight-Cat-20250527-1502-B8 A Detect E053
+  - Aitzkoa-2025-02-03 --ImmSight-Cat-20250203-1600-F2 9983-2
+  - Aitzkoa-2023-01-23---ImmSight-Cat-20230123-1539-F2 9983-1
+  - Aitzkoa-2024-11-26 --ImmSight-Cat-20241126-1704-B11 A Detect B053
+  - Aitzkoa-2025-05-05 --ImmSight-Cat-20250505-1501-H11 9072-3
+  CD38_2000:
+  - Aitzkoa-2025-05-27 --ImmSight-Cat-20250527-1502-B8 A Detect E053
+  - Aitzkoa-2025-05-27 --ImmSight-Cat-20250527-1502-B8 A Detect E053
+  - Aitzkoa-2025-05-27 --ImmSight-Cat-20250527-1502-B8 A Detect E053
+  - Aitzkoa-2024-04-22---ImmSight-Cat-20240422-1640-F5 10471-FDI
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-A5 8441-3
+  - Aitzkoa-2023-02-12---ImmSight-Cat-20230213-1616-H8 10443-1
+  - Aitzkoa-2024-10-07 --ImmSight-Cat-20241007-1735-D5 10413-2 FDI
+  - Aitzkoa-2022-12-20---ImmSight-Cat-20221220-1612-B2 9938-1
+  - Aitzkoa-2023-04-25---ImmSight-Cat-20230425-1554-A2 8921-2
+  - Aitzkoa-2023-06-27---ImmSight-Cat-20230627-1609-H11 Adetect I042
+  CD38_3000:
+  - Aitzkoa-2023-01-31---ImmSight-Cat-20230131-1600-C5 9999-1
+  - Aitzkoa-2023-09-11---ImmSight-Cat-20230911-1704-C8 10970-1
+  - Aitzkoa-2024-03-05---ImmSight-Cat-20240305-1437-D8 Adetect T115
+  - Aitzkoa-2024-03-05---ImmSight-Cat-20240305-1437-E8 Adetect T136
+  - Aitzkoa-2024-04-08---ImmSight-Cat-20240408-1615-B2 9625-2 FDI
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-A2 10880-1
+  - Aitzkoa-2023-10-16---ImmSight-Cat-20231016-1520-A8 6756-4
+  - Aitzkoa-2023-02-07---ImmSight-Cat-20230207-1717-D9 Adetect U027
+  - Aitzkoa-2023-11-07---ImmSight-Cat-20231107-1710-A11 6893-4
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-E2 Adetect J055
+  - Aitzkoa-2023-09-04---ImmSight-Cat-20230904-1743-A2 7829-3
+  - Aitzkoa-2024-04-09---ImmSight-Cat-20240409-1433-D2 9433-2
+  CD24_400:
+  - Aitzkoa-2024-06-24 --ImmSight-Cat-20240624-1616-E2 11777-1
+plasmablasts:
+  CD24_200:
+  - Aitzkoa-2023-02-20---ImmSight-Cat-20230220-1557-C5 10043-1
+  - Aitzkoa-2023-01-30---ImmSight-Cat-20230130-1602-B6 9998-1
+  CD24_1000:
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-F5 Adetect T087
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-C5 7273-4
+  - Aitzkoa-2023-12-12---ImmSight-Cat-20231212-1554-C5 Adetect K020
+  - Aitzkoa-2023-06-20---ImmSight-Cat-20230620-1434-A8 10835-1
+  - Aitzkoa-2024-02-27---ImmSight-Cat-20240227-1800-B11 Adetect T126
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-D2 10883-1
+  - Aitzkoa-2024-02-26---ImmSight-Cat-20240226-1647-B8 8325.3
+  - Aitzkoa-2023-10-16---ImmSight-Cat-20231016-1520-B8 8093-3
+  - Aitzkoa-2023-10-17---ImmSight-Cat-20231017-1456-A11 9372-2
+  - Aitzkoa-2023-07-10---ImmSight-Cat-20230710-1637-A8 10876-1
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-C5 10996-1
+  - Aitzkoa-2023-12-12---ImmSight-Cat-20231212-1554-A6 9263-2
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-A2 9557-2 FDI
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-E2 10884-1
+  - Aitzkoa-2023-10-16---ImmSight-Cat-20231016-1520-A8 6756-4
+  - Aitzkoa-2023-09-05---ImmSight-Cat-20230905-1727-H1 7927-3
+  - Aitzkoa-2023-10-10---ImmSight-Cat-20231010-1620-C5 Adetect J049
+  - Aitzkoa-2023-10-17---ImmSight-Cat-20231017-1456-D11 Adetect T088
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-E5 Adetect T083
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-B5 9100-2
+  - Aitzkoa-2024-02-27---ImmSight-Cat-20240227-1800-A11 Adetect S032
+  - Aitzkoa-2023-10-17---ImmSight-Cat-20231017-1456-B11 Adetect F025
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-D5 Adetect Y016
+  - Aitzkoa-2023-12-19---ImmSight-Cat-20231219-1602-B8 Adetect P070
+  CD24_2000:
+  - Aitzkoa-2024-03-05---ImmSight-Cat-20240305-1437-D8 Adetect T115
+  - Aitzkoa-2024-03-05---ImmSight-Cat-20240305-1437-E8 Adetect T136
+  - Aitzkoa-2024-06-10 --ImmSight-Cat-20240610-1624-E8 9724-2
+  - Aitzkoa-2024-06-04 --ImmSight-Cat-20240604-1607-D8 Adetect T140
+  CD38_1000:
+  - Aitzkoa-2023-02-20---ImmSight-Cat-20230220-1557-C5 10043-1
+  CD38_4000:
+  - Aitzkoa-2023-01-17---ImmSight-Cat-20230117-1641-C2 9971-1
+  - Aitzkoa-2023-01-17---ImmSight-Cat-20230117-1641-B2 9969-1
+  - Aitzkoa-2023-01-10---ImmSight-Cat-20230110-1706-F2 9950-1
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-E2 10884-1
+  - Aitzkoa-2023-01-10---ImmSight-Cat-20230110-1842-A5 9952-1
+  - Aitzkoa-2023-02-12---ImmSight-Cat-20230213-1616-G8 10030-1
+  - Aitzkoa-2023-10-17---ImmSight-Cat-20231017-1456-D11 Adetect T088
+  - Aitzkoa-2023-02-12---ImmSight-Cat-20230213-1616-H8 10443-1
+  - Aitzkoa-2023-06-27---ImmSight-Cat-20230627-1609-E11 9098-2 FDI
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-B5 9100-2
+  CD38_6000:
+  - Aitzkoa-2023-09-05---ImmSight-Cat-20230905-1727-H1 7927-3
+CD56-CD16+NK:
+  Thresh2=300:
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-B5 9266-2
+  - Aitzkoa-2025-08-26 --ImmSight-Cat-20250826-1455-F2 A Detect O036
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-G5 12992-1
+  - Aitzkoa-2025-08-26 --ImmSight-Cat-20250826-1455-E2 12995-1
+  Thresh2=200:
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-C5 12988-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-D5 12989-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-E5 12990-1
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-F5 12991-1
+  custom:
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-A5 6495-4
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-E1 6495-4 old B panel
+  centroid:
+  - Aitzkoa-2024-09-16 --ImmSight-Cat-20240916-1650-F2 12082-1
+  xThresh2=300:
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-B5 9266-2
+  xThresh2=15000:
+  - Aitzkoa-2023-09-18---ImmSight-Cat-20230918-1528-C2 9268-2
+  - Aitzkoa-2024-09-16 --ImmSight-Cat-20240916-1650-F2 12082-1
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-A5 6495-4
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-C8 10803-1
+  - Aitzkoa-2024-03-18---ImmSight-Cat-20240318-1603-A5 7039-4
+  - Aitzkoa-2025-01-07 --ImmSight-Cat-20250107-1550-F5 Adetect I058
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-E8 10806-1
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-F8 Adetect N036
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-A8 7913-3
+  - Aitzkoa-2024-02-27---ImmSight-Cat-20240227-1800-B11 Adetect T126
+  - Aitzkoa-2024-02-27---ImmSight-Cat-20240227-1800-A11 Adetect S032
+  - Aitzkoa-2023-12-04---ImmSight-Cat-20231204-1447-B11 9307-2
+  - Aitzkoa-2023-12-04---ImmSight-Cat-20231204-1447-A11 6749-4
+  - Aitzkoa-2024-04-09---ImmSight-Cat-20240409-1433-D2 9433-2
+  - Aitzkoa-2024-04-15---ImmSight-Cat-20240415-1528-G2 11315-2
+  - Aitzkoa-2024-03-26---ImmSight-Cat-20240326-1645-F8 9269-2 FDI
+  - Aitzkoa-2023-04-03---ImmSight-Cat-20230403-1626-F9 6534-4
+  - Aitzkoa-2024-03-12---ImmSight-Cat-20240312-1609-H2 8336-3
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-A2 9557-2 FDI
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-B2 Adetect A043
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-D2 Adetect J054
+  - Aitzkoa-2024-02-12---ImmSight-Cat-20240212-1619-A2 8117-3
+  - Aitzkoa-2024-03-05---ImmSight-Cat-20240305-1437-E8 Adetect T136
+  - Aitzkoa-2024-03-05---ImmSight-Cat-20240305-1437-D8 Adetect T115
+  - Aitzkoa-2024-05-20---ImmSight-Cat-20240520-1428-C5 10335-2 FDI
+  - Aitzkoa-2024-05-20---ImmSight-Cat-20240520-1428-A5 7155-4
+  - Aitzkoa-2024-05-20---ImmSight-Cat-20240520-1428-B5 9826-2
+  - Aitzkoa-2025-04-01 --ImmSight-Cat-20250401-1512-H2 A Detect V009
+  - Aitzkoa-2023-04-18---ImmSight-Cat-20230418-1650(1)-C2 10187-1
+  - Aitzkoa-2023-04-18---ImmSight-Cat-20230418-1650(1)-B2 8955-2
+  - Aitzkoa-2023-04-18---ImmSight-Cat-20230418-1650(1)-A2 7746-3
+  - Aitzkoa-2023-10-03---ImmSight-Cat-20231003-1446-A2 ADetect B049
+  - Aitzkoa-2024-11-04 --ImmSight-Cat-20241104-1636-G5 8756-3
+  - Aitzkoa-2024-10-22 --ImmSight-Cat-20241022-1817-F12 A Detect N059
+  - Aitzkoa-2024-10-22 --ImmSight-Cat-20241022-1817-G12 A Detect P079
+  - Aitzkoa-2025-02-04 --ImmSight-Cat-20250204-1710-A8 7685-4
+  - Aitzkoa-2024-02-20---ImmSight-Cat-20240220-1449-A5 9421-2
+  - Aitzkoa-2025-02-17 --ImmSight-Cat-20250217-1643-D2 10030-2
+  - Aitzkoa-2025-02-17 --ImmSight-Cat-20250217-1643-E2 10094-2
+  - Aitzkoa-2023-02-21---ImmSight-Cat-20230221-1708-H7 10045-1
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-E1 6495-4 old B panel
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-C5 Adetect K011
+  - Aitzkoa-2025-03-18 --ImmSight-Cat-20250318-1607-B11 8967-3
+  - Aitzkoa-2023-02-14---ImmSight-Cat-20230214-1748-D8 10036-1
+  - Aitzkoa-2023-11-06---ImmSight-Cat-20231106-1451-D8 9117-2
+  - Aitzkoa-2024-06-11 --ImmSight-Cat-20240611-1629-A11 10348-2 FDI
+  - Aitzkoa-2025-04-14 --ImmSight-Cat-20250414-1607-A8 9085-3 FDI
+  - Aitzkoa-2023-10-24---ImmSight-Cat-20231024-1706-G3 Adetect P054
+  xThresh2=7000:
+  - Aitzkoa-2024-10-15 --ImmSight-Cat-20241015-1710-H11 Adetect Q012
+  - Aitzkoa-2025-01-27 --ImmSight-Cat-20250127-1730-G1 9864-2
+  - Aitzkoa-2025-04-28 --ImmSight-Cat-20250428-1517-E8 8939-3
+  - Aitzkoa-2023-01-31---ImmSight-Cat-20230131-1600-E5 10001-1
+  - Aitzkoa-2025-02-24 --ImmSight-Cat-20250224-1652-F5 8842-2
+  - Aitzkoa-2023-09-04---ImmSight-Cat-20230904-1743-A2 7829-3
+  - Aitzkoa-2025-03-03 --ImmSight-Cat-20250303-1548-E8 10162-2
+  - Aitzkoa-2023-10-03---ImmSight-Cat-20231003-1446-C2 ADetect T096
+  - Aitzkoa-2025-03-18 --ImmSight-Cat-20250318-1607-E11 A Detect Y024
+  - Aitzkoa-2023-11-28---ImmSight-Cat-20231128-1637-D8 Adetect I047
+  - Aitzkoa-2025-03-24 --ImmSight-Cat-20250324-1548-B2 10078-2
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-D2 Adetect I049
+  adjustAngle_2=-2:
+  - Aitzkoa-2025-01-27 --ImmSight-Cat-20250127-1730-H1 9976-2
+  - Aitzkoa-2023-12-04---ImmSight-Cat-20231204-1447-B11 9307-2
+  - Aitzkoa-2023-04-25---ImmSight-Cat-20230425-1554-C2 10211-1
+  - Aitzkoa-2023-04-25---ImmSight-Cat-20230425-1554-D2 Adetect J040
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-1613-A6 8960-2 FDI
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-1613-D5 10085-1
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-1613-F5 Adetect N031
+  - Aitzkoa-2024-12-09 --ImmSight-Cat-20241209-1718-G2 9735-2
+  - Aitzkoa-2023-10-03---ImmSight-Cat-20231003-1446-C2 ADetect T096
+  - Aitzkoa-2023-10-03---ImmSight-Cat-20231003-1446-A2 ADetect B049
+  - Aitzkoa-2023-10-03---ImmSight-Cat-20231003-1446-B2 ADetect C050
+  - Aitzkoa-2025-02-04 --ImmSight-Cat-20250204-1710-B8 Adetect S053
+  - Aitzkoa-2023-02-21---ImmSight-Cat-20230221-1708-H6 10046-1
+  - Aitzkoa-2023-02-21---ImmSight-Cat-20230221-1708-H5 Adetect B029
+  xThresh2=8000:
+  - Aitzkoa-2025-06-03 --ImmSight-Cat-20250603-1504-F8 7955-4
+  - Aitzkoa-2025-06-03 --ImmSight-Cat-20250603-1504-H8 A Detect T201
+  - Aitzkoa-2025-06-03 --ImmSight-Cat-20250603-1504-G8 A Detect T188
+  - Aitzkoa-2025-04-28 --ImmSight-Cat-20250428-1517-F8 9129-3 FDI
+  - Aitzkoa-2025-02-04 --ImmSight-Cat-20250204-1710-C8 Adetect U061
+  - Aitzkoa-2025-03-18 --ImmSight-Cat-20250318-1607-C11 A Detect Q041
+  - Aitzkoa-2025-02-25 --ImmSight-Cat-20250225-1519-G8 A Detect Q039
+  - Aitzkoa-2025-05-06 --ImmSight-Cat-20250506-1437-C2 A Detect T194
+  adjustAngle_2=0:
+  - Aitzkoa-2023-01-31---ImmSight-Cat-20230131-1600-G5 ADetect F022
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-C5 Adetect K011
+  widthScale_2=8:
+  - Aitzkoa-2023-01-31---ImmSight-Cat-20230131-1600-G5 ADetect F022
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-C5 Adetect K011
+  heightScale_2=4:
+  - Aitzkoa-2023-01-31---ImmSight-Cat-20230131-1600-G5 ADetect F022
+  - Aitzkoa-2024-10-14 --ImmSight-Cat-20241014-1713-D8 7428-4
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-E8 10806-1
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-F8 Adetect N036
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-A8 7913-3
+  - Aitzkoa-2024-02-27---ImmSight-Cat-20240227-1800-A11 Adetect S032
+  - Aitzkoa-2023-04-03---ImmSight-Cat-20230403-1626-F9 6534-4
+  - Aitzkoa-2024-12-09 --ImmSight-Cat-20241209-1718-H2 9916-2
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-D2 Adetect J054
+  - Aitzkoa-2025-04-29 --ImmSight-Cat-20250429-1502-E11 A Detect E055
+  - Aitzkoa-2024-02-12---ImmSight-Cat-20240212-1619-A2 8117-3
+  - Aitzkoa-2024-11-04 --ImmSight-Cat-20241104-1636-G5 8756-3
+  - Aitzkoa-2024-10-22 --ImmSight-Cat-20241022-1817-F12 A Detect N059
+  - Aitzkoa-2025-02-04 --ImmSight-Cat-20250204-1710-B8 Adetect S053
+  - Aitzkoa-2023-07-10---ImmSight-Cat-20230710-1637-B8 10877-1
+  - Aitzkoa-2024-06-11 --ImmSight-Cat-20240611-1629-B11 Adetect N056
+  - Aitzkoa-2024-06-11 --ImmSight-Cat-20240611-1629-A11 10348-2 FDI
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-D5 10997-1
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-C5 10996-1
+  - Aitzkoa-2023-09-18---ImmSight-Cat-20230918-1528-C2 9268-2
+  - Aitzkoa-2023-09-18---ImmSight-Cat-20230918-1528-A2 8293-2
+  - Aitzkoa-2023-10-24---ImmSight-Cat-20231024-1706-G3 Adetect P054
+  heightScale_2=3:
+  - Aitzkoa-2023-01-31---ImmSight-Cat-20230131-1600-D5 10000-1
+  - Aitzkoa-2023-01-31---ImmSight-Cat-20230131-1600-C5 9999-1
+  - Aitzkoa-2023-01-31---ImmSight-Cat-20230131-1600-E5 10001-1
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-D8 10804-1
+  - Aitzkoa-2024-09-24 --ImmSight-Cat-20240924-1634-A2 7446-2
+  - Aitzkoa-2023-12-04---ImmSight-Cat-20231204-1447-A11 6749-4
+  - Aitzkoa-2024-03-05---ImmSight-Cat-20240305-1437-E8 Adetect T136
+  - Aitzkoa-2024-03-05---ImmSight-Cat-20240305-1437-D8 Adetect T115
+  - Aitzkoa-2024-05-20---ImmSight-Cat-20240520-1428-C5 10335-2 FDI
+  - Aitzkoa-2024-05-20---ImmSight-Cat-20240520-1428-A5 7155-4
+  - Aitzkoa-2024-05-20---ImmSight-Cat-20240520-1428-B5 9826-2
+  - Aitzkoa-2023-03-06---ImmSight-Cat-20230306-1611-B2 7759-3
+  - Aitzkoa-2023-03-06---ImmSight-Cat-20230306-1611-A2 7357-3
+  - Aitzkoa-2025-04-01 --ImmSight-Cat-20250401-1512-H2 A Detect V009
+  - Aitzkoa-2023-04-18---ImmSight-Cat-20230418-1650(1)-C2 10187-1
+  - Aitzkoa-2023-04-18---ImmSight-Cat-20230418-1650(1)-B2 8955-2
+  - Aitzkoa-2023-04-18---ImmSight-Cat-20230418-1650(1)-A2 7746-3
+  - Aitzkoa-2025-04-22 --ImmSight-Cat-20250422-1546-H5 A Detect V022
+  - Aitzkoa-2025-04-15 --ImmSight-Cat-20250415-1511-D11 Adetect V013
+  - Aitzkoa-2025-04-08 --ImmSight-Cat-20250408-1527-F5 A Detect Q046
+  - Aitzkoa-2025-04-08 --ImmSight-Cat-20250408-1527-G5 A Detect V002
+  - Aitzkoa-2023-06-13---ImmSight-Cat-20230613-1638-C2 10824-1
+  - Aitzkoa-2023-06-13---ImmSight-Cat-20230613-1638-A2 8981-2 FDI
+  - Aitzkoa-2023-06-13---ImmSight-Cat-20230613-1638-B2 10823-1
+  - Aitzkoa-2023-06-13---ImmSight-Cat-20230613-1638-D2 10825-1
+  - Aitzkoa-2023-10-03---ImmSight-Cat-20231003-1446-C2 ADetect T096
+  - Aitzkoa-2024-02-20---ImmSight-Cat-20240220-1449-A5 9421-2
+  - Aitzkoa-2025-02-17 --ImmSight-Cat-20250217-1643-A2 8921-3
+  - Aitzkoa-2025-02-10 --ImmSight-Cat-20250210-1800-E8 10452-2 FDI
+  - Aitzkoa-2024-02-26---ImmSight-Cat-20240226-1647-A8 8318.3
+  - Aitzkoa-2023-02-14---ImmSight-Cat-20230214-1748-D8 10036-1
+  - Aitzkoa-2023-03-13---ImmSight-Cat-20230313-1559-E2 10099-1
+  - Aitzkoa-2024-01-23---ImmSight-Cat-20240123-1550-D8 9331-2
+  - Aitzkoa-2024-10-29 --ImmSight-Cat-20241029-1630-F5 10420-2 FDI
+  - Aitzkoa-2024-10-29 --ImmSight-Cat-20241029-1630-E5 8767-3
+  - Aitzkoa-2023-03-21---ImmSight-Cat-20230321-1837-A1 7766-3
+  - Aitzkoa-2023-03-21---ImmSight-Cat-20230321-1837-B1 10117-1
+  - Aitzkoa-2023-10-03---ImmSight-Cat-20231003-1446-C2 ADetect T096
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-B8 9043-2 FDI
+  xThresh2=6000:
+  - Aitzkoa-2025-05-26 --ImmSight-Cat-20250526-1538-E5 9099-3 FDI
+  - Aitzkoa-2025-08-04 --ImmSight-Cat-20250804-1535-A11 10882-2
+  - Aitzkoa-2024-10-14 --ImmSight-Cat-20241014-1713-G8 9003-3
+  - Aitzkoa-2024-10-14 --ImmSight-Cat-20241014-1713-D8 7428-4
+  - Aitzkoa-2025-02-18 --ImmSight-Cat-20250218-1536-G2 A Detect A059
+  - Aitzkoa-2024-12-09 --ImmSight-Cat-20241209-1718-G2 9735-2
+  - Aitzkoa-2025-04-22 --ImmSight-Cat-20250422-1546-H5 A Detect V022
+  - Aitzkoa-2025-04-15 --ImmSight-Cat-20250415-1511-D11 Adetect V013
+  - Aitzkoa-2025-04-08 --ImmSight-Cat-20250408-1527-F5 A Detect Q046
+  - Aitzkoa-2025-04-14 --ImmSight-Cat-20250414-1607-D8 10802-2
+  - Aitzkoa-2025-03-25 --ImmSight-Cat-20250325-1515-E2 A Detect T186
+  xThresh2=3000:
+  - Aitzkoa-2025-07-28 --ImmSight-Cat-20250728-1526-D8 12944-1
+  - Aitzkoa-2025-09-22 --ImmSight-Cat-20250922-1629-E2 13084-1
+  - Aitzkoa-2024-10-14 --ImmSight-Cat-20241014-1713-H8 9739-2
+  - Aitzkoa-2025-04-29 --ImmSight-Cat-20250429-1502-E11 A Detect E055
+  heightScale_2=2:
+  - Aitzkoa-2025-07-14 --ImmSight-Cat-20250714-1628-G5 12939-1
+  - Aitzkoa-2025-06-02 --ImmSight-Cat-20250602-1634-E8 10460-2 FDI
+  - Aitzkoa-2025-06-23 --ImmSight-Cat-20250623-1446-G11 10282-2
+  - Aitzkoa-2024-02-27---ImmSight-Cat-20240227-1800-B11 Adetect T126
+  - Aitzkoa-2025-03-03 --ImmSight-Cat-20250303-1548-E8 10162-2
+  - Aitzkoa-2023-12-04---ImmSight-Cat-20231204-1447-B11 9307-2
+  - Aitzkoa-2024-04-15---ImmSight-Cat-20240415-1528-G2 11315-2
+  - Aitzkoa-2023-05-16---ImmSight-Cat-20230516-1609 (1)-D11 10273-1
+  - Aitzkoa-2023-10-23---ImmSight-Cat-20231023-1441-D2 11092-1
+  - Aitzkoa-2025-02-18 --ImmSight-Cat-20250218-1536-G2 A Detect A059
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-A2 9557-2 FDI
+  - Aitzkoa-2023-11-14---ImmSight-Cat-20231114-1650-B2 Adetect A043
+  - Aitzkoa-2023-10-03---ImmSight-Cat-20231003-1446-A2 ADetect B049
+  - Aitzkoa-2023-10-03---ImmSight-Cat-20231003-1446-B2 ADetect C050
+  - Aitzkoa-2024-10-22 --ImmSight-Cat-20241022-1817-H12 A Detect P085
+  - Aitzkoa-2025-02-04 --ImmSight-Cat-20250204-1710-A8 7685-4
+  - Aitzkoa-2023-02-21---ImmSight-Cat-20230221-1708-H6 10046-1
+  - Aitzkoa-2023-02-21---ImmSight-Cat-20230221-1708-H5 Adetect B029
+  - Aitzkoa-2023-02-21---ImmSight-Cat-20230221-1708-H7 10045-1
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-E1 6495-4 old B panel
+  - Aitzkoa-2023-07-10---ImmSight-Cat-20230710-1637-A8 10876-1
+  - Aitzkoa-2023-07-10---ImmSight-Cat-20230710-1637-D8 10878-1
+  - Aitzkoa-2023-11-28---ImmSight-Cat-20231128-1637-E8 Adetect S028
+  - Aitzkoa-2023-11-28---ImmSight-Cat-20231128-1637-A8 8088-3
+  - Aitzkoa-2023-11-28---ImmSight-Cat-20231128-1637-B8 9165-2
+  - Aitzkoa-2023-11-28---ImmSight-Cat-20231128-1637-C8 Adetect F027
+  - Aitzkoa-2025-04-14 --ImmSight-Cat-20250414-1607-A8 9085-3 FDI
+  - Aitzkoa-2023-03-21---ImmSight-Cat-20230321-1837-C1 10118-1
+  xThresh2=5000:
+  - Aitzkoa-2025-07-14 --ImmSight-Cat-20250714-1628-G5 12939-1
+  - Aitzkoa-2025-06-17 --ImmSight-Cat-20250617-1803-E2 Adetect Q043
+  - Aitzkoa-2025-08-12 --ImmSight-Cat-20250812-1609-C2 12962-1
+  - Aitzkoa-2025-08-12 --ImmSight-Cat-20250812-1609-D2 12963-1
+  - Aitzkoa-2025-05-26 --ImmSight-Cat-20250526-1538-G5 10240-2
+  - Aitzkoa-2025-04-07 --ImmSight-Cat-20250407-1526-A5 8982-3 FDI
+  - Aitzkoa-2025-04-07 --ImmSight-Cat-20250407-1526-D5 10458-2 FDI
+  - Aitzkoa-2023-12-05---ImmSight-Cat-20231205-1618-F2 Adetect T112
+  Thresh2=0:
+  - Aitzkoa-2025-04-07 --ImmSight-Cat-20250407-1526-A5 8982-3 FDI
+  - Aitzkoa-2025-03-24 --ImmSight-Cat-20250324-1548-A2 9029-3
+  adjustAngle_2=2:
+  - Aitzkoa-2023-12-04---ImmSight-Cat-20231204-1447-A11 6749-4
+  widthScale_2=4:
+  - Aitzkoa-2023-12-04---ImmSight-Cat-20231204-1447-A11 6749-4
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-E1 6495-4 old B panel
+  widthScale_2=6:
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-E2 6495-4 weird B panel
+  xThresh2=20000:
+  - Aitzkoa-2024-03-26---ImmSight-Cat-20240326-1645-E8 8424-3
+  - Aitzkoa-2024-06-25 --ImmSight-Cat-20240625-1630-F2 7056-4
+  - Aitzkoa-2023-10-23---ImmSight-Cat-20231023-1441-D2 11092-1
+  - Aitzkoa-2023-10-23---ImmSight-Cat-20231023-1441-A2 8168-3
+  - Aitzkoa-2023-04-03---ImmSight-Cat-20230403-1626-G9 10146-1
+  - Aitzkoa-2025-02-18 --ImmSight-Cat-20250218-1536-H2 A Detect N064
+  - Aitzkoa-2023-04-25---ImmSight-Cat-20230425-1554-C2 10211-1
+  - Aitzkoa-2023-04-25---ImmSight-Cat-20230425-1554-D2 Adetect J040
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-1613-A6 8960-2 FDI
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-1613-D5 10085-1
+  - Aitzkoa-2023-03-07---ImmSight-Cat-20230307-1613-F5 Adetect N031
+  - Aitzkoa-2023-06-13---ImmSight-Cat-20230613-1638-B2 10823-1
+  - Aitzkoa-2023-06-13---ImmSight-Cat-20230613-1638-D2 10825-1
+  - Aitzkoa-2023-10-03---ImmSight-Cat-20231003-1446-B2 ADetect C050
+  - Aitzkoa-2024-10-22 --ImmSight-Cat-20241022-1817-H12 A Detect P085
+  - Aitzkoa-2023-02-21---ImmSight-Cat-20230221-1708-H6 10046-1
+  - Aitzkoa-2023-02-21---ImmSight-Cat-20230221-1708-H5 Adetect B029
+  - Aitzkoa-2023-02-20---ImmSight-Cat-20230220-1557-C5 10043-1
+  - Aitzkoa-2024-02-26---ImmSight-Cat-20240226-1647-A8 8318.3
+  - Aitzkoa-2023-02-14---ImmSight-Cat-20230214-1748-C8 10035-1
+  - Aitzkoa-2023-02-14---ImmSight-Cat-20230214-1748-B8 10033-1
+  - Aitzkoa-2023-05-02---ImmSight-Cat-20230502-1742-H11 Adetect T065
+  - Aitzkoa-2024-04-29---ImmSight-Cat-20240429-1529-E8 9555-2 FDI
+  - Aitzkoa-2023-03-13---ImmSight-Cat-20230313-1559-E2 10099-1
+  - Aitzkoa-2023-07-10---ImmSight-Cat-20230710-1637-B8 10877-1
+  - Aitzkoa-2024-06-11 --ImmSight-Cat-20240611-1629-B11 Adetect N056
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-D5 10997-1
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-C5 10996-1
+  - Aitzkoa-2024-11-26 --ImmSight-Cat-20241126-1704-C11 A Detect F043
+  - Aitzkoa-2024-09-10 --ImmSight-Cat-20240910-1551-A2 7272-4
+  - Aitzkoa-2023-09-18---ImmSight-Cat-20230918-1528-A2 8293-2
+  - Aitzkoa-2023-10-24---ImmSight-Cat-20231024-1706-H3 Adetect S026
+  - Aitzkoa-2024-11-04 --ImmSight-Cat-20241104-1636 (1)-G5 8756-3
+  - Aitzkoa-2023-06-12---ImmSight-Cat-20230612-1623-F11 8967-2
+  - Aitzkoa-2023-06-12---ImmSight-Cat-20230612-1623-H11 10821-1
+  - Aitzkoa-2024-10-29 --ImmSight-Cat-20241029-1630-E5 8767-3
+  - Aitzkoa-2023-05-22---ImmSight-Cat-20230522-1608-A2 6649-5
+  - Aitzkoa-2023-05-22---ImmSight-Cat-20230522-1608-C2 10456-1 FDI
+  - Aitzkoa-2023-05-22---ImmSight-Cat-20230522-1608-B2 9023-2 FDI
+  - Aitzkoa-2023-03-21---ImmSight-Cat-20230321-1837-A1 7766-3
+  - Aitzkoa-2023-09-18---ImmSight-Cat-20230918-1528-B2 9102-2
+  - Aitzkoa-2023-05-30---ImmSight-Cat-20230530-1719-B8 9043-2 FDI
+  Thresh2=-50:
+  - Aitzkoa-2024-12-09 --ImmSight-Cat-20241209-1718-H2 9916-2
+  adjustAngle_2=-1:
+  - Aitzkoa-2024-12-09 --ImmSight-Cat-20241209-1718-H2 9916-2
+  widthScale_2=10:
+  - Aitzkoa-2024-12-09 --ImmSight-Cat-20241209-1718-H2 9916-2
+  heightScale_2=1:
+  - Aitzkoa-2024-03-12---ImmSight-Cat-20240312-1609-H2 8336-3
+  - Aitzkoa-2024-10-22 --ImmSight-Cat-20241022-1817-G12 A Detect P079
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-C5 Adetect K011
+  - Aitzkoa-2023-11-28---ImmSight-Cat-20231128-1637-D8 Adetect I047
+  - Aitzkoa-2023-05-22---ImmSight-Cat-20230522-1608-A2 6649-5
+  - Aitzkoa-2023-05-22---ImmSight-Cat-20230522-1608-C2 10456-1 FDI
+  - Aitzkoa-2023-05-22---ImmSight-Cat-20230522-1608-B2 9023-2 FDI
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-E2 6495-4 weird B panel
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-B5 10290-1
+  xThresh2=10000:
+  - Aitzkoa-2023-09-26---ImmSight-Cat-20230926-1448-B11 9185-2
+  - Aitzkoa-2023-07-10---ImmSight-Cat-20230710-1637-A8 10876-1
+  - Aitzkoa-2023-07-10---ImmSight-Cat-20230710-1637-D8 10878-1
+  adjustAngle_2=10:
+  - Aitzkoa-2023-05-23---ImmSight-Cat-20230523-1630-E1 6495-4 old B panel
+  xThresh2=4000:
+  - Aitzkoa-2023-05-02---ImmSight-Cat-20230502-1742-F8 8375-3 FDI
+  xThresh2=25000:
+  - Aitzkoa-2024-10-28 --ImmSight-Cat-20241028-1722-B5 9751-2
+  - Aitzkoa-2023-04-17---ImmSight-Cat-20230417-1826 (1)-C10 10185-1
+  xThresh2=1000:
+  - Aitzkoa-2025-03-24 --ImmSight-Cat-20250324-1548-A2 9029-3
+DNNK:
+  CD16=1000:
+  - Aitzkoa-2025-03-24 --ImmSight-Cat-20250324-1548-A2 9029-3
+  - Aitzkoa-2025-04-28 --ImmSight-Cat-20250428-1517-E8 8939-3
+  CD16=1500:
+  - Aitzkoa-2025-03-31 --ImmSight-Cat-20250331-1546-G2 10138-2
+  CD16=2000:
+  - Aitzkoa-2025-06-24 --ImmSight-Cat-20250624-1546-F2 A Detect N066
+  - Aitzkoa-2025-02-25 --ImmSight-Cat-20250225-1519-G8 A Detect Q039
+  - Aitzkoa-2025-04-22 --ImmSight-Cat-20250422-1546-H5 A Detect V022
+  - Aitzkoa-2025-04-08 --ImmSight-Cat-20250408-1527-G5 A Detect V002
+  - Aitzkoa-2024-01-23---ImmSight-Cat-20240123-1550-G8 Adetect U051
+  - Aitzkoa-2025-03-24 --ImmSight-Cat-20250324-1548-C2 10119-2
+  - Aitzkoa-2025-02-10 --ImmSight-Cat-20250210-1800-E8 10452-2 FDI
+  CD16=2500:
+  - Aitzkoa-2024-02-20---ImmSight-Cat-20240220-1449-C5 Adetect P077
+  - Aitzkoa-2023-10-31---ImmSight-Cat-20231031-1424-D5 Adetect T109
+  - Aitzkoa-2025-03-25 --ImmSight-Cat-20250325-1515-D2 A Detect E050
+  - Aitzkoa-2024-09-23 --ImmSight-Cat-20240923-1547-D10 9701-2
+  - Aitzkoa-2023-10-10---ImmSight-Cat-20231010-1620-A5 8022-3
+  - Aitzkoa-2023-10-10---ImmSight-Cat-20231010-1620-B5 Adetect E040
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-G5 Adetect T098
+  - Aitzkoa-2025-04-29 --ImmSight-Cat-20250429-1502-E11 A Detect E055
+  CD16=6000:
+  - Aitzkoa-2025-09-22 --ImmSight-Cat-20250922-1629-B2 9326-4
+  - Aitzkoa-2025-04-14 --ImmSight-Cat-20250414-1607-B8 10134-2
+  - Aitzkoa-2024-06-11 --ImmSight-Cat-20240611-1629-C11 Adetect Q003
+  CD16=8000:
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-A5 8441-3
+  CD16=4000:
+  - Aitzkoa-2024-10-28 --ImmSight-Cat-20241028-1722-A5 7479-4
+  - Aitzkoa-2024-03-26---ImmSight-Cat-20240326-1645-G8 Adetect P074
+  CD56=1000:
+  - Aitzkoa-2025-09-30 --ImmSight-Cat-20250930-1454-H5 A Detect S064
+  - Aitzkoa-2025-09-30 --ImmSight-Cat-20250930-1454-H5 A Detect S064
+  - Aitzkoa-2025-09-22 --ImmSight-Cat-20250922-1629-B2 9326-4
+  - Aitzkoa-2025-03-24 --ImmSight-Cat-20250324-1548-A2 9029-3
+  - Aitzkoa-2024-12-09 --ImmSight-Cat-20241209-1718-G2 9735-2
+  - Aitzkoa-2025-04-08 --ImmSight-Cat-20250408-1527-F5 A Detect Q046
+  - Aitzkoa-2025-04-29 --ImmSight-Cat-20250429-1502-E11 A Detect E055
+  - Aitzkoa-2024-03-26---ImmSight-Cat-20240326-1645-G8 Adetect P074
+Second DC Gating:
+  HLADR:
+  - Aitzkoa-2024-09-03 --ImmSight-Cat-20240903-1714-B5 8510-3 FDI
+  - Aitzkoa-2023-09-11---ImmSight-Cat-20230911-1704-A8 10969-1
+  - Aitzkoa-2024-06-25 --ImmSight-Cat-20240625-1630-F2 7056-4
+  - Aitzkoa-2024-05-28---ImmSight-Cat-20240528-1500-G5 Adetect N053
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-F5 Adetect T087
+  - Aitzkoa-2023-07-10---ImmSight-Cat-20230710-1637-A8 10876-1
+  - Aitzkoa-2023-06-20---ImmSight-Cat-20230620-1434-A8 10835-1
+  - Aitzkoa-2023-10-02---ImmSight-Cat-20231002-1440-G11 6647-4
+  - Aitzkoa-2023-06-20---ImmSight-Cat-20230620-1434-C8 10837-1
+  - Aitzkoa-2023-07-04---ImmSight-Cat-20230704-1648-E5 Adetect T068
+  - Aitzkoa-2023-06-26---ImmSight-Cat-20230626-1642-A11 8927-2 FDI
+  - Aitzkoa-2023-09-25---ImmSight-Cat-20230925-1712-D8 11015-1
+  - Aitzkoa-2024-06-25 --ImmSight-Cat-20240625-1630-H2 Adetect Q010
+  - Aitzkoa-2023-06-20---ImmSight-Cat-20230620-1434-E8 Adetect S018
+  - Aitzkoa-2023-09-26---ImmSight-Cat-20230926-1448-E11 Adetect A042
+  - Aitzkoa-2023-10-03---ImmSight-Cat-20231003-1446-B2 ADetect C050
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-E2 10884-1
+  - Aitzkoa-2023-10-03---ImmSight-Cat-20231003-1446-C2 ADetect T096
+  - Aitzkoa-2023-10-03---ImmSight-Cat-20231003-1446-A2 ADetect B049
+  - Aitzkoa-2023-09-11---ImmSight-Cat-20230911-1704-C8 10970-1
+  - Aitzkoa-2023-09-26---ImmSight-Cat-20230926-1448-D11 11020-1
+  - Aitzkoa-2023-07-10---ImmSight-Cat-20230710-1637-D8 10878-1
+  - Aitzkoa-2023-06-26---ImmSight-Cat-20230626-1642-C11 10843-1
+  - Aitzkoa-2024-02-12---ImmSight-Cat-20240212-1619-A2 8117-3
+  - Aitzkoa-2023-07-11---ImmSight-Cat-20230711-1648-D2 10883-1
+  - Aitzkoa-2023-09-19---ImmSight-Cat-20230919-1743-G5 Adetect T098
+  HLADR_1000:
+  - Aitzkoa-2025-07-07 --ImmSight-Cat-20250707-1422-A5 9650-2
+  - Aitzkoa-2025-07-07 --ImmSight-Cat-20250707-1422-B5 12906-1
+  - Aitzkoa-2025-07-08 --ImmSight-Cat-20250708-1507-D5 11038-2
+  - Aitzkoa-2025-07-08 --ImmSight-Cat-20250708-1507-F5 12932-1
+  - Aitzkoa-2025-07-14 --ImmSight-Cat-20250714-1628-G5 12939-1
+  - Aitzkoa-2025-07-14 --ImmSight-Cat-20250714-1628-H5 12940-1
+  - Aitzkoa-2025-07-21 --ImmSight-Cat-20250721-1453-H2 12942-1
+  - Aitzkoa-2025-07-22 --ImmSight-Cat-20250722-1541-A8 10188-2
+  - Aitzkoa-2025-07-22 --ImmSight-Cat-20250722-1541-B8 12943-1
+  - Aitzkoa-2025-07-28 --ImmSight-Cat-20250728-1526-C8 10877-2
+  - Aitzkoa-2025-07-29 --ImmSight-Cat-20250729-1529-G8 A Detect V026
+  - Aitzkoa-2025-08-04 --ImmSight-Cat-20250804-1535-A11 10882-2
+  - Aitzkoa-2025-08-05 --ImmSight-Cat-20250805-1419-C11 12951-1
+  - Aitzkoa-2025-08-05 --ImmSight-Cat-20250805-1419-D11 12952-1-
+  - Aitzkoa-2025-08-11 --ImmSight-Cat-20250811-1615-E11 10206-2
+  - Aitzkoa-2025-08-11 --ImmSight-Cat-20250811-1615-F11 10806-2
+  - Aitzkoa-2025-08-12 --ImmSight-Cat-20250812-1609-D2 12963-1
+  - Aitzkoa-2025-09-08 --ImmSight-Cat-20250908-1726-D11 10957-2
+  - Aitzkoa-2025-09-09 --ImmSight-Cat-20250909-1604-F8 A Detect Q053
+  - Aitzkoa-2025-09-30 --ImmSight-Cat-20250930-1454-F5 A Detect E058
+  HLADR_300:
+  - Aitzkoa-2025-08-25 --ImmSight-Cat-20250825-1747-B5 9266-2
+  CD141=8000:
+  - Aitzkoa-2023-01-16---ImmSight-Cat-20230116-1628-E2 8827-2
+
+

@@ -1,0 +1,542 @@
+PBMC Gating:
+  startY_1 35000:
+  - Aitzkoa-2025-05-26 T panel with CCR10-ImmSight-Cat-20250526-1539+G6 10240-2
+  - Aitzkoa-2025-07-21 T panel with CCR10-ImmSight-Cat-20250721-1454+H3 12942-1
+  - Aitzkoa-2025-07-29 T panel with CCR10-ImmSight-Cat-20250729-1619+E9 12945-1
+  - Aitzkoa-2025-08-11 T panel with CCR10-ImmSight-Cat-20250811-1616+F12 10806-2
+  - Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+C6 12988-1
+  - Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+B9 10956-2
+  startY_1 50000:
+  - Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+C9 13040-1
+  - Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+D9 13041-1
+  - Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+G12 13055-1
+  - Aitzkoa-2025-09-09 T panel with CCR10-ImmSight-Cat-20250909-1605+G9 A Detect Y041
+  - Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+D3 13083-1
+  - Aitzkoa-2025-09-29 T panel with CCR10-ImmSight-Cat-20250929-1635+B6 13096-1
+  - Aitzkoa-2025-09-29 T panel with CCR10-ImmSight-Cat-20250929-1635+C6 13097-1
+  - Aitzkoa-2025-09-30 T panel with CCR10-ImmSight-Cat-20250930-1455+H6 A Detect S064
+  X_Lim 75000:
+  - Aitzkoa-2025-06-17 T panel with CCR10-ImmSight-Cat-20250617-1830+D3 Adetect P101
+  - Aitzkoa-2025-06-17 T panel with CCR10-ImmSight-Cat-20250617-1830+B3 10872-2
+  - Aitzkoa-2025-05-26 T panel with CCR10-ImmSight-Cat-20250526-1539+F6 10237-2
+  X_Lim 70000:
+  - Aitzkoa-2025-05-26 T panel with CCR10-ImmSight-Cat-20250526-1539+H6 10261-2
+  Y_Lim 110000:
+  - Aitzkoa-2025-05-27 T panel with CCR10-ImmSight-Cat-20250527-1503+C9 A Detect T195
+  - Aitzkoa-2025-09-02 T panel with CCR10-ImmSight-Cat-20250902-1429+H3 A Detect Y033
+  - Aitzkoa-2025-05-13 T panel with CCR10-ImmSight-Cat-20250513-1619+F3 Adetect S060
+  - Aitzkoa-2025-09-30 T panel with CCR10-ImmSight-Cat-20250930-1455+H6 A Detect S064
+  Y_Lim 120000:
+  - Aitzkoa-2025-05-26 T panel with CCR10-ImmSight-Cat-20250526-1539+G6 10240-2
+  - Aitzkoa-2025-08-11 T panel with CCR10-ImmSight-Cat-20250811-1616+F12 10806-2
+  - Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+G12 13055-1
+  - Aitzkoa-2025-09-09 T panel with CCR10-ImmSight-Cat-20250909-1605+G9 A Detect Y041
+  - Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+D3 13083-1
+  - Aitzkoa-2025-09-29 T panel with CCR10-ImmSight-Cat-20250929-1635+C6 13097-1
+  - Aitzkoa-2025-07-29 T panel with CCR10-ImmSight-Cat-20250729-1619+F9 12946-1
+  - Aitzkoa-2025-09-29 T panel with CCR10-ImmSight-Cat-20250929-1635+D6 13098-1
+  - Aitzkoa-2025-08-12 T panel with CCR10-ImmSight-Cat-20250812-1610+B3 12961-1
+  - Aitzkoa-2025-08-12 T panel with CCR10-ImmSight-Cat-20250812-1610+C3 12962-1
+  - Aitzkoa-2025-05-26 T panel with CCR10-ImmSight-Cat-20250526-1539+F6 10237-2
+  Y_Lim 130000:
+  - Aitzkoa-2025-08-26 T panel with CCR10-ImmSight-Cat-20250826-1457+F3 A Detect O036
+  - Aitzkoa-2025-08-26 T panel with CCR10-ImmSight-Cat-20250826-1457+E3 12995-1
+  - Aitzkoa-2025-06-03 T panel with CCR10-ImmSight-Cat-20250603-1503+F9 7955-4
+  - Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+A9 10920-2
+  - Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+E9 13042-1
+  - Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+A3 9122-3 FDI
+  - Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+E3 13084-1
+  - Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+D6 12989-1
+  - Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+E6 12990-1
+  - Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+B6 9266-2
+  - Aitzkoa-2025-07-08 T panel with CCR10-ImmSight-Cat-20250708-1508+F6 12932-1
+  - Aitzkoa-2025-09-29 T panel with CCR10-ImmSight-Cat-20250929-1635+A6 13095-1
+  - Aitzkoa-2025-08-12 T panel with CCR10-ImmSight-Cat-20250812-1610+A3 12960-1
+  - Aitzkoa-2025-08-11 T panel with CCR10-ImmSight-Cat-20250811-1616+E12 10206-2
+  Y_Lim 135000:
+  - Aitzkoa-2025-07-21 T panel with CCR10-ImmSight-Cat-20250721-1454+H3 12942-1
+  - Aitzkoa-2025-07-29 T panel with CCR10-ImmSight-Cat-20250729-1619+E9 12945-1
+  - Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+C6 12988-1
+  - Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+B9 10956-2
+  - Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+C9 13040-1
+  - Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+D9 13041-1
+  - Aitzkoa-2025-09-29 T panel with CCR10-ImmSight-Cat-20250929-1635+B6 13096-1
+  Y_Lim 140000:
+  - Aitzkoa-2025-07-28 T panel with CCR10-ImmSight-Cat-20250728-1527+C9 10877-2
+Singlets Gating: 
+  heightScale 2:
+  - Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+B9 10956-2
+  - Aitzkoa-2025-05-20 T panel with CCR10-ImmSight-Cat-20250520-1427+D6 A Detect K033
+  - Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+A3 9122-3 FDI
+  heightScale 3:
+  - Aitzkoa-2025-07-22 T panel with CCR10-ImmSight-Cat-20250722-1542+A9 10188-2
+  - Aitzkoa-2025-07-29 T panel with CCR10-ImmSight-Cat-20250729-1619+E9 12945-1
+  - Aitzkoa-2025-08-26 T panel with CCR10-ImmSight-Cat-20250826-1457+E3 12995-1
+  - Aitzkoa-2025-08-04 T panel with CCR10-ImmSight-Cat-20250804-1537+B12 12949-1
+  - Aitzkoa-2025-06-03 T panel with CCR10-ImmSight-Cat-20250603-1503+H9 A Detect T201
+  - Aitzkoa-2025-06-24 T panel with CCR10-ImmSight-Cat-20250624-1545+G3 A Detect Y036
+  - Aitzkoa-2025-07-07 T panel with CCR10-ImmSight-Cat-20250707-1423+B6 12906-1
+  - Aitzkoa-2025-06-02 T panel with CCR10-ImmSight-Cat-20250602-1635+E9 10460-2 FDI
+  - Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+D6 12989-1
+  - Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+E6 12990-1
+  - Aitzkoa-2025-07-08 T panel with CCR10-ImmSight-Cat-20250708-1508+E6 12931-1
+  - Aitzkoa-2025-07-08 T panel with CCR10-ImmSight-Cat-20250708-1508+F6 12932-1
+  - Aitzkoa-2025-07-08 T panel with CCR10-ImmSight-Cat-20250708-1508+D6 11038-2
+  - Aitzkoa-2025-06-17 T panel with CCR10-ImmSight-Cat-20250617-1830+B3 10872-2
+  - Aitzkoa-2025-08-12 T panel with CCR10-ImmSight-Cat-20250812-1610+A3 12960-1
+  - Aitzkoa-2025-05-26 T panel with CCR10-ImmSight-Cat-20250526-1539+E6 9099-3 FDI
+  - Aitzkoa-2025-05-26 T panel with CCR10-ImmSight-Cat-20250526-1539+F6 10237-2
+  - Aitzkoa-2025-08-11 T panel with CCR10-ImmSight-Cat-20250811-1616+H12 12959-1
+  - Aitzkoa-2025-06-09 T panel with CCR10-ImmSight-Cat-20250609-1547+A12 9098-3 FDI
+  - Aitzkoa-2025-06-09 T panel with CCR10-ImmSight-Cat-20250609-1547+C12 10278-2
+  - Aitzkoa-2025-06-09 T panel with CCR10-ImmSight-Cat-20250609-1547+B12 10082-2
+  - Aitzkoa-2025-06-10 T panel with CCR10-ImmSight-Cat-20250610-1440+E12 A Detect R014
+  - Aitzkoa-2025-05-19 T panel with CCR10-ImmSight-Cat-20250519-1455+G3 7927-4
+  - Aitzkoa-2025-07-14 T panel with CCR10-ImmSight-Cat-20250714-1629+G6 12939-1
+  - Aitzkoa-2025-07-14 T panel with CCR10-ImmSight-Cat-20250714-1629+H6 12940-1
+  - Aitzkoa-2025-05-13 T panel with CCR10-ImmSight-Cat-20250513-1619+F3 Adetect S060
+  - Aitzkoa-2025-07-28 T panel with CCR10-ImmSight-Cat-20250728-1527+C9 10877-2
+  adjustAngle 3:
+  - Aitzkoa-2025-07-07 T panel with CCR10-ImmSight-Cat-20250707-1423+B6 12906-1
+  adjustAngle 4:
+  - Aitzkoa-2025-06-09 T panel with CCR10-ImmSight-Cat-20250609-1547+B12 10082-2
+  - Aitzkoa-2025-06-10 T panel with CCR10-ImmSight-Cat-20250610-1440+E12 A Detect R014
+  - Aitzkoa-2025-05-19 T panel with CCR10-ImmSight-Cat-20250519-1455+G3 7927-4
+  - Aitzkoa-2025-07-14 T panel with CCR10-ImmSight-Cat-20250714-1629+G6 12939-1
+  - Aitzkoa-2025-07-14 T panel with CCR10-ImmSight-Cat-20250714-1629+H6 12940-1
+  - Aitzkoa-2025-05-13 T panel with CCR10-ImmSight-Cat-20250513-1619+F3 Adetect S060
+  - Aitzkoa-2025-07-28 T panel with CCR10-ImmSight-Cat-20250728-1527+C9 10877-2
+  adjustAngle 6:
+  - Aitzkoa-2025-07-08 T panel with CCR10-ImmSight-Cat-20250708-1508+D6 11038-2
+CD4_CD8 Gating:
+  CD4_interval [300, 2000]:
+  - Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+B12 10046-3
+  - Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+E9 13042-1
+  CD4_interval [5000, 10000]:
+  - Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+C3 13081-1
+  CD4_interval [4000, 10000]:
+  - Aitzkoa-2025-09-30 T panel with CCR10-ImmSight-Cat-20250930-1455+H6 A Detect S064
+  - Aitzkoa-2025-09-09 T panel with CCR10-ImmSight-Cat-20250909-1605+G9 A Detect Y041
+  - Aitzkoa-2025-06-17 T panel with CCR10-ImmSight-Cat-20250617-1830+D3 Adetect P101
+  - Aitzkoa-2025-07-14 T panel with CCR10-ImmSight-Cat-20250714-1629+H6 12940-1
+  CD4_interval [300, 2000]:
+  - Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+B12 10046-3
+  CD4_interval [1000, 10000]:
+  - Aitzkoa-2025-05-13 T panel with CCR10-ImmSight-Cat-20250513-1619+F3 Adetect S060
+  CD8_interval [200, 1000]:
+  - Aitzkoa-2025-06-03 T panel with CCR10-ImmSight-Cat-20250603-1503+H9 A Detect T201
+  - Aitzkoa-2025-05-13 T panel with CCR10-ImmSight-Cat-20250513-1619+F3 Adetect S060
+CD8_ylim [50, 4000]:
+- Aitzkoa-2025-09-23 T panel with CCR10-ImmSight-Cat-20250923-1551+F3 A Detect F055
+- Aitzkoa-2025-08-26 T panel with CCR10-ImmSight-Cat-20250826-1457+E3 12995-1
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+A9 10920-2
+CD8_xlim [100, 300]:
+- Aitzkoa-2025-09-23 T panel with CCR10-ImmSight-Cat-20250923-1551+F3 A Detect F055
+- Aitzkoa-2025-05-27 T panel with CCR10-ImmSight-Cat-20250527-1503+A9 7938-4
+- Aitzkoa-2025-06-24 T panel with CCR10-ImmSight-Cat-20250624-1545+F3 A Detect N066
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+A9 10920-2
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+B9 10956-2
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+D9 13041-1
+- Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+D3 13083-1
+- Aitzkoa-2025-09-30 T panel with CCR10-ImmSight-Cat-20250930-1455+H6 A Detect S064
+- Aitzkoa-2025-09-30 T panel with CCR10-ImmSight-Cat-20250930-1455+E6 8095-4
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+C6 12988-1
+- Aitzkoa-2025-07-08 T panel with CCR10-ImmSight-Cat-20250708-1508+E6 12931-1
+- Aitzkoa-2025-07-08 T panel with CCR10-ImmSight-Cat-20250708-1508+F6 12932-1
+- Aitzkoa-2025-06-17 T panel with CCR10-ImmSight-Cat-20250617-1830+C3 Adetect B059
+- Aitzkoa-2025-06-17 T panel with CCR10-ImmSight-Cat-20250617-1830+E3 Adetect Q043
+- Aitzkoa-2025-08-12 T panel with CCR10-ImmSight-Cat-20250812-1610+B3 12961-1
+- Aitzkoa-2025-08-12 T panel with CCR10-ImmSight-Cat-20250812-1610+C3 12962-1
+- Aitzkoa-2025-08-11 T panel with CCR10-ImmSight-Cat-20250811-1616+E12 10206-2
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+D12 10957-2
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+C12 10937-2
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+E12 10981-2
+- Aitzkoa-2025-06-09 T panel with CCR10-ImmSight-Cat-20250609-1547+A12 9098-3 FDI
+CD45RA_interval [100, 200]:
+- Aitzkoa-2025-06-16 T panel with CCR10-ImmSight-Cat-20250616-1520+F12 10814-2
+- Aitzkoa-2025-07-29 T panel with CCR10-ImmSight-Cat-20250729-1619+F9 12946-1
+- Aitzkoa-2025-08-04 T panel with CCR10-ImmSight-Cat-20250804-1537+B12 12949-1
+- Aitzkoa-2025-07-21 T panel with CCR10-ImmSight-Cat-20250721-1454+H3 12942-1
+CCR7_lim_down_sigma 2.0:
+- Aitzkoa-2025-06-16 T panel with CCR10-ImmSight-Cat-20250616-1520+F12 10814-2
+- Aitzkoa-2025-05-27 T panel with CCR10-ImmSight-Cat-20250527-1503+A9 7938-4
+- Aitzkoa-2025-07-29 T panel with CCR10-ImmSight-Cat-20250729-1619+F9 12946-1
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+D9 13041-1
+- Aitzkoa-2025-05-20 T panel with CCR10-ImmSight-Cat-20250520-1427+D6 A Detect K033
+- Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+B3 9326-4
+- Aitzkoa-2025-09-30 T panel with CCR10-ImmSight-Cat-20250930-1455+H6 A Detect S064
+- Aitzkoa-2025-05-26 T panel with CCR10-ImmSight-Cat-20250526-1539+H6 10261-2
+- Aitzkoa-2025-08-11 T panel with CCR10-ImmSight-Cat-20250811-1616+F12 10806-2
+CCR7_lim_upper_sigma 0.0:
+- Aitzkoa-2025-06-16 T panel with CCR10-ImmSight-Cat-20250616-1520+F12 10814-2
+- Aitzkoa-2025-05-27 T panel with CCR10-ImmSight-Cat-20250527-1503+A9 7938-4
+- Aitzkoa-2025-07-29 T panel with CCR10-ImmSight-Cat-20250729-1619+F9 12946-1
+- Aitzkoa-2025-07-07 T panel with CCR10-ImmSight-Cat-20250707-1423+B6 12906-1
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+D9 13041-1
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+E9 13042-1
+- Aitzkoa-2025-05-20 T panel with CCR10-ImmSight-Cat-20250520-1427+D6 A Detect K033
+- Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+B3 9326-4
+- Aitzkoa-2025-09-30 T panel with CCR10-ImmSight-Cat-20250930-1455+H6 A Detect S064
+- Aitzkoa-2025-08-11 T panel with CCR10-ImmSight-Cat-20250811-1616+F12 10806-2
+- Aitzkoa-2025-05-13 T panel with CCR10-ImmSight-Cat-20250513-1619+F3 Adetect S060
+- Aitzkoa-2025-07-28 T panel with CCR10-ImmSight-Cat-20250728-1527+C9 10877-2
+CD8_xlim [100, 400]:
+- Aitzkoa-2025-06-23 T panel with CCR10-ImmSight-Cat-20250623-1447+G12 10282-2
+- Aitzkoa-2025-08-26 T panel with CCR10-ImmSight-Cat-20250826-1457+E3 12995-1
+- Aitzkoa-2025-08-04 T panel with CCR10-ImmSight-Cat-20250804-1537+A12 10882-2
+- Aitzkoa-2025-06-03 T panel with CCR10-ImmSight-Cat-20250603-1503+F9 7955-4
+CD45RA_interval [100, 1000]:
+- Aitzkoa-2025-07-29 T panel with CCR10-ImmSight-Cat-20250729-1619+G9 A Detect V026
+CCR7_lim_down_sigma 3.0:
+- Aitzkoa-2025-07-29 T panel with CCR10-ImmSight-Cat-20250729-1619+G9 A Detect V026
+- Aitzkoa-2025-07-07 T panel with CCR10-ImmSight-Cat-20250707-1423+B6 12906-1
+- Aitzkoa-2025-07-21 T panel with CCR10-ImmSight-Cat-20250721-1454+H3 12942-1
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+G12 13055-1
+- Aitzkoa-2025-06-09 T panel with CCR10-ImmSight-Cat-20250609-1547+B12 10082-2
+CCR7_lim_upper_sigma -1.0:
+- Aitzkoa-2025-07-29 T panel with CCR10-ImmSight-Cat-20250729-1619+G9 A Detect V026
+- Aitzkoa-2025-08-04 T panel with CCR10-ImmSight-Cat-20250804-1537+B12 12949-1
+- Aitzkoa-2025-08-11 T panel with CCR10-ImmSight-Cat-20250811-1616+H12 12959-1
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+G12 13055-1
+- Aitzkoa-2025-06-09 T panel with CCR10-ImmSight-Cat-20250609-1547+B12 10082-2
+CCR7_lim_down_sigma 0.0:
+- Aitzkoa-2025-08-04 T panel with CCR10-ImmSight-Cat-20250804-1537+B12 12949-1
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+E9 13042-1
+- Aitzkoa-2025-08-11 T panel with CCR10-ImmSight-Cat-20250811-1616+H12 12959-1
+CD45RA_interval [100, 2000]:
+- Aitzkoa-2025-07-07 T panel with CCR10-ImmSight-Cat-20250707-1423+B6 12906-1
+CD8_ylim [100, 200]:
+- Aitzkoa-2025-06-09 T panel with CCR10-ImmSight-Cat-20250609-1547+A12 9098-3 FDI
+CD8_ylim [500, 4000]:
+- Aitzkoa-2025-06-17 T panel with CCR10-ImmSight-Cat-20250617-1830+B3 10872-2
+- Aitzkoa-2025-09-30 T panel with CCR10-ImmSight-Cat-20250930-1455+E6 8095-4
+- Aitzkoa-2025-08-12 T panel with CCR10-ImmSight-Cat-20250812-1610+C3 12962-1
+CCR7_lim_upper_sigma 0.5:
+- Aitzkoa-2025-07-21 T panel with CCR10-ImmSight-Cat-20250721-1454+H3 12942-1
+- Aitzkoa-2025-05-26 T panel with CCR10-ImmSight-Cat-20250526-1539+H6 10261-2
+CD8_xlim [0, 200]:
+- Aitzkoa-2025-05-19 T panel with CCR10-ImmSight-Cat-20250519-1455+H3 10463-2 FDI
+CD8_xlim [0, 300]:
+- Aitzkoa-2025-07-14 T panel with CCR10-ImmSight-Cat-20250714-1629+H6 12940-1
+CD45RA_interval [500, 2000]:
+- Aitzkoa-2025-05-13 T panel with CCR10-ImmSight-Cat-20250513-1619+F3 Adetect S060
+- Aitzkoa-2025-07-28 T panel with CCR10-ImmSight-Cat-20250728-1527+C9 10877-2
+CCR7_lim_down_sigma 4.0:
+- Aitzkoa-2025-05-13 T panel with CCR10-ImmSight-Cat-20250513-1619+F3 Adetect S060
+- Aitzkoa-2025-07-28 T panel with CCR10-ImmSight-Cat-20250728-1527+C9 10877-2
+in_4 1000.0:
+- Aitzkoa-2025-06-16 T panel with CCR10-ImmSight-Cat-20250616-1520+F12 10814-2
+- Aitzkoa-2025-05-27 T panel with CCR10-ImmSight-Cat-20250527-1503+C9 A Detect T195
+- Aitzkoa-2025-07-22 T panel with CCR10-ImmSight-Cat-20250722-1542+B9 12943-1
+- Aitzkoa-2025-07-29 T panel with CCR10-ImmSight-Cat-20250729-1619+F9 12946-1
+- Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+E3 13084-1
+in_2 500.0:
+- Aitzkoa-2025-07-29 T panel with CCR10-ImmSight-Cat-20250729-1619+F9 12946-1
+- Aitzkoa-2025-07-29 T panel with CCR10-ImmSight-Cat-20250729-1619+E9 12945-1
+- Aitzkoa-2025-07-29 T panel with CCR10-ImmSight-Cat-20250729-1619+G9 A Detect V026
+- Aitzkoa-2025-08-05 T panel with CCR10-ImmSight-Cat-20250805-1420+D12 12952-1
+- Aitzkoa-2025-08-05 T panel with CCR10-ImmSight-Cat-20250805-1420+C12 12951-1
+- Aitzkoa-2025-08-12 T panel with CCR10-ImmSight-Cat-20250812-1610+C3 12962-1
+- Aitzkoa-2025-08-11 T panel with CCR10-ImmSight-Cat-20250811-1616+E12 10206-2
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+E12 10981-2
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+F12 13054-1
+in_3 1000.0:
+- Aitzkoa-2025-07-29 T panel with CCR10-ImmSight-Cat-20250729-1619+E9 12945-1
+- Aitzkoa-2025-08-04 T panel with CCR10-ImmSight-Cat-20250804-1537+B12 12949-1
+- Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+A3 9122-3 FDI
+- Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+C3 13081-1
+- Aitzkoa-2025-09-30 T panel with CCR10-ImmSight-Cat-20250930-1455+E6 8095-4
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+A6 9153-3
+- Aitzkoa-2025-09-09 T panel with CCR10-ImmSight-Cat-20250909-1605+G9 A Detect Y041
+- Aitzkoa-2025-07-08 T panel with CCR10-ImmSight-Cat-20250708-1508+F6 12932-1
+- Aitzkoa-2025-09-29 T panel with CCR10-ImmSight-Cat-20250929-1635+A6 13095-1
+- Aitzkoa-2025-08-11 T panel with CCR10-ImmSight-Cat-20250811-1616+F12 10806-2
+- Aitzkoa-2025-08-11 T panel with CCR10-ImmSight-Cat-20250811-1616+G12 10843-2
+in_1 -1000.0:
+- Aitzkoa-2025-08-26 T panel with CCR10-ImmSight-Cat-20250826-1457+F3 A Detect O036
+- Aitzkoa-2025-08-26 T panel with CCR10-ImmSight-Cat-20250826-1457+E3 12995-1
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+F6 12991-1
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+D6 12989-1
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+E6 12990-1
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+B6 9266-2
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+C6 12988-1
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+G6 12992-1
+in_3 10.0:
+- Aitzkoa-2025-08-26 T panel with CCR10-ImmSight-Cat-20250826-1457+F3 A Detect O036
+- Aitzkoa-2025-08-26 T panel with CCR10-ImmSight-Cat-20250826-1457+E3 12995-1
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+F6 12991-1
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+D6 12989-1
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+E6 12990-1
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+B6 9266-2
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+C6 12988-1
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+G6 12992-1
+in_4 -300.0:
+- Aitzkoa-2025-08-26 T panel with CCR10-ImmSight-Cat-20250826-1457+E3 12995-1
+in_2 300.0:
+- Aitzkoa-2025-08-04 T panel with CCR10-ImmSight-Cat-20250804-1537+B12 12949-1
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+A9 10920-2
+- Aitzkoa-2025-09-29 T panel with CCR10-ImmSight-Cat-20250929-1635+A6 13095-1
+- Aitzkoa-2025-09-29 T panel with CCR10-ImmSight-Cat-20250929-1635+D6 13098-1
+- Aitzkoa-2025-08-12 T panel with CCR10-ImmSight-Cat-20250812-1610+A3 12960-1
+- Aitzkoa-2025-08-11 T panel with CCR10-ImmSight-Cat-20250811-1616+H12 12959-1
+- Aitzkoa-2025-08-11 T panel with CCR10-ImmSight-Cat-20250811-1616+G12 10843-2
+in_4 300.0:
+- Aitzkoa-2025-08-04 T panel with CCR10-ImmSight-Cat-20250804-1537+B12 12949-1
+in_3 500.0:
+- Aitzkoa-2025-08-04 T panel with CCR10-ImmSight-Cat-20250804-1537+A12 10882-2
+- Aitzkoa-2025-09-29 T panel with CCR10-ImmSight-Cat-20250929-1635+D6 13098-1
+- Aitzkoa-2025-08-12 T panel with CCR10-ImmSight-Cat-20250812-1610+D3 12963-1
+- Aitzkoa-2025-08-12 T panel with CCR10-ImmSight-Cat-20250812-1610+C3 12962-1
+- Aitzkoa-2025-08-11 T panel with CCR10-ImmSight-Cat-20250811-1616+H12 12959-1
+- Aitzkoa-2025-08-11 T panel with CCR10-ImmSight-Cat-20250811-1616+E12 10206-2
+in_2 400.0:
+- Aitzkoa-2025-06-03 T panel with CCR10-ImmSight-Cat-20250603-1503+H9 A Detect T201
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+B9 10956-2
+- Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+E3 13084-1
+- Aitzkoa-2025-09-30 T panel with CCR10-ImmSight-Cat-20250930-1455+E6 8095-4
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+A6 9153-3
+- Aitzkoa-2025-07-08 T panel with CCR10-ImmSight-Cat-20250708-1508+F6 12932-1
+- Aitzkoa-2025-09-02 T panel with CCR10-ImmSight-Cat-20250902-1429+H3 A Detect Y033
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+D12 10957-2
+in_4 400.0:
+- Aitzkoa-2025-06-03 T panel with CCR10-ImmSight-Cat-20250603-1503+H9 A Detect T201
+- Aitzkoa-2025-07-07 T panel with CCR10-ImmSight-Cat-20250707-1423+A6 9650-2
+in_3 600.0:
+- Aitzkoa-2025-08-05 T panel with CCR10-ImmSight-Cat-20250805-1420+D12 12952-1
+- Aitzkoa-2025-08-05 T panel with CCR10-ImmSight-Cat-20250805-1420+C12 12951-1
+- Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+E3 13084-1
+- Aitzkoa-2025-09-02 T panel with CCR10-ImmSight-Cat-20250902-1429+H3 A Detect Y033
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+D12 10957-2
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+B12 10046-3
+in_2 200.0:
+- Aitzkoa-2025-07-07 T panel with CCR10-ImmSight-Cat-20250707-1423+B6 12906-1
+- Aitzkoa-2025-07-07 T panel with CCR10-ImmSight-Cat-20250707-1423+A6 9650-2
+- Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+A3 9122-3 FDI
+- Aitzkoa-2025-08-12 T panel with CCR10-ImmSight-Cat-20250812-1610+B3 12961-1
+- Aitzkoa-2025-07-14 T panel with CCR10-ImmSight-Cat-20250714-1629+H6 12940-1
+in_4 200.0:
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+A9 10920-2
+in_3 800.0:
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+B9 10956-2
+- Aitzkoa-2025-08-12 T panel with CCR10-ImmSight-Cat-20250812-1610+A3 12960-1
+- Aitzkoa-2025-07-28 T panel with CCR10-ImmSight-Cat-20250728-1527+D9 12944-1
+in_2 800.0:
+- Aitzkoa-2025-06-17 T panel with CCR10-ImmSight-Cat-20250617-1830+B3 10872-2
+in_2 100.0:
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+B12 10046-3
+in_3 900.0:
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+E12 10981-2
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+F12 13054-1
+in_2 -500.0:
+- Aitzkoa-2025-07-28 T panel with CCR10-ImmSight-Cat-20250728-1527+D9 12944-1
+ylim_step 200.0:
+- Aitzkoa-2025-06-16 T panel with CCR10-ImmSight-Cat-20250616-1520+F12 10814-2
+- Aitzkoa-2025-06-23 T panel with CCR10-ImmSight-Cat-20250623-1447+G12 10282-2
+- Aitzkoa-2025-05-27 T panel with CCR10-ImmSight-Cat-20250527-1503+B9 A Detect E053
+- Aitzkoa-2025-05-27 T panel with CCR10-ImmSight-Cat-20250527-1503+C9 A Detect T195
+- Aitzkoa-2025-07-22 T panel with CCR10-ImmSight-Cat-20250722-1542+B9 12943-1
+- Aitzkoa-2025-07-22 T panel with CCR10-ImmSight-Cat-20250722-1542+A9 10188-2
+- Aitzkoa-2025-06-03 T panel with CCR10-ImmSight-Cat-20250603-1503+H9 A Detect T201
+- Aitzkoa-2025-06-03 T panel with CCR10-ImmSight-Cat-20250603-1503+F9 7955-4
+- Aitzkoa-2025-05-20 T panel with CCR10-ImmSight-Cat-20250520-1427+D6 A Detect K033
+- Aitzkoa-2025-06-17 T panel with CCR10-ImmSight-Cat-20250617-1830+C3 Adetect B059
+- Aitzkoa-2025-08-12 T panel with CCR10-ImmSight-Cat-20250812-1610+A3 12960-1
+- Aitzkoa-2025-09-02 T panel with CCR10-ImmSight-Cat-20250902-1429+H3 A Detect Y033
+yparam_step 0.6:
+- Aitzkoa-2025-06-23 T panel with CCR10-ImmSight-Cat-20250623-1447+G12 10282-2
+- Aitzkoa-2025-05-27 T panel with CCR10-ImmSight-Cat-20250527-1503+B9 A Detect E053
+- Aitzkoa-2025-05-27 T panel with CCR10-ImmSight-Cat-20250527-1503+C9 A Detect T195
+- Aitzkoa-2025-07-22 T panel with CCR10-ImmSight-Cat-20250722-1542+B9 12943-1
+- Aitzkoa-2025-07-22 T panel with CCR10-ImmSight-Cat-20250722-1542+A9 10188-2
+- Aitzkoa-2025-07-29 T panel with CCR10-ImmSight-Cat-20250729-1619+E9 12945-1
+- Aitzkoa-2025-08-04 T panel with CCR10-ImmSight-Cat-20250804-1537+A12 10882-2
+- Aitzkoa-2025-06-24 T panel with CCR10-ImmSight-Cat-20250624-1545+G3 A Detect Y036
+- Aitzkoa-2025-07-07 T panel with CCR10-ImmSight-Cat-20250707-1423+C6 12907-1
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+A9 10920-2
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+B9 10956-2
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+D9 13041-1
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+C9 13040-1
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+A12 9068-3
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+G12 13055-1
+xlim_step -400.0:
+- Aitzkoa-2025-07-29 T panel with CCR10-ImmSight-Cat-20250729-1619+E9 12945-1
+ylim_step 400.0:
+- Aitzkoa-2025-08-04 T panel with CCR10-ImmSight-Cat-20250804-1537+A12 10882-2
+- Aitzkoa-2025-09-30 T panel with CCR10-ImmSight-Cat-20250930-1455+F6 A Detect E058
+- Aitzkoa-2025-09-30 T panel with CCR10-ImmSight-Cat-20250930-1455+G6 A Detect M005
+- Aitzkoa-2025-06-17 T panel with CCR10-ImmSight-Cat-20250617-1830+D3 Adetect P101
+- Aitzkoa-2025-08-12 T panel with CCR10-ImmSight-Cat-20250812-1610+D3 12963-1
+yparam_step 0.3:
+- Aitzkoa-2025-06-03 T panel with CCR10-ImmSight-Cat-20250603-1503+H9 A Detect T201
+- Aitzkoa-2025-06-03 T panel with CCR10-ImmSight-Cat-20250603-1503+F9 7955-4
+xmaxval_step -200.0:
+- Aitzkoa-2025-06-24 T panel with CCR10-ImmSight-Cat-20250624-1545+G3 A Detect Y036
+- Aitzkoa-2025-07-07 T panel with CCR10-ImmSight-Cat-20250707-1423+C6 12907-1
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+D9 13041-1
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+C9 13040-1
+ylim_step 100.0:
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+B9 10956-2
+- Aitzkoa-2025-06-17 T panel with CCR10-ImmSight-Cat-20250617-1830+E3 Adetect Q043
+- Aitzkoa-2025-06-10 T panel with CCR10-ImmSight-Cat-20250610-1440+D12 A Detect Q049
+- Aitzkoa-2025-06-10 T panel with CCR10-ImmSight-Cat-20250610-1440+E12 A Detect R014
+ylim_step 300.0:
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+D9 13041-1
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+C9 13040-1
+- Aitzkoa-2025-05-20 T panel with CCR10-ImmSight-Cat-20250520-1427+B6 A Detect F047
+- Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+D3 13083-1
+- Aitzkoa-2025-06-02 T panel with CCR10-ImmSight-Cat-20250602-1635+D9 10223-2
+- Aitzkoa-2025-09-09 T panel with CCR10-ImmSight-Cat-20250909-1605+G9 A Detect Y041
+- Aitzkoa-2025-05-26 T panel with CCR10-ImmSight-Cat-20250526-1539+E6 9099-3 FDI
+- Aitzkoa-2025-05-26 T panel with CCR10-ImmSight-Cat-20250526-1539+F6 10237-2
+- Aitzkoa-2025-05-26 T panel with CCR10-ImmSight-Cat-20250526-1539+H6 10261-2
+- Aitzkoa-2025-08-11 T panel with CCR10-ImmSight-Cat-20250811-1616+F12 10806-2
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+D12 10957-2
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+A12 9068-3
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+C12 10937-2
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+E12 10981-2
+- Aitzkoa-2025-05-19 T panel with CCR10-ImmSight-Cat-20250519-1455+H3 10463-2 FDI
+- Aitzkoa-2025-07-14 T panel with CCR10-ImmSight-Cat-20250714-1629+G6 12939-1
+yparam_step 0.8:
+- Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+D3 13083-1
+- Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+C3 13081-1
+xlim_step -300.0:
+- Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+D3 13083-1
+ylim_step 700.0:
+- Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+C3 13081-1
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+G12 13055-1
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+B12 10046-3
+yparam_step 0.5:
+- Aitzkoa-2025-09-30 T panel with CCR10-ImmSight-Cat-20250930-1455+F6 A Detect E058
+- Aitzkoa-2025-09-30 T panel with CCR10-ImmSight-Cat-20250930-1455+G6 A Detect M005
+ylim_step 500.0:
+- Aitzkoa-2025-09-29 T panel with CCR10-ImmSight-Cat-20250929-1635+B6 13096-1
+- Aitzkoa-2025-09-29 T panel with CCR10-ImmSight-Cat-20250929-1635+D6 13098-1
+- Aitzkoa-2025-09-29 T panel with CCR10-ImmSight-Cat-20250929-1635+C6 13097-1
+- Aitzkoa-2025-09-02 T panel with CCR10-ImmSight-Cat-20250902-1429+G3 A Detect T198
+ymaxval_step 1000.0:
+- Aitzkoa-2025-05-13 T panel with CCR10-ImmSight-Cat-20250513-1619+F3 Adetect S060
+CD194_Tregs_interval [2000, 3000]:
+- Aitzkoa-2025-06-24 T panel with CCR10-ImmSight-Cat-20250624-1545+G3 A Detect Y036
+CD194_Tregs_interval [1000, 2000]:
+- Aitzkoa-2025-06-10 T panel with CCR10-ImmSight-Cat-20250610-1440+E12 A Detect R014
+- Aitzkoa-2025-06-16 T panel with CCR10-ImmSight-Cat-20250616-1520+F12 10814-2
+- Aitzkoa-2025-09-09 T panel with CCR10-ImmSight-Cat-20250909-1605+G9 A Detect Y041
+CD194_Tregs_interval [500, 2500]:
+- Aitzkoa-2025-05-13 T panel with CCR10-ImmSight-Cat-20250513-1619+F3 Adetect S060
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+C6 12988-1
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+G6 12992-1
+- Aitzkoa-2025-08-26 T panel with CCR10-ImmSight-Cat-20250826-1457+E3 12995-1
+Th_CCR6_interval [100, 1000]:
+- Aitzkoa-2025-09-23 T panel with CCR10-ImmSight-Cat-20250923-1551+F3 A Detect F055
+- Aitzkoa-2025-06-03 T panel with CCR10-ImmSight-Cat-20250603-1503+G9 A Detect T188
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+C9 13040-1
+- Aitzkoa-2025-05-20 T panel with CCR10-ImmSight-Cat-20250520-1427+C6 A Detect I060
+- Aitzkoa-2025-05-20 T panel with CCR10-ImmSight-Cat-20250520-1427+B6 A Detect F047
+Th_CCR6_interval [100, 800]:
+- Aitzkoa-2025-07-29 T panel with CCR10-ImmSight-Cat-20250729-1619+E9 12945-1
+- Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+A3 9122-3 FDI
+- Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+D3 13083-1
+- Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+E3 13084-1
+- Aitzkoa-2025-09-30 T panel with CCR10-ImmSight-Cat-20250930-1455+E6 8095-4
+Th_CCR6_interval [100, 200]:
+- Aitzkoa-2025-08-26 T panel with CCR10-ImmSight-Cat-20250826-1457+F3 A Detect O036
+CD194_sigma_2 4.0:
+- Aitzkoa-2025-08-26 T panel with CCR10-ImmSight-Cat-20250826-1457+F3 A Detect O036
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+F6 12991-1
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+E6 12990-1
+CD194_sigma_1 -2.0:
+- Aitzkoa-2025-08-05 T panel with CCR10-ImmSight-Cat-20250805-1420+D12 12952-1
+- Aitzkoa-2025-08-05 T panel with CCR10-ImmSight-Cat-20250805-1420+C12 12951-1
+- Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+B3 9326-4
+- Aitzkoa-2025-09-30 T panel with CCR10-ImmSight-Cat-20250930-1455+E6 8095-4
+- Aitzkoa-2025-09-09 T panel with CCR10-ImmSight-Cat-20250909-1605+G9 A Detect Y041
+- Aitzkoa-2025-07-08 T panel with CCR10-ImmSight-Cat-20250708-1508+E6 12931-1
+- Aitzkoa-2025-06-17 T panel with CCR10-ImmSight-Cat-20250617-1830+D3 Adetect P101
+- Aitzkoa-2025-08-12 T panel with CCR10-ImmSight-Cat-20250812-1610+D3 12963-1
+- Aitzkoa-2025-08-11 T panel with CCR10-ImmSight-Cat-20250811-1616+F12 10806-2
+- Aitzkoa-2025-08-11 T panel with CCR10-ImmSight-Cat-20250811-1616+G12 10843-2
+- Aitzkoa-2025-08-11 T panel with CCR10-ImmSight-Cat-20250811-1616+E12 10206-2
+- Aitzkoa-2025-09-02 T panel with CCR10-ImmSight-Cat-20250902-1429+G3 A Detect T198
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+G12 13055-1
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+F12 13054-1
+- Aitzkoa-2025-07-28 T panel with CCR10-ImmSight-Cat-20250728-1527+D9 12944-1
+CD194_sigma_1 -1.8:
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+C9 13040-1
+CD194_sigma_1 -2.5:
+- Aitzkoa-2025-05-20 T panel with CCR10-ImmSight-Cat-20250520-1427+A6 10459-2 FDI
+- Aitzkoa-2025-09-29 T panel with CCR10-ImmSight-Cat-20250929-1635+A6 13095-1
+Th_CCR6_interval [0, 200]:
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+F6 12991-1
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+D6 12989-1
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+E6 12990-1
+CD194_sigma_2 3.0:
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+D6 12989-1
+Th_CCR6_interval [0, 300]:
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+C6 12988-1
+CD194_sigma_2 6.0:
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+C6 12988-1
+Th_CCR6_interval [0, 1000]:
+- Aitzkoa-2025-06-17 T panel with CCR10-ImmSight-Cat-20250617-1830+C3 Adetect B059
+- Aitzkoa-2025-06-17 T panel with CCR10-ImmSight-Cat-20250617-1830+B3 10872-2
+- Aitzkoa-2025-09-29 T panel with CCR10-ImmSight-Cat-20250929-1635+A6 13095-1
+- Aitzkoa-2025-05-26 T panel with CCR10-ImmSight-Cat-20250526-1539+G6 10240-2
+- Aitzkoa-2025-08-11 T panel with CCR10-ImmSight-Cat-20250811-1616+H12 12959-1
+- Aitzkoa-2025-08-11 T panel with CCR10-ImmSight-Cat-20250811-1616+E12 10206-2
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+D12 10957-2
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+G12 13055-1
+- Aitzkoa-2025-06-09 T panel with CCR10-ImmSight-Cat-20250609-1547+B12 10082-2
+- Aitzkoa-2025-07-14 T panel with CCR10-ImmSight-Cat-20250714-1629+H6 12940-1
+CD194_sigma_1 5.0:
+- Aitzkoa-2025-06-17 T panel with CCR10-ImmSight-Cat-20250617-1830+C3 Adetect B059
+Th1_2_17_ylim_1000:
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+B6 9266-2
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+G6 12992-1
+- Aitzkoa-2025-08-26 T panel with CCR10-ImmSight-Cat-20250826-1457+E3 12995-1
+CCR10_sigma 1.5:
+- Aitzkoa-2025-08-26 T panel with CCR10-ImmSight-Cat-20250826-1457+F3 A Detect O036
+- Aitzkoa-2025-06-03 T panel with CCR10-ImmSight-Cat-20250603-1503+F9 7955-4
+- Aitzkoa-2025-06-24 T panel with CCR10-ImmSight-Cat-20250624-1545+F3 A Detect N066
+- Aitzkoa-2025-08-05 T panel with CCR10-ImmSight-Cat-20250805-1420+C12 12951-1
+- Aitzkoa-2025-07-07 T panel with CCR10-ImmSight-Cat-20250707-1423+C6 12907-1
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+E9 13042-1
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+C9 13040-1
+- Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+B3 9326-4
+- Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+A3 9122-3 FDI
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+F6 12991-1
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+D6 12989-1
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+A6 9153-3
+- Aitzkoa-2025-06-17 T panel with CCR10-ImmSight-Cat-20250617-1830+C3 Adetect B059
+- Aitzkoa-2025-08-11 T panel with CCR10-ImmSight-Cat-20250811-1616+F12 10806-2
+- Aitzkoa-2025-09-02 T panel with CCR10-ImmSight-Cat-20250902-1429+G3 A Detect T198
+- Aitzkoa-2025-09-02 T panel with CCR10-ImmSight-Cat-20250902-1429+H3 A Detect Y033
+- Aitzkoa-2025-09-08 T panel with CCR10-ImmSight-Cat-20250908-1738+D12 10957-2
+- Aitzkoa-2025-06-10 T panel with CCR10-ImmSight-Cat-20250610-1440+D12 A Detect Q049
+- Aitzkoa-2025-07-28 T panel with CCR10-ImmSight-Cat-20250728-1527+D9 12944-1
+Th1_2_G_sigma_2 1.0:
+- Aitzkoa-2025-08-04 T panel with CCR10-ImmSight-Cat-20250804-1537+B12 12949-1
+- Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+B3 9326-4
+- Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+A3 9122-3 FDI
+Th1_2_G_sigma_1 1.0:
+- Aitzkoa-2025-07-07 T panel with CCR10-ImmSight-Cat-20250707-1423+A6 9650-2
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+E6 12990-1
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+B6 9266-2
+- Aitzkoa-2025-09-09 T panel with CCR10-ImmSight-Cat-20250909-1605+G9 A Detect Y041
+Th1_2_G_sigma_1 -1.0:
+- Aitzkoa-2025-09-01 T panel with CCR10-ImmSight-Cat-20250901-1721+B9 10956-2
+CCR10_sigma 2.0:
+- Aitzkoa-2025-09-30 T panel with CCR10-ImmSight-Cat-20250930-1455+H6 A Detect S064
+- Aitzkoa-2025-09-30 T panel with CCR10-ImmSight-Cat-20250930-1455+E6 8095-4
+CCR10_sigma 0.8:
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+E6 12990-1
+CCR10_sigma 1.0:
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+B6 9266-2
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+C6 12988-1
+- Aitzkoa-2025-08-25 T panel with CCR10-ImmSight-Cat-20250825-1749+G6 12992-1
+CCR10_sigma 1.8:
+- Aitzkoa-2025-07-08 T panel with CCR10-ImmSight-Cat-20250708-1508+E6 12931-1
+Th1_2_G_sigma_2 3.0:
+- Aitzkoa-2025-08-11 T panel with CCR10-ImmSight-Cat-20250811-1616+H12 12959-1
+Th_17_22_CCR10_sigma 1:
+- Aitzkoa-2025-07-28 T panel with CCR10-ImmSight-Cat-20250728-1527+D9 12944-1
+- Aitzkoa-2025-09-22 T panel with CCR10-ImmSight-Cat-20250922-1630+B3 9326-4
+
