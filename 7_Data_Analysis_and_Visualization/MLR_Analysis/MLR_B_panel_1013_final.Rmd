@@ -155,7 +155,7 @@ ggsave("B_MLR_plots/P_value.png", plot = ph$gtable, width = 8, height = 6, dpi =
 ```{r extract the phenotype names which are affected by variables}
 
 # load the data
-result_table <- read.csv("B_panel_MLR_summary_all.csv") 
+result_table <- read.csv("B_MLR_plots/B_panel_MLR_summary_all.csv") 
 # empty lists 
 
 # with_effect_group: phenotype which are affected by variables
@@ -288,6 +288,7 @@ B <- read.csv("/home/wenxiaren/Data_Analysis_and_Visualization/MLR_Analysis/B_ML
 T <- read.csv("/home/wenxiaren/Data_Analysis_and_Visualization/MLR_Analysis/T_MLR_plots/slope_summary.csv", check.names = FALSE, row.names = 1)
 # Merge side-by-side, same rows, different phenotypes
 effect_size <- cbind(B, T)
+effect_size 
 # Prepare the merged data 
 df <- effect_size
 colnames(df) <- gsub("_", " ", colnames(df))
@@ -306,7 +307,7 @@ df_top <- bind_rows(
 )
 # Prepare for plotting 
 df_top$Color <- ifelse(df_top$Estimate > 0, "Positive", "Negative")
-df_top$Estimate_flipped <- -df_top$Estimate
+df_top$Estimate_flipped <- df_top$Estimate
 # Plot 
 p <- ggplot(df_top, aes(x = reorder(Phenotype, Estimate_flipped), 
                         y = Estimate_flipped, fill = Color)) +
@@ -331,7 +332,7 @@ p <- ggplot(df_top, aes(x = reorder(Phenotype, Estimate_flipped),
   )
 
 # Save the plot
-ggsave("B_MLR_plots/Effect_Size_Top20.png", width = 8, height = 6, dpi = 600, bg = "white", p)
+ggsave("/home/wenxiaren/Data_Analysis_and_Visualization/MLR_Analysis/B_MLR_plots/Effect_Size_Top20.png", width = 8, height = 6, dpi = 600, bg = "white", p)
 
 ```
 
